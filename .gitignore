@@ -1,0 +1,24 @@
+# Never commit or publicly distribute proprietary game archives or extracted assets.
+PAK/
+Content/
+tools/vendor/
+assets/
+original-models-local/
+praetorians-tutorial1-samples.zip
+map-model-research-samples.zip
+backups/
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+*.log
+
+# Generated development output; reusable test inputs belong in tests/fixtures.
+reports/
+tmp/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated website package (includes the exported game assets).
+dist/

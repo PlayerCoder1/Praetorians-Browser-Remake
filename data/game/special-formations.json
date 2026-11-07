@@ -1,0 +1,4545 @@
+{
+ "format": "praetorians-special-formations-v1",
+ "source": "Owned original gameplay definitions; no reconstructed stat bonuses",
+ "formations": {
+  "DEFAULT": {
+   "id": "DEFAULT",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GLADIADOR": {
+   "id": "GLADIADOR",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GLADIADOR",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GLADIADOR",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "MURALLA_GLADIADOR": {
+   "id": "MURALLA_GLADIADOR",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GLADIADOR",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GLADIADOR",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "PIQUERO_ELITE": {
+   "id": "PIQUERO_ELITE",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.017,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "PIQUERO_ELITE",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "PIQUERO_ELITE",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "MURALLA_PIQUERO_ELITE": {
+   "id": "MURALLA_PIQUERO_ELITE",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.017,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "PIQUERO_ELITE",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "PIQUERO_ELITE",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "HONDERO": {
+   "id": "HONDERO",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.4,
+    "column": 1.2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "HONDERO",
+     "state": "NORMAL"
+    },
+    "close": {
+     "type": "HONDERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "HONDERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_HONDERO": {
+   "id": "MURALLA_HONDERO",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "HONDERO",
+     "state": "NORMAL"
+    },
+    "close": {
+     "type": "HONDERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "HONDERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EXPLORADOR": {
+   "id": "EXPLORADOR",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_STANDARD"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.035,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "1"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_EXPLORADOR": {
+   "id": "MURALLA_EXPLORADOR",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.035,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "HALCON": {
+   "id": "HALCON",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.05,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.35,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CPARTHA": {
+   "id": "CPARTHA",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 1.4,
+    "column": 2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "CABALLERIA_PARTHA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "CABALLERIA_PARTHA",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "CABALLERIA_PARTHA",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "CABALLERIA_PARTHA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "GALO_ESPADON": {
+   "id": "GALO_ESPADON",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_ESPADON",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_ESPADON",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "MURALLA_GALO_ESPADON": {
+   "id": "MURALLA_GALO_ESPADON",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_ESPADON",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_ESPADON",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "GALO_CAZADOR": {
+   "id": "GALO_CAZADOR",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_STANDARD"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_CAZADOR",
+     "state": "NORMAL"
+    },
+    "close": {
+     "type": "GALO_CAZADOR",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "GALO_CAZADOR",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "MURALLA_CAZADOR": {
+   "id": "MURALLA_CAZADOR",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_CAZADOR",
+     "state": "NORMAL"
+    },
+    "close": {
+     "type": "GALO_CAZADOR",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "GALO_CAZADOR",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "MANADA": {
+   "id": "MANADA",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 20,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "close": {
+     "type": "LOBO",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "LOBO_SCOUT": {
+   "id": "LOBO_SCOUT",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_CORRER",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CGERMANA": {
+   "id": "CGERMANA",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 12,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.035,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 1.4,
+    "column": 2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "CABALLERIA_GERMANA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "CABALLERIA_GERMANA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [],
+   "group": "STANDARD"
+  },
+  "MENSAJERO": {
+   "id": "MENSAJERO",
+   "source": "Content/DATA/Varios/Def/Formaciones.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_STANDARD",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.041,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "1"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_IPESADA": {
+   "id": "EGIPCIO_IPESADA",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_IPESADA_EGIPCIO": {
+   "id": "MURALLA_IPESADA_EGIPCIO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_CENTURION": {
+   "id": "EGIPCIO_CENTURION",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_CENTURION",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_MEDICO": {
+   "id": "EGIPCIO_MEDICO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_ILIGERA": {
+   "id": "EGIPCIO_ILIGERA",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "EGIPCIO_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_ILIGERA_EGIPCIO": {
+   "id": "MURALLA_ILIGERA_EGIPCIO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "EGIPCIO_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_ARQUERO": {
+   "id": "EGIPCIO_ARQUERO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.4,
+    "column": 1.2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_ARQUERO_PLANTADOS": {
+   "id": "EGIPCIO_ARQUERO_PLANTADOS",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "planted",
+   "activation": 3,
+   "minimum": 2,
+   "maximum": 16,
+   "flags": [
+    "FLAG_PLANTADA",
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 2,
+   "label": "LTEXT_FORMACION_PLANTADOS",
+   "iconName": "IconUtil_Ability_01",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": false,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "PLANTADOS",
+   "spacing": {
+    "row": 0.4,
+    "column": 1.2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "PLANTADOS"
+    },
+    "fire": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "PLANTADOS_FUEGO"
+    },
+    "close": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_PLANTADOS",
+   "icon": [
+    0,
+    1
+   ],
+   "group": "PLANTADOS"
+  },
+  "MURALLA_ARQUERO_EGIPCIO": {
+   "id": "MURALLA_ARQUERO_EGIPCIO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_CORRER",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_PIQUERO": {
+   "id": "EGIPCIO_PIQUERO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_PIQUERO",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_PIQUERO_PLANTADOS": {
+   "id": "EGIPCIO_PIQUERO_PLANTADOS",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "planted",
+   "activation": 5,
+   "minimum": 10,
+   "maximum": 16,
+   "flags": [
+    "FLAG_PLANTADA",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 10,
+   "label": "LTEXT_FORMACION_PLANTADOS",
+   "iconName": "IconUtil_Ability_01",
+   "mobility": "MOVILIDAD_RIGIDA",
+   "mobile": false,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "PLANTADOS",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.6
+   },
+   "layout": [
+    "OPERACION_SQRT_UP",
+    "OPERACION_DIV_UP",
+    "1",
+    "OPERACION_MUL",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_PIQUERO",
+     "state": "PLANTADOS"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_PLANTADOS",
+   "icon": [
+    0,
+    1
+   ],
+   "group": "PLANTADOS"
+  },
+  "MURALLA_PIQUERO_EGIPCIO": {
+   "id": "MURALLA_PIQUERO_EGIPCIO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_PIQUERO",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_CPESADA": {
+   "id": "EGIPCIO_CPESADA",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 12,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.038,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 1.8
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_CABALLERIA_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_CABALLERIA_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_CARQUERA": {
+   "id": "EGIPCIO_CARQUERA",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 1.8
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "EGIPCIO_CABALLERIA_ARQUERA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "EGIPCIO_CABALLERIA_ARQUERA",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "EGIPCIO_CABALLERIA_ARQUERA",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_CABALLERIA_ARQUERA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_CUADRIGA": {
+   "id": "EGIPCIO_CUADRIGA",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 1.3,
+    "column": 4
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "EGIPCIO_CUADRIGA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_CUADRIGA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "EGIPCIO_ARQUERON": {
+   "id": "EGIPCIO_ARQUERON",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.027,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.4,
+    "column": 1.2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_ARQUERO_NUBIO": {
+   "id": "MURALLA_ARQUERO_NUBIO",
+   "source": "Content/DATA/Varios/Def/FormacionesEgipcios.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_MURALLA",
+    "FLAG_CORRER",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.027,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "EGIPCIO_ARQUERON",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_IPESADA": {
+   "id": "GALO_IPESADA",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_CORRER",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_IPESADA_GALO": {
+   "id": "MURALLA_IPESADA_GALO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_CENTURION": {
+   "id": "GALO_CENTURION",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_CENTURION",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "JEFE_GERMANO": {
+   "id": "JEFE_GERMANO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.014,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_CENTURION",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_MEDICO": {
+   "id": "GALO_MEDICO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_ILIGERA": {
+   "id": "GALO_ILIGERA",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.027,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.3
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "GALO_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_ILIGERA_GALO": {
+   "id": "MURALLA_ILIGERA_GALO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.027,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "GALO_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_ARQUERO": {
+   "id": "GALO_ARQUERO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.4,
+    "column": 1.2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_ARQUERO",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "GALO_ARQUERO",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "GALO_ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "GALO_ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_ARQUERO_PLANTADO": {
+   "id": "GALO_ARQUERO_PLANTADO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "planted",
+   "activation": 3,
+   "minimum": 2,
+   "maximum": 16,
+   "flags": [
+    "FLAG_PLANTADA",
+    "FLAG_CORRER",
+    "FLAG_DISTRIBUCION_DESORDENADA"
+   ],
+   "minSoldiers": 2,
+   "label": "LTEXT_FORMACION_PLANTADOS",
+   "iconName": "IconUtil_Ability_01",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": false,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_ARQUERO",
+     "state": "PLANTADO"
+    },
+    "fire": {
+     "type": "GALO_ARQUERO",
+     "state": "PLANTADO_FUEGO"
+    },
+    "close": {
+     "type": "GALO_ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "GALO_ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_PLANTADOS",
+   "icon": [
+    0,
+    1
+   ],
+   "group": "PLANTADOS"
+  },
+  "MURALLA_ARQUERO_GALO": {
+   "id": "MURALLA_ARQUERO_GALO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_ARQUERO",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "GALO_ARQUERO",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "GALO_ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "GALO_ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_PIQUERO": {
+   "id": "GALO_PIQUERO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 1.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_PIQUERO",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_PIQUERO_PLANTADOS": {
+   "id": "GALO_PIQUERO_PLANTADOS",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "planted",
+   "activation": 5,
+   "minimum": 5,
+   "maximum": 16,
+   "flags": [
+    "FLAG_PLANTADA",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 5,
+   "label": "LTEXT_FORMACION_PLANTADOS",
+   "iconName": "IconUtil_Ability_01",
+   "mobility": "MOVILIDAD_RIGIDA",
+   "mobile": false,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "PLANTADOS",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP",
+    "OPERACION_DIV_UP",
+    "2.41",
+    "OPERACION_MUL",
+    "4"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_PIQUERO",
+     "state": "PLANTADO"
+    },
+    "close": {
+     "type": "GALO_PIQUERO",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_PLANTADOS",
+   "icon": [
+    0,
+    1
+   ],
+   "group": "PLANTADOS"
+  },
+  "MURALLA_PIQUERO_GALO": {
+   "id": "MURALLA_PIQUERO_GALO",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_PIQUERO",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_CPESADA": {
+   "id": "GALO_CPESADA",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 12,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_DISTRIBUCION_DESORDENADA",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.038,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 2
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "GALO_CABALLERIA_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "GALO_CABALLERIA_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "GALO_CARQUERA": {
+   "id": "GALO_CARQUERA",
+   "source": "Content/DATA/Varios/Def/FormacionesGalos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_DISTRIBUCION_DESORDENADA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 1.8
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "GALO_CABALLERIA_ARQUERA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "GALO_CABALLERIA_ARQUERA",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "GALO_CABALLERIA_ARQUERA",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "GALO_CABALLERIA_ARQUERA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "HEROE_A_CABALLO": {
+   "id": "HEROE_A_CABALLO",
+   "source": "Content/DATA/Varios/Def/FormacionesHeroes.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.03,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "HEROE",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "HEROE_A_PIE": {
+   "id": "HEROE_A_PIE",
+   "source": "Content/DATA/Varios/Def/FormacionesHeroes.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "HEROE",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CATAPULTA": {
+   "id": "CATAPULTA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "FUEGO"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CATAPULTA_ATAQUE": {
+   "id": "CATAPULTA_ATAQUE",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_ATAQUE",
+    "FLAG_NOESTABLE",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "FUEGO"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CATAPULTA_GIRO_DERECHA": {
+   "id": "CATAPULTA_GIRO_DERECHA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_DER",
+    "FLAG_NOESTABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_MOVIBLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "FUEGO"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CATAPULTA_GIRO_IZQUIERDA": {
+   "id": "CATAPULTA_GIRO_IZQUIERDA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_IZQ",
+    "FLAG_NOESTABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "CATAPULTA_ROMANA",
+     "state": "FUEGO"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ARIETE": {
+   "id": "ARIETE",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "ARIETE_ROMANO",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ARIETE_GIRO_IZQUIERDA": {
+   "id": "ARIETE_GIRO_IZQUIERDA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_IZQ",
+    "FLAG_NOESTABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "ARIETE_ROMANO",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ARIETE_GIRO_DERECHA": {
+   "id": "ARIETE_GIRO_DERECHA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_DER",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "ARIETE_ROMANO",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ARIETE_BALANCEO": {
+   "id": "ARIETE_BALANCEO",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 8,
+   "maximum": 8,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_MOVIBLE",
+    "FLAG_ATAQUE",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 8,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "ARIETE_ROMANO",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "BALLESTA_MOVIL": {
+   "id": "BALLESTA_MOVIL",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "BALLESTA_MOVIL_ROMANA",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "BALLESTA_MOVIL_ATAQUE": {
+   "id": "BALLESTA_MOVIL_ATAQUE",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE",
+    "FLAG_ATAQUE",
+    "FLAG_NOESTABLE"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "BALLESTA_MOVIL_ROMANA",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "BALLESTA_MOVIL_GIRO_IZQUIERDA": {
+   "id": "BALLESTA_MOVIL_GIRO_IZQUIERDA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_IZQ",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "BALLESTA_MOVIL_ROMANA",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "BALLESTA_MOVIL_GIRO_DERECHA": {
+   "id": "BALLESTA_MOVIL_GIRO_DERECHA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_DER",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.015,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "BALLESTA_MOVIL_ROMANA",
+     "state": "NORMAL"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "TORRE_ASALTO": {
+   "id": "TORRE_ASALTO",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "TORRE_ASALTO_GIRO_DERECHA": {
+   "id": "TORRE_ASALTO_GIRO_DERECHA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_DER",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "TORRE_ASALTO_GIRO_IZQUIERDA": {
+   "id": "TORRE_ASALTO_GIRO_IZQUIERDA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_IZQ",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "TORRE_ASALTO_APROXIMACION": {
+   "id": "TORRE_ASALTO_APROXIMACION",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 9,
+   "maximum": 9,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_APROXIMACION",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 9,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ESCALA": {
+   "id": "ESCALA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 7,
+   "maximum": 7,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 7,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ESCALA_GIRO_DERECHA": {
+   "id": "ESCALA_GIRO_DERECHA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 7,
+   "maximum": 7,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_GIRO_DER",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 7,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ESCALA_GIRO_IZQUIERDA": {
+   "id": "ESCALA_GIRO_IZQUIERDA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 7,
+   "maximum": 7,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_IZQ",
+    "FLAG_NOORIENTAR",
+    "FLAG_NOESTABLE",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 7,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CARRO": {
+   "id": "CARRO",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 4,
+   "maximum": 4,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 4,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CARRO_GIRO_DERECHA": {
+   "id": "CARRO_GIRO_DERECHA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 4,
+   "maximum": 4,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_DER",
+    "FLAG_NOESTABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_MOVIBLE",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 4,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "CARRO_GIRO_IZQUIERDA": {
+   "id": "CARRO_GIRO_IZQUIERDA",
+   "source": "Content/DATA/Varios/Def/FormacionesMaquinas.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 4,
+   "maximum": 4,
+   "flags": [
+    "FLAG_NOSELECCIONABLE",
+    "FLAG_GIRO_IZQ",
+    "FLAG_NOESTABLE",
+    "FLAG_NOORIENTAR",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 4,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    4
+   ],
+   "group": "STANDARD"
+  },
+  "ROMANO_CENTURION": {
+   "id": "ROMANO_CENTURION",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.03,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "CENTURION",
+     "state": "NORMAL"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "ROMANO_MEDICO": {
+   "id": "ROMANO_MEDICO",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 1,
+   "flags": [
+    "FLAG_MOVIBLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 0.7
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {},
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "CPESADA_STANDARD": {
+   "id": "CPESADA_STANDARD",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 12,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_DISTRIBUCION_DESORDENADA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.042,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.7,
+    "column": 1.8
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "CABALLERIA_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "CABALLERIA_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "IPESADA_STANDARD": {
+   "id": "IPESADA_STANDARD",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 3,
+   "minimum": 2,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_STANDARD",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 2,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.017,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "INFANTERIA_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "INFANTERIA_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "IPESADA_TORTUGA": {
+   "id": "IPESADA_TORTUGA",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "testudo",
+   "activation": 4,
+   "minimum": 20,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_TORTUGA",
+    "FLAG_NO_EMBOSCADA_PRADERA"
+   ],
+   "minSoldiers": 20,
+   "label": "LTEXT_FORMACION_TORTUGA",
+   "iconName": "IconUtil_Ability_05",
+   "mobility": "MOVILIDAD_RIGIDA",
+   "mobile": true,
+   "canRun": false,
+   "speed": 0.01,
+   "defense": "TORTUGA",
+   "spacing": {
+    "row": 0.3,
+    "column": 0.3
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "4"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "INFANTERIA_PESADA",
+     "state": "TORTUGA"
+    },
+    "dismantle": {
+     "type": "INFANTERIA_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_TORTUGA",
+   "icon": [
+    0,
+    2
+   ],
+   "group": "TORTUGA"
+  },
+  "MURALLA_IPESADA": {
+   "id": "MURALLA_IPESADA",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.017,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.3,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "INFANTERIA_PESADA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "INFANTERIA_PESADA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "ILIGERA_STANDARD": {
+   "id": "ILIGERA_STANDARD",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 3,
+   "minimum": 1,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_STANDARD"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    0,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_ILIGERA": {
+   "id": "MURALLA_ILIGERA",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.025,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.3,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "NORMAL"
+    },
+    "dismantle": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DESMANTELAR"
+    },
+    "machineDefense": {
+     "type": "INFANTERIA_LIGERA",
+     "state": "DEFENSA_MAQUINA"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "PIQUEROS_PLANTADOS": {
+   "id": "PIQUEROS_PLANTADOS",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "planted",
+   "activation": 5,
+   "minimum": 10,
+   "maximum": 30,
+   "flags": [
+    "FLAG_PLANTADA",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 10,
+   "label": "LTEXT_FORMACION_PLANTADOS",
+   "iconName": "IconUtil_Ability_01",
+   "mobility": "MOVILIDAD_RIGIDA",
+   "mobile": false,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "PLANTADOS",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP",
+    "OPERACION_DIV_UP",
+    "1.41",
+    "OPERACION_MUL",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "PIQUERO",
+     "state": "PLANTADOS"
+    },
+    "close": {
+     "type": "PIQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_PLANTADOS",
+   "icon": [
+    0,
+    1
+   ],
+   "group": "PLANTADOS"
+  },
+  "PIQUEROS_LANZAS_LEVANTADAS": {
+   "id": "PIQUEROS_LANZAS_LEVANTADAS",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "raised",
+   "activation": 3,
+   "minimum": 10,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_ARMAS_LEVANTADAS"
+   ],
+   "minSoldiers": 10,
+   "label": "LTEXT_FORMACION_LANZAS_LEVANTADAS",
+   "iconName": "IconUtil_Ability_03",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "LANZAS_LEVANTADAS",
+   "spacing": {
+    "row": 0.4,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "PIQUERO",
+     "state": "LEVANTADAS"
+    },
+    "close": {
+     "type": "PIQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_LANZAS_LEVANTADAS",
+   "icon": [
+    1,
+    0
+   ],
+   "group": "DEFENSIVA"
+  },
+  "PIQUEROS_STANDARD": {
+   "id": "PIQUEROS_STANDARD",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 1,
+   "minimum": 10,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_STANDARD"
+   ],
+   "minSoldiers": 10,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "PIQUERO",
+     "state": "NORMAL"
+    },
+    "close": {
+     "type": "PIQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "MURALLA_PIQUEROS": {
+   "id": "MURALLA_PIQUEROS",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.3,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "melee": {
+     "type": "PIQUERO",
+     "state": "NORMAL"
+    },
+    "close": {
+     "type": "PIQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "PIQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "ARQUEROS_STANDARD": {
+   "id": "ARQUEROS_STANDARD",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 30,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_STANDARD",
+    "FLAG_CORRER",
+    "FLAG_FUEGO_CONCENTRADO"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "ARQUERO",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "ARQUERO",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "ARQUEROS_PLANTADOS": {
+   "id": "ARQUEROS_PLANTADOS",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "planted",
+   "activation": 3,
+   "minimum": 2,
+   "maximum": 30,
+   "flags": [
+    "FLAG_PLANTADA",
+    "FLAG_CARGAR",
+    "FLAG_CORRER"
+   ],
+   "minSoldiers": 2,
+   "label": "LTEXT_FORMACION_PLANTADOS",
+   "iconName": "IconUtil_Ability_01",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": false,
+   "canRun": true,
+   "speed": 0.02,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.5,
+    "column": 0.5
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "ARQUERO",
+     "state": "PLANTADOS"
+    },
+    "fire": {
+     "type": "ARQUERO",
+     "state": "PLANTADOS_FUEGO"
+    },
+    "close": {
+     "type": "ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_PLANTADOS",
+   "icon": [
+    0,
+    1
+   ],
+   "group": "PLANTADOS"
+  },
+  "MURALLA_ARQUEROS": {
+   "id": "MURALLA_ARQUEROS",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_MURALLA",
+    "FLAG_NOSELECCIONABLE"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.022,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.3,
+    "column": 0.4
+   },
+   "layout": [
+    "OPERACION_CONST",
+    "2"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "ARQUERO",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "ARQUERO",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "ARQUERO",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "ARQUERO",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  },
+  "CARQUERA_STANDARD": {
+   "id": "CARQUERA_STANDARD",
+   "source": "Content/DATA/Varios/Def/FormacionesRomanos.dat",
+   "mode": "standard",
+   "activation": 0,
+   "minimum": 1,
+   "maximum": 16,
+   "flags": [
+    "FLAG_MOVIBLE",
+    "FLAG_CORRER",
+    "FLAG_FRENAR",
+    "FLAG_STANDARD",
+    "FLAG_NO_EMBOSCADA_PRADERA",
+    "FLAG_DISTRIBUCION_DESORDENADA"
+   ],
+   "minSoldiers": 1,
+   "label": "LTEXT_FORMACION_STANDARD",
+   "iconName": "IconUtil_Ability_04",
+   "mobility": "MOVILIDAD_MOVIL",
+   "mobile": true,
+   "canRun": true,
+   "speed": 0.04,
+   "defense": "NORMAL",
+   "spacing": {
+    "row": 0.6,
+    "column": 1.6
+   },
+   "layout": [
+    "OPERACION_SQRT_UP"
+   ],
+   "weapons": {
+    "ranged": {
+     "type": "CABALLERIA_ARQUERA",
+     "state": "NORMAL"
+    },
+    "fire": {
+     "type": "CABALLERIA_ARQUERA",
+     "state": "FUEGO"
+    },
+    "close": {
+     "type": "CABALLERIA_ARQUERA",
+     "state": "CUERPO"
+    },
+    "dismantle": {
+     "type": "CABALLERIA_ARQUERA",
+     "state": "DESMANTELAR"
+    }
+   },
+   "tooltip": "LTEXT_FORMACION_STANDARD",
+   "icon": [
+    1,
+    2
+   ],
+   "group": "STANDARD"
+  }
+ },
+ "units": {
+  "EGIPCIO_CENTURION": {
+   "standard": "EGIPCIO_CENTURION",
+   "choices": [
+    "EGIPCIO_CENTURION"
+   ]
+  },
+  "EGIPCIO_MEDICO": {
+   "standard": "EGIPCIO_MEDICO",
+   "choices": [
+    "EGIPCIO_MEDICO"
+   ]
+  },
+  "EGIPCIO_LIGERA": {
+   "standard": "EGIPCIO_ILIGERA",
+   "choices": [
+    "EGIPCIO_ILIGERA"
+   ]
+  },
+  "EGIPCIO_PESADA": {
+   "standard": "EGIPCIO_IPESADA",
+   "choices": [
+    "EGIPCIO_IPESADA"
+   ]
+  },
+  "EGIPCIO_ARQUERO": {
+   "standard": "EGIPCIO_ARQUERO",
+   "choices": [
+    "EGIPCIO_ARQUERO",
+    "EGIPCIO_ARQUERO_PLANTADOS"
+   ]
+  },
+  "EGIPCIO_PIQUERO": {
+   "standard": "EGIPCIO_PIQUERO",
+   "choices": [
+    "EGIPCIO_PIQUERO",
+    "EGIPCIO_PIQUERO_PLANTADOS"
+   ]
+  },
+  "EGIPCIO_CABALLERIA_PESADA": {
+   "standard": "EGIPCIO_CPESADA",
+   "choices": [
+    "EGIPCIO_CPESADA"
+   ]
+  },
+  "EGIPCIO_CABALLERIA_ARQUERA": {
+   "standard": "EGIPCIO_CARQUERA",
+   "choices": [
+    "EGIPCIO_CARQUERA"
+   ]
+  },
+  "GLADIADOR": {
+   "standard": "GLADIADOR",
+   "choices": [
+    "GLADIADOR"
+   ]
+  },
+  "MENSAJERO": {
+   "standard": "MENSAJERO",
+   "choices": [
+    "MENSAJERO"
+   ]
+  },
+  "HONDERO": {
+   "standard": "HONDERO",
+   "choices": [
+    "HONDERO"
+   ]
+  },
+  "PIQUERO_ELITE": {
+   "standard": "PIQUERO_ELITE",
+   "choices": [
+    "PIQUERO_ELITE"
+   ]
+  },
+  "EXPLORADOR_LOBO": {
+   "standard": "EXPLORADOR",
+   "choices": [
+    "EXPLORADOR"
+   ]
+  },
+  "LOBO_SCOUT": {
+   "standard": "LOBO_SCOUT",
+   "choices": [
+    "LOBO_SCOUT"
+   ]
+  },
+  "GALO_MENSAJERO": {
+   "standard": "MENSAJERO",
+   "choices": [
+    "MENSAJERO"
+   ]
+  },
+  "CABALLERIA_GERMANA": {
+   "standard": "CGERMANA",
+   "choices": [
+    "CGERMANA"
+   ]
+  },
+  "GALO_CAZADOR": {
+   "standard": "GALO_CAZADOR",
+   "choices": [
+    "GALO_CAZADOR"
+   ]
+  },
+  "GALO_ESPADON": {
+   "standard": "GALO_ESPADON",
+   "choices": [
+    "GALO_ESPADON"
+   ]
+  },
+  "BARBARO_CUADRIGA": {
+   "standard": "EGIPCIO_CUADRIGA",
+   "choices": [
+    "EGIPCIO_CUADRIGA"
+   ]
+  },
+  "EXPLORADOR_HALCON": {
+   "standard": "EXPLORADOR",
+   "choices": [
+    "EXPLORADOR"
+   ]
+  },
+  "HALCON": {
+   "standard": "HALCON",
+   "choices": [
+    "HALCON"
+   ]
+  },
+  "EGIPCIO_MENSAJERO": {
+   "standard": "MENSAJERO",
+   "choices": [
+    "MENSAJERO"
+   ]
+  },
+  "CABALLERIA_PARTHA": {
+   "standard": "CPARTHA",
+   "choices": [
+    "CPARTHA"
+   ]
+  },
+  "EGIPCIO_CUADRIGA": {
+   "standard": "EGIPCIO_CUADRIGA",
+   "choices": [
+    "EGIPCIO_CUADRIGA"
+   ]
+  },
+  "EGIPCIO_ARQUERON": {
+   "standard": "EGIPCIO_ARQUERON",
+   "choices": [
+    "EGIPCIO_ARQUERON"
+   ]
+  },
+  "MENSAJERO_RESISTENTE": {
+   "standard": "MENSAJERO",
+   "choices": [
+    "MENSAJERO"
+   ]
+  },
+  "JEFE_GERMANO": {
+   "standard": "JEFE_GERMANO",
+   "choices": [
+    "JEFE_GERMANO"
+   ]
+  },
+  "GALO_CENTURION": {
+   "standard": "GALO_CENTURION",
+   "choices": [
+    "GALO_CENTURION"
+   ]
+  },
+  "GALO_MEDICO": {
+   "standard": "GALO_MEDICO",
+   "choices": [
+    "GALO_MEDICO"
+   ]
+  },
+  "GALO_LIGERA": {
+   "standard": "GALO_ILIGERA",
+   "choices": [
+    "GALO_ILIGERA"
+   ]
+  },
+  "GALO_PESADA": {
+   "standard": "GALO_IPESADA",
+   "choices": [
+    "GALO_IPESADA"
+   ]
+  },
+  "GALO_ARQUERO": {
+   "standard": "GALO_ARQUERO",
+   "choices": [
+    "GALO_ARQUERO",
+    "GALO_ARQUERO_PLANTADO"
+   ]
+  },
+  "GALO_PIQUERO": {
+   "standard": "GALO_PIQUERO",
+   "choices": [
+    "GALO_PIQUERO",
+    "GALO_PIQUERO_PLANTADOS"
+   ]
+  },
+  "GALO_CABALLERIA_PESADA": {
+   "standard": "GALO_CPESADA",
+   "choices": [
+    "GALO_CPESADA"
+   ]
+  },
+  "GALO_CABALLERIA_ARQUERA": {
+   "standard": "GALO_CARQUERA",
+   "choices": [
+    "GALO_CARQUERA"
+   ]
+  },
+  "HEROE_AGRADO": {
+   "standard": "EXPLORADOR",
+   "choices": [
+    "EXPLORADOR"
+   ]
+  },
+  "HEROE_CAYO_TITO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "LABIENO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_CNEO_GABINO": {
+   "standard": "ROMANO_MEDICO",
+   "choices": [
+    "ROMANO_MEDICO"
+   ]
+  },
+  "HEROE_DIVICIACO": {
+   "standard": "GALO_MEDICO",
+   "choices": [
+    "GALO_MEDICO"
+   ]
+  },
+  "HEROE_CAYO_CRASTINO": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_PUBLIO_CRASO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_MARCO_CRASO": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_CASIO_LONGINO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_QUINTO_CICERO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_COMIO": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_DUMNORIX": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_CASIOVELAUNO": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_DUBALIX": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_GOBANITIO": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_MARCO_LUCIO": {
+   "standard": "EXPLORADOR",
+   "choices": [
+    "EXPLORADOR"
+   ]
+  },
+  "HEROE_SEXTO_CALPURNIO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_TITO_LUCIO": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_ROMANO_MUNDA": {
+   "standard": "HEROE_A_CABALLO",
+   "choices": [
+    "HEROE_A_CABALLO"
+   ]
+  },
+  "HEROE_GALO_MUNDA": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_EGIPCIO_MUNDA": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "HEROE_COMIO_PRESO": {
+   "standard": "HEROE_A_PIE",
+   "choices": [
+    "HEROE_A_PIE"
+   ]
+  },
+  "CARRO": {
+   "standard": "CARRO",
+   "choices": []
+  },
+  "CABALLO_CARRO": {
+   "standard": "CARRO",
+   "choices": []
+  },
+  "PILOTO_CARRO": {
+   "standard": "CARRO",
+   "choices": []
+  },
+  "CENTURION": {
+   "standard": "ROMANO_CENTURION",
+   "choices": [
+    "ROMANO_CENTURION"
+   ]
+  },
+  "MEDICO": {
+   "standard": "ROMANO_MEDICO",
+   "choices": [
+    "ROMANO_MEDICO"
+   ]
+  },
+  "INFANTERIA_LIGERA": {
+   "standard": "ILIGERA_STANDARD",
+   "choices": [
+    "ILIGERA_STANDARD"
+   ]
+  },
+  "INFANTERIA_PESADA": {
+   "standard": "IPESADA_STANDARD",
+   "choices": [
+    "IPESADA_STANDARD",
+    "IPESADA_TORTUGA"
+   ]
+  },
+  "ARQUERO": {
+   "standard": "ARQUEROS_STANDARD",
+   "choices": [
+    "ARQUEROS_STANDARD",
+    "ARQUEROS_PLANTADOS"
+   ]
+  },
+  "PIQUERO": {
+   "standard": "PIQUEROS_STANDARD",
+   "choices": [
+    "PIQUEROS_STANDARD",
+    "PIQUEROS_PLANTADOS",
+    "PIQUEROS_LANZAS_LEVANTADAS"
+   ]
+  },
+  "CABALLERIA_PESADA": {
+   "standard": "CPESADA_STANDARD",
+   "choices": [
+    "CPESADA_STANDARD"
+   ]
+  },
+  "CABALLERIA_ARQUERA": {
+   "standard": "CARQUERA_STANDARD",
+   "choices": [
+    "CARQUERA_STANDARD"
+   ]
+  }
+ }
+}

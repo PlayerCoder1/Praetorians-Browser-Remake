@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Praetorians HD Remaster</title>
+ <link rel="stylesheet" href="style.css?v=2.1">
+ <link rel="stylesheet" href="hd-style.css?v=2.2">
+ <link rel="stylesheet" href="styles/menu.css?v=village-markers-20261031">
+ <link rel="stylesheet" href="styles/squad-selection.css?v=1.3">
+ <link rel="stylesheet" href="styles/mission.css?v=1.3">
+ <link rel="stylesheet" href="styles/results.css?v=1.0">
+ <link rel="stylesheet" href="styles/troop-hud.css?v=formation-hud-20261106">
+ <link rel="stylesheet" href="styles/command-panel.css?v=formation-hud-20261106">
+ <link rel="stylesheet" href="styles/performance-hud.css?v=1.0">
+ <script src="assets/vendor/babylon.js"></script>
+ <script src="assets/vendor/babylon.shadowOnlyMaterial.min.js"></script>
+</head>
+<body>
+ <main id="game" hidden>
+  <canvas id="renderCanvas" tabindex="0" aria-label="Praetorians battlefield. WASD or arrow keys to pan, mouse wheel to zoom, drag left to select multiple squads, right click to move, hold right and drag to face, middle drag to rotate."></canvas>
+  <div id="selectionMarquee" hidden aria-hidden="true"></div>
+  <div id="facingGuide" hidden aria-hidden="true"><span id="facingStem"></span><span class="facing-center"></span></div>
+  <div id="loading" role="status"><span class="loading-title">PRAETORIANS</span><span id="loadingText">Preparing Tutorial I…</span></div>
+  <div id="fps" aria-hidden="true"></div>
+  <section id="performanceHud" hidden aria-label="Performance graph"></section>
+  <nav class="groups" aria-label="Selection groups">
+   <button data-group="0" title="Auxiliary infantry · 1">I</button><button data-group="1" title="Spearmen · 2">II</button><button data-group="2" title="Spearmen · 3">III</button><button data-group="3" title="Archers · 4">IV</button><button data-group="4" title="Selection group 5">V</button><button data-group="5" title="Selection group 6">VI</button><button data-group="6" title="Selection group 7">VII</button><button data-group="7" title="Selection group 8">VIII</button><button data-group="8" title="Selection group 9">IX</button>
+  </nav>
+  <section class="objective" aria-label="Tutorial objective"><span id="objectiveText">1/19&nbsp; SÉLECTIONNER L’INFANTERIE AUXILIAIRE</span><button id="collapseObjective" title="Minimize objective" aria-label="Minimize objective">−</button></section>
+  <section class="hud" aria-label="Battlefield interface">
+   <div class="minimap-wrap"><img class="minimap-paper" src="assets/hd/interface/MinimapBase_02.png" alt=""><canvas id="minimap" width="560" height="420" aria-label="Mission minimap. Click to move the camera."></canvas>
+    <nav class="map-tools" aria-label="Camera controls"><button id="homeView" title="Starting army · Home">⌂</button><button id="riverView" title="River view">◉</button><button id="mapView" title="Whole map">★</button><button id="settingsButton" title="Settings · F2" aria-label="Open settings">⚙</button></nav>
+   </div>
+   <div class="parchment"><i class="scroll-cap left"></i><i class="scroll-cap right"></i><div id="selectionInfo" hidden><div class="sel-portrait"><img id="selectionPortrait" src="assets/hd/interface/TroopIcon_04.png" alt=""><span class="sel-mini sel-mini-hp" title="Points de vie"><b></b></span><span class="sel-mini sel-mini-st" title="Endurance"><b></b></span></div><div class="sel-main"><h1 class="sel-title"><span id="selectionName">Infanterie auxiliaire</span> <span id="selectionCount" class="sel-count" title="Soldats restants / effectif">(30/30)</span></h1><p class="sel-line sel-hp"><span id="selectionHpLabel">Points de vie</span>: <b id="selectionHp">1000 / 1000</b></p><p class="sel-line sel-row"><span class="sel-st"><span id="selectionStLabel">Endurance</span>: <b id="selectionSt">1000 / 1000</b></span><span class="sel-kills">Victimes: <b id="selectionKills">0</b></span></p><p class="sel-line sel-level" id="selectionLevel" hidden></p><div class="sel-abilities" id="selectionAbilities" aria-label="Aptitudes"></div><div class="sel-queue" id="selectionQueue" hidden aria-label="File de recrutement"></div></div></div><div id="selectionStrip" hidden aria-label="Troupes sélectionnées"><div class="ss-cards"></div><div class="ss-abilities sel-abilities" aria-label="Aptitudes"></div></div>
+    <div class="resources" aria-label="Army statistics"><div><span class="resource-icon population">♟</span><span id="armyPopulation">84/500</span><span class="resource-icon squads">♜</span><span id="armySquads">4/50</span></div><div><span class="resource-icon combat">⚔</span><span id="armyKills">0</span><span class="resource-icon losses">☠</span><span id="armyLosses">0</span></div><div class="honour" title="Points d’honneur : l’expérience de vos troupes (200 points d’expérience par point d’honneur)"><span class="resource-icon">❧</span><span><b id="honourPoints">0</b> <i><b id="honourProgress"></b></i></span></div></div>
+   </div>
+   <section id="commandPanel" aria-label="Commandes"></section>
+  </section>
+  <div id="toast" role="status"></div>
+  <button id="returnToMenu" type="button" title="Retour au menu (Échap)" hidden>Menu</button>
+  <aside id="settings" hidden aria-label="Display settings">
+   <div class="settings-heading"><div><small>LOCAL RECONSTRUCTION</small><h2>Praetorians · Tutorial I</h2></div><button id="closeSettings" aria-label="Close settings">×</button></div>
+   <p class="settings-note">HD Remaster meshes, textures, vertex animations and TorusUI artwork from Content/Paks.</p>
+   <h3>Rendering performance</h3>
+   <label class="smalllabel" for="fpsLimit">Frame rate limit</label>
+   <select id="fpsLimit"><option value="30">30 FPS · lower GPU use</option><option value="60" selected>60 FPS · balanced</option><option value="90">90 FPS</option><option value="120">120 FPS</option><option value="display">Display sync · smoothest camera</option></select>
+   <label class="smalllabel" for="renderScale">3D resolution</label>
+   <select id="renderScale"><option value="1" selected>100% · original clarity</option><option value="0.85">85% · lighter</option><option value="0.75">75% · lowest GPU use</option></select>
+   <p class="settings-note">60 FPS balances fluidity and GPU use. Display sync follows your monitor for the smoothest camera and can use more GPU. 30 FPS saves power with less fluid motion. Lower 3D resolution saves GPU work while the interface stays sharp.</p>
+   <h3>Test battle</h3>
+   <div class="spawn-grid"><label>Camp<select id="spawnSide"><option value="enemy">Ennemi</option><option value="player">Vous</option></select></label><label>Soldats<input id="spawnCount" type="number" min="1" max="40" value="16"></label><label class="spawn-unit">Troupe<select id="spawnType"></select></label></div>
+   <div class="preset-buttons"><button id="spawnPlace">Place on map</button><button id="spawnBattle">Quick test battle</button></div>
+   <p class="settings-note">Toutes les troupes des trois peuples (héros et machines compris), pour vous, l’ennemi ou un allié. Place on map, puis clic gauche sur le terrain : chaque clic pose une troupe face au camp adverse (Échap : arrêter). Le nombre de soldats est l’effectif complet de la troupe ; héros, centurions, éclaireurs et machines viennent un par un. Quick test battle adds a Gallic army a short march west of your troops, plus two Roman squads.</p>
+   <h3>Contrôle des joueurs</h3>
+   <label class="smalllabel" for="controlCiv">Civilisation contrôlée</label><select id="controlCiv"></select>
+   <label class="choice"><input id="cpuEnabled" type="checkbox" checked> IA des joueurs CPU</label>
+   <p class="settings-note">Prenez le commandement de n’importe quelle civilisation (F8 passe à la suivante). Celle que vous commandez n’a pas d’IA ; décochez « IA des joueurs CPU » pour piloter tous les camps vous-même.</p>
+   <h3>Camera</h3><div class="preset-buttons"><button id="presetArmy">Starting army</button><button id="presetRiver">River</button><button id="presetMap">Whole map</button></div>
+   <label class="choice"><input id="edgeScroll" type="checkbox" checked> Screen-edge scrolling</label>
+   <label class="choice"><input id="keyboardCamera" type="checkbox"> Caméra au clavier ZQSD / WASD (sinon flèches : D, S et A restent des ordres)</label>
+   <h3>Navigation · A* squads</h3>
+   <p class="settings-note" id="navigationInfo">Preparing terrain navigation…</p>
+   <label class="choice"><input id="showRoutes" type="checkbox" checked> Show selected squad route</label>
+   <label class="choice"><input id="showNavigation" type="checkbox"> Show blocked terrain (red cliffs · light red too tight for selection · blue water · aqua fords)</label>
+   <label class="choice"><input id="showVillageDebug" type="checkbox"> Formation geometry X-ray (F6) · terrain &amp; obstacles</label>
+   <p class="settings-note">Debug colours: <b style="color:#ffd34e">yellow = village footprint</b> · <b style="color:#ed6dff">purple = village + MLG</b> · <b style="color:#ff65aa">pink = blocked MLG cell</b> · <b style="color:#ffa352">orange = other buildings</b> · <b style="color:#f46363">red = cliff</b> · <b style="color:#69afff">blue = water</b>. Cyan rectangle / crosses = troop footprint · green bars = free passage width · red bars = blocked section · yellow arrow = heading · violet = path. Cyan circle = old circular routing radius.</p>
+   <div id="villageDebugPanel" hidden><pre id="villageDebugInfo" class="settings-note" style="white-space:pre-wrap;overflow-wrap:anywhere;max-height:300px;overflow:auto">Select a squad to inspect passage width, formation angle and blocked terrain.</pre><div class="preset-buttons"><button type="button" id="copyVillageDebug">Copy debug report</button></div></div>
+   <p class="settings-note">Formation-aware corridor geometry measures cross-sections and keeps the soldiers in their rows and files. The X-ray diagnoses the current position and the planned route; it does not override genuinely blocked MLG cells, steep cliffs or deep water.</p>
+   <h3>Language</h3><label for="gameLanguage">Langue</label><select id="gameLanguage" data-i18n-ignore></select>
+   <h3>Display</h3><div class="preset-buttons"><button id="fullscreen" type="button" title="Plein écran">Plein écran</button></div><label class="choice"><input id="realisticWater" type="checkbox" checked> Detailed water</label><label class="choice"><input id="silhouettes" type="checkbox" checked> Show selected troops through trees</label><label class="choice"><input id="shadows" type="checkbox" checked> Soft shadows</label><label class="choice"><input id="visibility" type="checkbox" checked> Explored terrain shading</label><label class="choice"><input id="hideObjects" type="checkbox"> Hide map objects</label><label class="choice"><input id="wireframe" type="checkbox"> Terrain wireframe</label><label class="choice"><input id="fullbright" type="checkbox"> Unlit model textures</label><label class="choice"><input id="showZones" type="checkbox"> Mission zones</label>
+   <label class="smalllabel" for="materialMode">Terrain</label><select id="materialMode"><option value="pte">HD Remaster terrain</option><option value="height">Height field</option><option value="reference">HD minimap (diagnostic)</option></select>
+   <h3>Performance</h3>
+   <label class="choice"><input id="showPerformance" type="checkbox" checked> Live performance graph (F3)</label>
+   <p class="settings-note">Watch the last 30 seconds for frame-time spikes. Freeze the graph to inspect a peak while the game continues.</p>
+   <div class="counts"><span><b id="objectCount">—</b> map objects</span><span><b id="nameCount">—</b> models</span></div><p id="modelSummary" class="settings-note"></p>
+   <details><summary>Terrain inspector</summary><pre id="inspection">Click the terrain to inspect a cell.</pre></details>
+   <p class="controls">Flèches (ou ZQSD/WASD si l’option est cochée) · caméra<br>Molette · zoom<br>Glisser à gauche · sélection multiple · Maj · ajouter<br>Clic droit · déplacer ou attaquer · double clic droit ou Ctrl · courir<br>Maj + clic droit · point de passage · clic droit maintenu + glisser · orientation<br>Ctrl + 1-9 · mémoriser un groupe &nbsp; 1-9 · rappeler (deux fois : centrer) &nbsp; Espace · centrer<br>M déplacer · A attaquer · D défensif · G agressif · H rester en position · L patrouiller · P protéger · F faire face · J réunir · B équilibrer · S diviser · K faucon · R réparer<br>Clic droit sur une aptitude · usage automatique<br>Bouton du milieu · tourner la caméra · F8 · commander un autre camp · F9 · objectifs<br>Origine · vue de départ &nbsp; F2 · réglages &nbsp; Échap · passer une cinématique</p>
+   <p class="settings-note">HD reconstruction with formation combat and the Tutorial I mission script (SP_TUTORIAL_1.trg) ported trigger by trigger.</p>
+  </aside>
+ </main>
+ <div id="menuApp" aria-label="Praetorians main menu"></div>
+ <script src="src/localization/i18n.js?v=20261105"></script>
+ <script src="src/render/water-material.js?v=hd-workshop-20261030"></script>
+ <script src="src/render/render-budget.js?v=1.1"></script>
+ <script src="src/render/camera-motion.js?v=1.1"></script>
+ <script src="src/render/fire.js?v=structure-fog-20261031"></script>
+ <script src="src/render/ground-scorch.js?v=1.0"></script>
+ <script src="src/render/build-preview.js?v=20261031"></script>
+ <script src="src/render/formation-preview.js?v=20261101"></script>
+ <script src="src/render/route-path.js?v=route-ribbon-20261102"></script>
+ <script src="src/ui/troop-hud.js?v=formation-hud-20261106"></script>
+ <script src="src/ui/structure-panel.js?v=1.0"></script>
+ <script src="src/ui/command-panel.js?v=formation-hud-20261106"></script>
+ <script src="src/ui/cursors.js?v=1.2"></script>
+ <script src="src/ui/performance-hud.js?v=1.1"></script>
+ <script src="src/ui/map-village-markers.js?v=owner-colours-20261031"></script>
+ <script src="src/navigation/terrain-surface.js?v=1.0"></script>
+ <script src="src/world/structures.js?v=1.1"></script>
+ <script src="src/world/fortress.js?v=1.1"></script>
+ <script src="src/world/buildings.js?v=formation-hud-20261106"></script>
+ <script src="src/world/build-placement.js?v=structure-fog-20261031"></script>
+ <script src="src/world/meadows.js?v=wheat-square-20261029"></script>
+ <script src="src/world/grass-exposure.js?v=1.0"></script>
+ <script src="src/world/vision.js?v=1.0"></script>
+ <script src="src/world/troop-concealment.js?v=20261101"></script>
+ <script src="src/world/structure-knowledge.js?v=20261031"></script>
+ <script src="src/navigation/logical-map.js?v=1.1"></script>
+ <script src="src/navigation/terrain-nav.js?v=nearby-deployment-20261101"></script>
+ <script src="src/units/special-formations.js?v=20261106"></script>
+ <script src="src/units/squad-motion.js?v=formation-hud-20261106"></script>
+ <script src="src/units/nearby-deployment.js?v=20261101"></script>
+ <script src="src/units/selection-geometry.js?v=1.3"></script>
+ <script src="src/units/unit-models.js?v=formation-hud-20261106"></script>
+ <script src="src/render/unit-animation.js?v=polish-20261106"></script>
+ <script src="src/render/unit-batches.js?v=polish-20261106"></script>
+ <script src="src/combat/combat.js?v=formation-hud-20261106"></script>
+ <script src="src/audio/sound-bank.js?v=languages-20261105"></script>
+ <script src="src/audio/troop-voices.js?v=languages-20261105"></script>
+ <script src="src/world/critters.js?v=1.2"></script>
+ <script src="src/world/scout-companions.js?v=1.0"></script>
+ <script src="src/mission/mission-ui.js?v=results-20261102"></script>
+ <script src="src/ui/results-screen.js?v=languages-20261105"></script>
+ <script src="src/mission/tutorial1.js?v=1.0"></script>
+ <script src="src/mission/script-engine.js?v=1.0"></script>
+ <script src="src/mission/villages.js?v=ai-difficulties-20261030"></script>
+ <script src="src/mission/ai-awareness.js?v=wheat-formation-20261101"></script>
+ <script src="src/mission/cpu.js?v=wheat-formation-20261101"></script>
+ <script src="src/mission/script-game.js?v=1.2"></script>
+ <script src="src/mission/skirmish-setup.js?v=1.0"></script>
+ <script type="module" src="src/menu/menu-root.js?v=formation-hud-20261106"></script>
+</body></html>

@@ -1,0 +1,172 @@
+{
+  "format": "praetorians-languages-v1",
+  "default": "fr",
+  "languages": [
+    {
+      "id": "fr",
+      "name": "Français",
+      "texts": "data/localization/fr-game.json",
+      "origin": "hd-archive",
+      "textCount": 1449,
+      "aliases": [
+        "fr-CA"
+      ],
+      "missionTextLanguage": "fr"
+    },
+    {
+      "id": "de",
+      "name": "Deutsch",
+      "texts": "data/localization/de-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "en",
+      "name": "English (US)",
+      "texts": "data/localization/en-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [
+        "en-US",
+        "en_us"
+      ],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "en-GB",
+      "name": "English (UK)",
+      "texts": "data/localization/en-GB-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "es",
+      "name": "Español",
+      "texts": "data/localization/es-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [
+        "es-MX",
+        "es_mx"
+      ],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "it",
+      "name": "Italiano",
+      "texts": "data/localization/it-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "ja",
+      "name": "日本語",
+      "texts": "data/localization/ja-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "ko",
+      "name": "한국어",
+      "texts": "data/localization/ko-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "pl",
+      "name": "Polski",
+      "texts": "data/localization/pl-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "pt-BR",
+      "name": "Português (Brasil)",
+      "texts": "data/localization/pt-BR-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "ru",
+      "name": "Русский",
+      "texts": "data/localization/ru-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "zh-Hans",
+      "name": "简体中文",
+      "texts": "data/localization/zh-Hans-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    },
+    {
+      "id": "zh-Hant",
+      "name": "繁體中文",
+      "texts": "data/localization/zh-Hant-game.json",
+      "origin": "authored-ui",
+      "scope": "interface-and-unit-names",
+      "fallback": "fr",
+      "aliases": [],
+      "missionTextLanguage": "fr",
+      "textCount": 429
+    }
+  ],
+  "nativeTextLanguages": [
+    "fr"
+  ],
+  "unavailableNativeTextLanguages": [
+    "de",
+    "en-GB",
+    "en-US",
+    "es",
+    "es-MX",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "ru",
+    "zh-Hans",
+    "zh-Hant"
+  ]
+}

@@ -1,0 +1,77 @@
+/* The end of a game (src/ui/results-screen.js): the HD Remaster's results
+   screen - its menu backdrop and panel, "VICTOIRE !", one banner per army in
+   its colour (whole and fringed for the winners, torn for the vanquished),
+   QUITTER below. Sizes follow the 1920 px layout (--hd-px); the banners'
+   text follows their width (--bw, set by the script). */
+.results{position:fixed;inset:0;z-index:1000;overflow:hidden;background:#140a06;color:#f3e4c4;
+ font-family:PraetoriansTimes,'Times New Roman',serif;opacity:0;transition:opacity .9s ease;user-select:none;
+ cursor:url('../assets/menu-original/Game/Cursores/FlechaMenu.png') 4 2,auto}
+.results.results-in{opacity:1}
+.results-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.08);transition:transform 18s cubic-bezier(.2,.6,.2,1);pointer-events:none}
+.results-in .results-bg{transform:scale(1)}
+.results::after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 42%,transparent 45%,#0008 100%)}
+/* Embers rising behind the panel when the battle is won. */
+.results-motes{position:absolute;inset:0;pointer-events:none;z-index:1}
+.results-motes i{position:absolute;bottom:-2%;left:calc(var(--x) * 1%);width:calc(var(--s) * var(--hd-px));height:calc(var(--s) * var(--hd-px));border-radius:50%;
+ background:radial-gradient(circle,#fff1c4 0,#f4b23c 45%,#f4b23c00 70%);opacity:0;animation:rs-mote calc(9s + var(--d) * 1s) linear calc(var(--d) * -1.4s) infinite}
+@keyframes rs-mote{0%{transform:translate(0,0);opacity:0}12%{opacity:.85}70%{opacity:.5}100%{transform:translate(6vw,-108vh);opacity:0}}
+.results-panel{position:absolute;left:5.2%;right:5.3%;top:11.9%;bottom:12%;z-index:2;display:flex;flex-direction:column;align-items:center;
+ border:calc(32 * var(--hd-px)) solid transparent;border-image:url('../assets/menu-original/Game/TorusUI/MainMenu/MenuPanel.png') 32 fill stretch}
+.results-title{margin:calc(2 * var(--hd-px)) 0 calc(6 * var(--hd-px));font-weight:400;font-size:calc(36 * var(--hd-px));line-height:1.15;text-transform:uppercase;white-space:nowrap}
+.results-title span{display:inline-block;padding:0 .2em;letter-spacing:.06em;color:transparent;-webkit-background-clip:text;background-clip:text;
+ background-image:linear-gradient(100deg,#c98a2d 0%,#f3c86f 38%,#fff4d2 50%,#f3c86f 62%,#c98a2d 100%);background-size:260% 100%;background-position:100% 0;
+ filter:drop-shadow(0 0 calc(10 * var(--hd-px)) #f2b84b55);opacity:0}
+.results-lost .results-title span{background-image:linear-gradient(100deg,#8f2a1f 0%,#e2735c 40%,#f6c0a8 50%,#e2735c 60%,#8f2a1f 100%);filter:drop-shadow(0 0 calc(8 * var(--hd-px)) #e2735c44)}
+.results-in .results-title span{animation:rs-title 1.4s cubic-bezier(.2,.8,.2,1) .25s forwards,rs-shine 4s ease-in-out 1.7s infinite}
+@keyframes rs-title{0%{opacity:0;transform:scale(1.7);letter-spacing:.6em}60%{opacity:1}100%{opacity:1;transform:scale(1);letter-spacing:.06em}}
+@keyframes rs-shine{0%{background-position:100% 0}55%,100%{background-position:-60% 0}}
+.results-banners{flex:1;align-self:stretch;min-height:0;display:flex;justify-content:space-evenly;align-items:flex-start}
+/* A banner: dropped in from above, swinging to rest; the winners' sway on. */
+.rb{position:relative;flex:none;margin:0;width:var(--bw,285px);aspect-ratio:285/524;transform-origin:50% 0;opacity:0}
+.results-in .rb{animation:rs-drop 1.15s cubic-bezier(.3,1.4,.5,1) calc(.6s + var(--i) * .32s) forwards}
+@keyframes rs-drop{0%{opacity:0;transform:translateY(-55%) rotate(-5deg)}30%{opacity:1}68%{transform:translateY(2%) rotate(1.6deg)}100%{opacity:1;transform:none}}
+.rb-swing{position:absolute;inset:0;transform-origin:50% 3%}
+.results-in .rb-win .rb-swing{animation:rs-sway 6.5s ease-in-out calc(1.9s + var(--i) * .32s) infinite}
+@keyframes rs-sway{0%,100%{transform:rotate(0)}30%{transform:rotate(.9deg) skewX(-.6deg)}70%{transform:rotate(-.8deg) skewX(.5deg)}}
+.rb-win::before{content:'';position:absolute;left:-35%;right:-35%;top:-8%;bottom:18%;pointer-events:none;
+ background:radial-gradient(ellipse at 50% 38%,#ffd06e3a 0,#ffd06e00 62%);opacity:0}
+.results-in .rb-win::before{animation:rs-glow 4.5s ease-in-out calc(1.7s + var(--i) * .32s) infinite}
+@keyframes rs-glow{0%,100%{opacity:.5}50%{opacity:1}}
+.rb-cloth{position:absolute;inset:0;width:100%;height:100%;filter:drop-shadow(0 calc(10 * var(--hd-px)) calc(14 * var(--hd-px)) #000a)}
+.rb-lose .rb-cloth{filter:brightness(.84) saturate(.85) drop-shadow(0 calc(10 * var(--hd-px)) calc(14 * var(--hd-px)) #000a)}
+.rb-text{position:absolute;left:9%;right:9%;top:13.5%;display:flex;flex-direction:column;align-items:center;text-align:center;text-transform:uppercase;
+ color:#f6ead2;text-shadow:0 1px 2px #000d,0 0 6px #0009}
+.rb-emblem{width:calc(var(--bw,285px) * .2);height:auto;filter:drop-shadow(0 2px 3px #000b);opacity:0}
+.results-in .rb-emblem{animation:rs-emblem .7s cubic-bezier(.2,1.5,.4,1) calc(1.15s + var(--i) * .32s) forwards}
+@keyframes rs-emblem{0%{opacity:0;transform:scale(.4)}100%{opacity:1;transform:scale(1)}}
+.rb-name{margin-top:calc(var(--bw,285px) * .035);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+ font-weight:400;font-size:calc(var(--bw,285px) * .074);letter-spacing:.02em;color:#fbe6b0;opacity:0}
+.results-in .rb-name{animation:rs-fade .6s ease-out calc(1.3s + var(--i) * .32s) forwards}
+.rb dl{margin:calc(var(--bw,285px) * .03) 0 0;display:flex;flex-direction:column;gap:calc(var(--bw,285px) * .021);font-size:calc(var(--bw,285px) * .058)}
+.rb-row{display:flex;justify-content:center;gap:.35em;opacity:0}
+.rb-row:nth-child(1){--k:0}.rb-row:nth-child(2){--k:1}.rb-row:nth-child(3){--k:2}.rb-row:nth-child(4){--k:3}.rb-row:nth-child(5){--k:4}.rb-row:nth-child(6){--k:5}
+.results-in .rb-row{animation:rs-fade .5s ease-out calc(1.25s + var(--i) * .32s + var(--k) * .14s) forwards}
+.rb-row dt,.rb-row dd{margin:0}
+.rb-row dd{min-width:1.2em;text-align:left;font-variant-numeric:tabular-nums}
+.rb dd.rb-landed{animation:rs-pop .45s ease-out}
+.rb-score{margin-top:calc(var(--bw,285px) * .01)}
+.rb-win .rb-score dd.rb-landed{color:#ffd66e;animation:rs-pop-gold .8s ease-out}
+@keyframes rs-fade{0%{opacity:0;transform:translateY(calc(4 * var(--hd-px)))}100%{opacity:1;transform:none}}
+@keyframes rs-pop{0%{transform:scale(1)}40%{transform:scale(1.25)}100%{transform:scale(1)}}
+@keyframes rs-pop-gold{0%{transform:scale(1);text-shadow:0 1px 2px #000d}35%{transform:scale(1.45);text-shadow:0 0 12px #ffcf6a,0 1px 2px #000d}100%{transform:scale(1);text-shadow:0 0 6px #ffcf6a88,0 1px 2px #000d}}
+.results-actions{position:absolute;left:5.5%;bottom:3.4%;z-index:3;display:flex;gap:calc(14 * var(--hd-px));opacity:0;transition:opacity .6s ease 2.4s}
+.results-in .results-actions{opacity:1}
+.results-button{padding:calc(3 * var(--hd-px)) calc(14 * var(--hd-px));border:calc(2 * var(--hd-px)) solid #d9c9a8;border-radius:calc(6 * var(--hd-px));
+ background:#0000;color:#f3e4c4;font:calc(21 * var(--hd-px)) PraetoriansTimes,'Times New Roman',serif;text-transform:uppercase;letter-spacing:.04em;
+ cursor:inherit;transition:background .2s,color .2s,box-shadow .2s}
+.results-button:hover,.results-button:focus-visible{background:#f2c76d22;color:#ffe3a3;box-shadow:0 0 calc(12 * var(--hd-px)) #f2c76d55;outline:none}
+/* Reduced motion: everything in place at once. */
+.results-still,.results-still *{animation:none!important;transition:none!important}
+.results-still .rb,.results-still .rb-row,.results-still .rb-emblem,.results-still .rb-name,.results-still .results-title span,.results-still .results-actions{opacity:1;transform:none}
+/* The battle's last moment in the game, before the results. */
+.mission-end.victory h1{animation:rs-title 1.3s cubic-bezier(.2,.8,.2,1) both;background:linear-gradient(100deg,#c98a2d,#f3c86f 40%,#fff4d2 50%,#f3c86f 60%,#c98a2d);
+ -webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 calc(16 * var(--hd-px)) #f2b84b66)}
+.mission-end:not(.victory) h1{animation:rs-title 1.3s cubic-bezier(.2,.8,.2,1) both}
+.mission-end{animation:rs-dim 1.2s ease both}
+@keyframes rs-dim{0%{background:#0000}100%{background:#000c}}
+@media (prefers-reduced-motion:reduce){.mission-end,.mission-end h1{animation:none}}

@@ -1,0 +1,40 @@
+{
+  "note": "Campaign order and French titles as shown by the HD Remaster menu (transcribed from the user's own game). Entries without a known title use a neutral placeholder; art index follows the list order (Imagenes/Single/Mapa_S_NN).",
+  "campaign": [
+    {"id": "SP_TUTORIAL_1", "title": "ENTRAÎNEMENT I", "description": "Nous sommes en 59 av. J.-C., et un an plus tôt, Jules César s'est associé à Marcus Crassus, l'homme le plus fortuné de Rome, et à Pompée le Grand, le plus célèbre des généraux, pour former une puissante alliance, le Premier Triumvirat. Le but des trois hommes est de devenir les maîtres du monde romain.\n\nCette mission est le premier scénario d'entraînement et ton objectif est de mener un groupe de recrues au nord de l'Italie pour rejoindre les légions que César y forme."},
+    {"id": "SP_TUTORIAL_2", "title": "ENTRAÎNEMENT II"},
+    {"id": "SP_TUTORIAL_3", "title": "ENTRAÎNEMENT III"},
+    {"id": "SP_TUTORIAL_4", "title": "ENTRAÎNEMENT IV"},
+    {"id": "SP_rio_Arar", "title": "LA TRAVERSÉE DE L'ARAR"},
+    {"id": "SP_BIBRACTE", "title": "ESCORTE VERS BIBRACTE"},
+    {"title": "DÉFENSE DE LA GAULE"},
+    {"title": "DIVISION ET CONQUÊTE"},
+    {"title": "UNE FRONTIÈRE DE MILLE ANS"},
+    {"title": "TERRE PERDUE DANS LA BRUME"},
+    {"title": "CUPIDITÉ"},
+    {"title": "REDOUTEZ LES AIGLES"},
+    {"title": "TRAÎTRISE"},
+    {"title": "DÉBÂCLE"},
+    {"title": "MISSION XV"}, {"title": "MISSION XVI"}, {"title": "MISSION XVII"}, {"title": "MISSION XVIII"},
+    {"title": "MISSION XIX"}, {"title": "MISSION XX"}, {"title": "MISSION XXI"}, {"title": "MISSION XXII"},
+    {"title": "MISSION XXIII"}, {"title": "MISSION XXIV"}
+  ],
+  "skirmish": [
+    {"id": "MP_2_1", "title": "LE COL ENNEIGÉ"},
+    {"id": "MP_2_2", "title": "TERRES DÉSOLÉES"},
+    {"id": "MP_2_3", "title": "DÉSASTRE"},
+    {"id": "MP_2_4", "title": "VOLTE-FACE"},
+    {"id": "MP_4_1", "title": "LA FLEUR DU CONFLIT"},
+    {"id": "MP_4_2", "title": "LE LAC PAISIBLE"},
+    {"id": "MP_4_3", "title": "LA CROISÉE DES CHEMINS"},
+    {"id": "MP_4_4", "title": "UNE POIGNÉE DE VILLES"},
+    {"id": "MP_6_1", "title": "LE PAYS DES COLLINES"},
+    {"id": "MP_6_2", "title": "LA PLAINE"},
+    {"id": "MP_6_3", "title": "LE ROI DE LA MONTAGNE"},
+    {"id": "MP_6_4", "title": "UNE OASIS DANS LE DÉSERT"},
+    {"id": "MP_6_5", "title": "OURAGAN"},
+    {"id": "MP_8_1", "title": "TERRES SACRÉES"},
+    {"id": "MP_8_3", "title": "CARTE VIII-III"},
+    {"id": "MP_8_4", "title": "CARTE VIII-IV"}
+  ]
+}

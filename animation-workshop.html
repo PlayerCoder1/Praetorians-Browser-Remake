@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Atelier d’animations · Praetorians HD</title>
+ <link rel="stylesheet" href="styles/animation-workshop.css?v=20261030">
+ <script src="assets/vendor/babylon.js"></script>
+ <script src="src/localization/i18n.js?v=languages-20261105"></script>
+ <script src="src/units/unit-models.js?v=2.2"></script>
+ <script src="src/render/unit-animation.js?v=1.1"></script>
+ <script src="src/render/character-rig.js?v=20261030"></script>
+ <script src="src/render/custom-animation.js?v=20261030"></script>
+</head>
+<body>
+ <header class="workshop-header">
+  <a class="brand" href="index.html" aria-label="Retour au menu"><img src="assets/menu-original/Game/TorusUI/MainMenu/EagleIcon.png" alt=""><span>PRAETORIANS <small>HD REMASTER</small></span></a>
+  <div class="heading"><span class="eyebrow">CRÉATION DE PERSONNAGES</span><h1>Atelier d’animations</h1></div>
+  <a class="button quiet" href="index.html">Retour au menu</a>
+ </header>
+ <main class="workshop">
+  <aside class="library panel" aria-label="Bibliothèque d’animations">
+   <div class="panel-title"><h2>Personnage HD</h2><span class="tag">HD</span></div>
+   <label for="character">Modèle</label><select id="character" disabled><option>Chargement…</option></select>
+   <p id="modelInfo" class="hint">Chargement des personnages du Remaster.</p>
+   <div class="library-section"><h2>Animations d’origine</h2><span id="sourceCount" class="count"></span></div>
+   <div id="sourceClips" class="clip-list" aria-label="Animations HD"></div>
+   <div class="library-section"><h2>Mes créations</h2><span id="savedCount" class="count">0</span></div>
+   <div id="savedClips" class="clip-list" aria-label="Animations sauvegardées"><p class="hint">Vos animations apparaîtront ici.</p></div>
+   <button id="importClip" class="button quiet full">Importer une animation</button>
+   <input id="importFile" type="file" accept="application/json,.json" hidden>
+  </aside>
+  <section class="stage-column" aria-label="Aperçu et chronologie">
+   <div class="stage panel">
+    <div class="stage-heading"><div><span id="previewKind" class="eyebrow">ANIMATION HD</span><h2 id="previewName">Préparation de l’aperçu…</h2></div><button id="resetView" class="button quiet" title="Recentrer la caméra">Recentrer</button></div>
+    <canvas id="animationCanvas" tabindex="0" aria-label="Aperçu 3D du personnage. Glisser pour tourner la caméra, molette pour zoomer."></canvas>
+    <div id="previewLoading" class="preview-loading" role="status">Chargement du modèle HD…</div>
+    <div class="stage-footer"><span>Glisser : tourner · Molette : zoomer</span><label class="inline"><input id="showGrid" type="checkbox" checked> Grille</label></div>
+   </div>
+   <section class="timeline panel" aria-label="Chronologie de l’animation">
+    <div class="transport"><button id="play" class="button primary" disabled>Pause</button><button id="restart" class="button quiet" disabled title="Revenir au début">↤</button><output id="clock">0,00 / 0,00 s</output><label class="speed-label">Vitesse<select id="speed" aria-label="Vitesse de lecture"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option><option value="1.5">1,5×</option><option value="2">2×</option></select></label></div>
+    <input id="scrubber" type="range" min="0" max="1000" step="1" value="0" disabled aria-label="Position dans l’animation">
+    <div class="keyframe-heading"><span>POSES CLÉS <b id="keyCount">—</b></span><button id="addKey" class="button small quiet" disabled>+ Ajouter à cet instant</button></div>
+    <div id="keyframes" class="keyframe-strip" aria-label="Poses clés"><p class="hint">Créez une animation pour éditer ses poses.</p></div>
+   </section>
+  </section>
+  <aside class="inspector panel" aria-label="Création et réglages">
+   <h2>Créer une animation</h2>
+   <p class="hint">Composez une séquence avec les poses HD, puis ajustez ses mouvements et son rythme.</p>
+   <div class="create-actions"><button id="newClip" class="button primary full" disabled>Nouvelle séquence</button><button id="copyClip" class="button quiet full" disabled>Copier l’animation HD</button></div>
+   <div id="editor" hidden>
+    <div class="divider"></div>
+    <label for="clipName">Nom de l’animation</label><input id="clipName" maxlength="64" autocomplete="off">
+    <div class="two-fields"><label>Durée (s)<input id="duration" type="number" min="0.1" max="30" step="0.1"></label><label class="inline loop"><input id="loop" type="checkbox"> Boucle</label></div>
+    <div class="save-actions"><button id="saveClip" class="button primary">Enregistrer</button><button id="exportClip" class="button quiet">Exporter JSON</button></div>
+    <div class="inspector-section"><h3>Pose sélectionnée</h3><button id="deleteKey" class="text-button">Supprimer</button></div>
+    <div class="two-fields"><label>Instant (s)<input id="keyTime" type="number" min="0" max="30" step="0.01"></label><label>Pose source (s)<input id="sourceTime" type="number" min="0" step="0.01"></label></div>
+    <label for="sourceClip">Animation source</label><select id="sourceClip"></select>
+    <details id="rootMotion"><summary>Mouvement du personnage entier</summary>
+    <label>Position (m)</label><div class="vector"><label>X<input id="positionX" type="number" min="-10" max="10" step="0.05"></label><label>Y<input id="positionY" type="number" min="-10" max="10" step="0.05"></label><label>Z<input id="positionZ" type="number" min="-10" max="10" step="0.05"></label></div>
+    <label>Rotation (°)</label><div class="vector"><label>X<input id="rotationX" type="number" min="-360" max="360" step="5"></label><label>Y<input id="rotationY" type="number" min="-360" max="360" step="5"></label><label>Z<input id="rotationZ" type="number" min="-360" max="360" step="5"></label></div>
+    <label>Échelle</label><div class="vector"><label>X<input id="scaleX" type="number" min="0.1" max="3" step="0.05"></label><label>Y<input id="scaleY" type="number" min="0.1" max="3" step="0.05"></label><label>Z<input id="scaleZ" type="number" min="0.1" max="3" step="0.05"></label></div>
+    </details>
+    <div class="inspector-section"><h3>Parties du corps</h3><button id="resetJoint" class="text-button">Réinitialiser</button></div>
+    <label for="joint">Articulation</label><select id="joint"></select>
+    <label>Rotation de la partie (°)</label><div class="vector"><label>X<input id="jointX" type="number" min="-180" max="180" step="5"></label><label>Y<input id="jointY" type="number" min="-180" max="180" step="5"></label><label>Z<input id="jointZ" type="number" min="-180" max="180" step="5"></label></div>
+    <div class="joint-sliders"><label>X<input id="jointSliderX" type="range" min="-180" max="180" step="1" value="0" aria-label="Rotation X de l’articulation"></label><label>Y<input id="jointSliderY" type="range" min="-180" max="180" step="1" value="0" aria-label="Rotation Y de l’articulation"></label><label>Z<input id="jointSliderZ" type="range" min="-180" max="180" step="1" value="0" aria-label="Rotation Z de l’articulation"></label></div>
+    <details id="bindingEditor"><summary>Ajuster le squelette et les influences</summary>
+     <p class="hint">Le squelette initial est une approximation pour un humain. Ajustez-le pour le personnage choisi. Les pivots et influences sont communs à toutes les poses de cette création.</p>
+     <label>Pivot de l’articulation (m)</label><div class="vector"><label>X<input id="pivotX" type="number" min="-20" max="20" step="0.025"></label><label>Y<input id="pivotY" type="number" min="-20" max="20" step="0.025"></label><label>Z<input id="pivotZ" type="number" min="-20" max="20" step="0.025"></label></div>
+     <label class="inline"><input id="showWeights" type="checkbox"> Voir les influences de cette partie</label>
+     <label class="inline"><input id="paintWeights" type="checkbox"> Peindre sur le personnage (clic gauche)</label>
+     <label class="inline"><input id="eraseWeights" type="checkbox"> Effacer au lieu de peindre</label>
+     <label for="brushRadius">Rayon du pinceau (m)</label><input id="brushRadius" type="range" min="0.025" max="0.75" step="0.025" value="0.15"><output id="brushSize">0,15 m</output>
+     <p class="hint">Peignez au repos pour préparer le squelette ; désactivez le pinceau pour tourner la caméra. Une rotation nulle conserve exactement le modèle HD.</p>
+    </details>
+    <button id="deleteClip" class="text-button danger" hidden>Supprimer cette création</button>
+   </div>
+   <p class="scope-note">Créez et animez un squelette éditable sur les modèles HD : tête, torse, bras et jambes. Le squelette est ajouté par l’atelier. Les créations sont sauvegardées dans ce navigateur et exportables ; les animations de combat du jeu restent indépendantes.</p>
+  </aside>
+ </main>
+ <footer class="statusbar"><span id="status" role="status" aria-live="polite">Préparation de l’atelier…</span><span>Modèles et textures HD · Effets du jeu conservés</span></footer>
+ <script src="src/ui/animation-workshop.js?v=languages-20261105"></script>
+</body>
+</html>

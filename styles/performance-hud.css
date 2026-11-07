@@ -1,0 +1,29 @@
+/* Compact diagnostic overlay; the canvas is updated at most ten times a second. */
+#performanceHud{position:absolute;right:14px;top:100px;width:380px;max-width:calc(100% - 28px);max-height:calc(100% - var(--hud-height) - 114px);overflow:auto;z-index:8;padding:12px;background:rgba(16,23,28,.95);border:1px solid #647380;border-radius:7px;box-shadow:0 5px 24px #0006;color:#e6edf4;font:12px/1.35 'Segoe UI',Arial,sans-serif;cursor:default;contain:layout paint;scrollbar-width:thin;scrollbar-color:#647380 #10171c}
+#performanceHud[hidden]{display:none}
+#performanceHud.perf-left{right:auto;left:14px;top:110px}
+.perf-header{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.perf-heading{display:flex;flex-direction:column;min-width:0}
+.perf-heading>strong{font-size:14px;letter-spacing:.2px}
+.perf-subtitle{color:#9fb0bf;font-size:10px}
+.perf-controls{display:flex;gap:4px;flex-shrink:0}
+.perf-button{padding:4px 6px;border:1px solid #536372;border-radius:3px;background:#25323d;color:#e6edf4;font:11px/1.3 'Segoe UI',Arial,sans-serif}
+.perf-button:hover{background:#35495a;border-color:#a1bdce}
+.perf-button[aria-pressed=true]{background:#684c21;border-color:#f4c56a;color:#ffe1a7}
+.perf-button:focus-visible,.perf-key input:focus-visible{outline:2px solid #80cfff;outline-offset:2px}
+.perf-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:12px 0 9px}
+.perf-stat{display:flex;flex-direction:column;min-width:0}
+.perf-stat strong{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.perf-stat span{color:#9fb0bf;font-size:10px}
+.perf-chart-wrap{position:relative;border:1px solid #374956;border-radius:3px;background:#0d141b}
+.perf-canvas{display:block;width:100%;height:145px;touch-action:none}
+.perf-legend{display:flex;flex-wrap:wrap;gap:5px 12px;margin:9px 0}
+.perf-key{display:inline-flex;align-items:center;gap:4px;font-size:10px;white-space:nowrap;cursor:pointer;color:#cad6df}
+.perf-key input{width:11px;height:11px;min-width:11px;margin:0;accent-color:#80cfff;cursor:pointer}
+.perf-key i{display:block;width:9px;height:3px;border-radius:1px}
+.perf-help{color:#b8c6d2;font-size:10px;line-height:1.45}
+.perf-note{color:#8e9ead;margin-top:3px}
+.perf-tooltip{position:absolute;top:20px;width:290px;max-width:100%;padding:8px;z-index:2;background:#18242ff5;border:1px solid #8299aa;border-radius:4px;box-shadow:0 4px 15px #0008;color:#f0f5fa;font:10px/1.55 'Segoe UI',Arial,sans-serif;white-space:pre-line;pointer-events:none;font-variant-numeric:tabular-nums}
+.perf-tooltip[hidden]{display:none}
+@media(max-width:600px){#performanceHud{right:10px;max-width:calc(100% - 20px);width:350px;padding:10px}.perf-controls{gap:3px}.perf-button{padding:4px 5px}.perf-stat strong{font-size:12px}.perf-key{font-size:10px}}
+@media(max-height:600px){#performanceHud,#performanceHud.perf-left{top:96px;max-height:calc(100% - var(--hud-height) - 160px)}.perf-canvas{height:120px}.perf-summary{margin:8px 0 6px}.perf-legend{gap:3px 8px}}

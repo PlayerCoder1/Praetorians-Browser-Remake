@@ -1,0 +1,75 @@
+/* Mission interface: tutorial panel, objectives, presentation, cinema bars,
+   rain and the end screen. Frames reuse the HD Remaster's TorusUI art. */
+#game.mission-ui .objective{display:none}
+.tutorial-panel{position:absolute;right:1.8%;top:3.7%;width:32.8%;max-height:46%;z-index:6;display:flex;flex-direction:column;gap:calc(10 * var(--hd-px));padding:0 calc(4 * var(--hd-px));border:calc(18 * var(--hd-px)) solid transparent;border-image:url('../assets/hd/interface/UITutorialPanelBack_01.png') 20 fill stretch;color:#f1d68e;font-family:PraetoriansTimes,'Times New Roman',serif;pointer-events:auto}
+.tutorial-panel[hidden]{display:none}
+.tutorial-head{display:flex;align-items:center;gap:calc(12 * var(--hd-px));font-size:calc(22 * var(--hd-px));font-weight:700;line-height:1.1}
+.tutorial-counter{white-space:nowrap}
+.tutorial-objective{flex:1;min-width:0}
+.tutorial-minimise{width:calc(24 * var(--hd-px));height:calc(24 * var(--hd-px));padding:0;border:calc(2 * var(--hd-px)) solid #929389;border-radius:calc(4 * var(--hd-px));background:#222725;color:#b8b9ac;font:calc(20 * var(--hd-px))/1 Arial,sans-serif;cursor:pointer}
+.tutorial-body{overflow:auto;color:#efe3c2;font-size:calc(19 * var(--hd-px));line-height:1.35;padding-right:calc(6 * var(--hd-px))}
+.tutorial-foot{display:flex;justify-content:flex-end;gap:calc(10 * var(--hd-px))}
+.tutorial-panel.minimised .tutorial-body,.tutorial-panel.minimised .tutorial-foot{display:none}
+.tutorial-panel.flash{animation:tutorial-flash .9s ease-out}
+@keyframes tutorial-flash{from{filter:brightness(1.6)}to{filter:none}}
+.tutorial-button{padding:calc(6 * var(--hd-px)) calc(14 * var(--hd-px));border:calc(2 * var(--hd-px)) solid #8d7a4c;border-radius:calc(3 * var(--hd-px));background:#2b2a22;color:#e9d7a3;font:700 calc(17 * var(--hd-px)) PraetoriansTimes,serif;cursor:pointer}
+.tutorial-button:hover{background:#4a4331}
+.tutorial-button.primary{background:#6d5a2f;border-color:#d8bd75}
+.tutorial-button[hidden]{display:none}
+.objectives-toggle{position:absolute;left:1.05%;top:calc(4.2% + 70 * var(--hd-px));z-index:6;padding:calc(5 * var(--hd-px)) calc(12 * var(--hd-px));border:calc(2 * var(--hd-px)) solid #8d7a4c;background:#2b2a22e6;color:#e9d7a3;font:700 calc(16 * var(--hd-px)) PraetoriansTimes,serif;cursor:pointer}
+.objectives-toggle[hidden]{display:none}
+.mission-objectives{position:absolute;left:1.05%;top:calc(4.2% + 108 * var(--hd-px));width:calc(420 * var(--hd-px));z-index:6;padding:calc(12 * var(--hd-px)) calc(16 * var(--hd-px));border:calc(18 * var(--hd-px)) solid transparent;border-image:url('../assets/hd/interface/UITutorialPanelBack_01.png') 20 fill stretch;color:#efe3c2;font:calc(18 * var(--hd-px))/1.35 PraetoriansTimes,serif}
+.mission-objectives[hidden]{display:none}
+.mission-objectives h2{margin:0 0 calc(6 * var(--hd-px));color:#f1d68e;font-size:calc(21 * var(--hd-px))}
+.mission-objectives ol,.mission-end ol{margin:0;padding-left:1.3em}
+.mission-objectives li.done,.mission-end li.done{color:#9bd27b}
+.mission-objectives li.done::marker,.mission-end li.done::marker{content:'✔ '}
+.mission-objectives li.failed,.mission-end li.failed{color:#e2735c;text-decoration:line-through}
+.mission-notices{position:absolute;left:50%;top:18%;transform:translateX(-50%);z-index:7;display:flex;flex-direction:column;gap:calc(8 * var(--hd-px));align-items:center;pointer-events:none}
+.mission-notice{padding:calc(8 * var(--hd-px)) calc(18 * var(--hd-px));background:#1d1b14d9;border:calc(2 * var(--hd-px)) solid #8d7a4c;color:#f1d68e;font:700 calc(20 * var(--hd-px)) PraetoriansTimes,serif;text-align:center;transition:opacity .8s}
+.mission-notice.done{border-color:#7fae5d}.mission-notice.failed{border-color:#b45a45}
+.mission-notice.leaving{opacity:0}
+/* Cinema: black bars slide in, the interface steps aside. */
+.cinema-bars{position:absolute;inset:0;z-index:8;pointer-events:none}
+.cinema-bars i{position:absolute;left:0;right:0;height:0;background:#000;transition:height .7s ease}
+.cinema-bars .top{top:0}.cinema-bars .bottom{bottom:0}
+#game.cinema .cinema-bars i{height:12%}
+#game.cinema .hud,#game.cinema .groups,#game.cinema .tutorial-panel,#game.cinema .objectives-toggle,#game.cinema .mission-objectives,#game.cinema .objective{visibility:hidden}
+.cinema-subtitle{position:absolute;left:12%;right:12%;bottom:13.5%;color:#f4ead0;font:calc(23 * var(--hd-px))/1.35 PraetoriansTimes,serif;text-align:center;text-shadow:0 0 6px #000,0 0 3px #000}
+.cinema-skip{position:absolute;right:2%;bottom:4%;color:#a99d7e;font:calc(15 * var(--hd-px)) PraetoriansUI,Arial,sans-serif;opacity:0;transition:opacity .7s;pointer-events:none}
+#game.cinema .cinema-skip{opacity:1;pointer-events:auto;cursor:pointer}
+#game.cinema .cinema-skip:hover{color:#f1d68e}
+.presentation{position:absolute;inset:0;z-index:9;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:calc(26 * var(--hd-px));background:radial-gradient(ellipse at center,#0008,#000c);color:#f1d68e;font-family:PraetoriansTimes,serif;text-align:center;opacity:0;transition:opacity .7s;pointer-events:none}
+.presentation[hidden]{display:none}
+.presentation.shown{opacity:1}
+.presentation h1{margin:0;font-size:calc(46 * var(--hd-px));letter-spacing:.08em;text-shadow:0 0 12px #000}
+.presentation p{margin:0;color:#e2d4ad;font-size:calc(24 * var(--hd-px));line-height:1.4;text-shadow:0 0 8px #000}
+.rain-layer{position:absolute;inset:0;width:100%;height:100%;z-index:5;pointer-events:none}
+.rain-layer[hidden]{display:none}
+.mission-end{position:absolute;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:calc(20 * var(--hd-px));background:#000c;color:#efe3c2;font:calc(20 * var(--hd-px))/1.4 PraetoriansTimes,serif}
+.mission-end[hidden]{display:none}
+.mission-end h1{margin:0;color:#e2735c;font-size:calc(64 * var(--hd-px));letter-spacing:.12em}
+.mission-end.victory h1{color:#f1d68e}
+.mission-end-actions{display:flex;gap:calc(16 * var(--hd-px))}
+@media (max-width:900px){
+ .tutorial-panel{width:49%;top:3%;max-height:52%}
+ .tutorial-head{font-size:12px}.tutorial-body{font-size:11px}.tutorial-button{font-size:11px}
+ .mission-objectives{width:60%;font-size:12px}
+}
+/* Village: inhabitants, training queue and the troops it can train. */
+.village-panel{position:absolute;left:19%;bottom:calc(178 * var(--hd-px));z-index:6;width:calc(470 * var(--hd-px));padding:calc(10 * var(--hd-px)) calc(14 * var(--hd-px));border:calc(18 * var(--hd-px)) solid transparent;border-image:url('../assets/hd/interface/UITutorialPanelBack_01.png') 20 fill stretch;color:#efe3c2;font:calc(16 * var(--hd-px))/1.35 PraetoriansTimes,serif;pointer-events:auto}
+.village-panel[hidden]{display:none}
+.village-panel header{display:flex;justify-content:space-between;gap:1em;color:#f1d68e;font-size:calc(20 * var(--hd-px))}
+.village-panel p{margin:calc(4 * var(--hd-px)) 0}
+.village-panel .hint{color:#c9bc97;font-style:italic}
+.village-panel .training i{display:inline-block;height:calc(8 * var(--hd-px));width:0;min-width:2px;max-width:50%;background:#c9a74c;vertical-align:middle}
+.village-panel .train{display:flex;flex-wrap:wrap;gap:calc(6 * var(--hd-px));margin-top:calc(8 * var(--hd-px))}
+.village-panel .train button{display:flex;flex-direction:column;align-items:flex-start;padding:calc(4 * var(--hd-px)) calc(8 * var(--hd-px));border:calc(2 * var(--hd-px)) solid #8d7a4c;background:#2b2a22;color:#e9d7a3;font:700 calc(14 * var(--hd-px)) PraetoriansTimes,serif;cursor:pointer}
+.village-panel .train button small{color:#b9ab84;font-weight:400}
+.village-panel .train button:hover:not([disabled]){background:#4a4331}
+.village-panel .train button[disabled]{opacity:.45;cursor:default}
+#game.cinema .village-panel{visibility:hidden}
+/* Build menu: the original build icons (Ordenes sheet, COORD_CONSTRUIR). */
+.build-panel{left:auto;right:19%;bottom:calc(250 * var(--hd-px))}
+.village-panel .train button.build-option{position:relative;padding-left:calc(44 * var(--hd-px));min-height:calc(40 * var(--hd-px))}
+.village-panel .train button.build-option::before{content:'';position:absolute;left:calc(5 * var(--hd-px));top:50%;width:calc(32 * var(--hd-px));height:calc(32 * var(--hd-px));transform:translateY(-50%);background:url('../assets/interface/Ordenes.png') var(--icon-pos,0 0)/800% 800% no-repeat}

@@ -1,0 +1,182 @@
+{
+ "ROMANOS": {
+  "label": "LTEXT_RAZA_ROMANOS",
+  "trains": [
+   "INFANTERIA_LIGERA",
+   "INFANTERIA_PESADA",
+   "ARQUERO",
+   "PIQUERO",
+   "CABALLERIA_PESADA",
+   "CABALLERIA_ARQUERA",
+   "GLADIADOR",
+   "HONDERO",
+   "PIQUERO_ELITE",
+   "MEDICO",
+   "EXPLORADOR_LOBO",
+   "EXPLORADOR_HALCON"
+  ],
+  "centurion": "CENTURION",
+  "demotion": "INFANTERIA_LIGERA",
+  "garrison": "GUARNICION_ROMANA",
+  "builds": [
+   "PUENTE_CONSTRUIBLE",
+   "TORRE_DEFENSA_ROMANA"
+  ],
+  "maxScouts": 5.0,
+  "maxMedics": 2.0,
+  "pack": [
+   {
+    "type": "CENTURION",
+    "units": 1
+   },
+   {
+    "type": "INFANTERIA_LIGERA",
+    "units": 30
+   },
+   {
+    "type": "PIQUERO",
+    "units": 30
+   },
+   {
+    "type": "ARQUERO",
+    "units": 30
+   },
+   {
+    "type": "EXPLORADOR_LOBO",
+    "units": 1
+   }
+  ],
+  "tents": [
+   "ter_tienda_tropas_pequena",
+   "ter_tienda_tropas"
+  ]
+ },
+ "BARBAROS": {
+  "label": "LTEXT_RAZA_BARBAROS",
+  "trains": [
+   "GALO_LIGERA",
+   "GALO_PESADA",
+   "GALO_ARQUERO",
+   "GALO_PIQUERO",
+   "GALO_CABALLERIA_PESADA",
+   "GALO_CABALLERIA_ARQUERA",
+   "CABALLERIA_GERMANA",
+   "GALO_CAZADOR",
+   "GALO_ESPADON",
+   "GALO_MEDICO",
+   "EXPLORADOR_LOBO",
+   "EXPLORADOR_HALCON"
+  ],
+  "centurion": "GALO_CENTURION",
+  "demotion": "GALO_LIGERA",
+  "garrison": "GUARNICION_BARBARA",
+  "builds": [
+   "PUENTE_CONSTRUIBLE",
+   "TORRE_DEFENSA_BARBARA"
+  ],
+  "maxScouts": 5.0,
+  "maxMedics": 2.0,
+  "pack": [
+   {
+    "type": "GALO_CENTURION",
+    "units": 1
+   },
+   {
+    "type": "GALO_LIGERA",
+    "units": 16
+   },
+   {
+    "type": "GALO_PIQUERO",
+    "units": 16
+   },
+   {
+    "type": "GALO_ARQUERO",
+    "units": 16
+   },
+   {
+    "type": "EXPLORADOR_LOBO",
+    "units": 1
+   }
+  ],
+  "tents": [
+   "teg_tienda_tropas_pequena",
+   "teg_tienda_tropas"
+  ]
+ },
+ "EGIPCIOS": {
+  "label": "LTEXT_RAZA_EGIPCIOS",
+  "trains": [
+   "EGIPCIO_LIGERA",
+   "EGIPCIO_PESADA",
+   "EGIPCIO_ARQUERO",
+   "EGIPCIO_PIQUERO",
+   "EGIPCIO_CABALLERIA_PESADA",
+   "EGIPCIO_CABALLERIA_ARQUERA",
+   "EGIPCIO_ARQUERON",
+   "CABALLERIA_PARTHA",
+   "EGIPCIO_CUADRIGA",
+   "EGIPCIO_MEDICO",
+   "EXPLORADOR_LOBO",
+   "EXPLORADOR_HALCON"
+  ],
+  "centurion": "EGIPCIO_CENTURION",
+  "demotion": "EGIPCIO_LIGERA",
+  "garrison": "GUARNICION_EGIPCIA",
+  "builds": [
+   "PUENTE_CONSTRUIBLE",
+   "TORRE_DEFENSA_EGIPCIA"
+  ],
+  "maxScouts": 5.0,
+  "maxMedics": 2.0,
+  "pack": [
+   {
+    "type": "EGIPCIO_CENTURION",
+    "units": 1
+   },
+   {
+    "type": "EGIPCIO_LIGERA",
+    "units": 16
+   },
+   {
+    "type": "EGIPCIO_LIGERA",
+    "units": 16
+   },
+   {
+    "type": "EGIPCIO_PIQUERO",
+    "units": 16
+   },
+   {
+    "type": "EGIPCIO_PIQUERO",
+    "units": 16
+   },
+   {
+    "type": "EGIPCIO_ARQUERO",
+    "units": 16
+   },
+   {
+    "type": "EGIPCIO_ARQUERO",
+    "units": 16
+   },
+   {
+    "type": "EXPLORADOR_LOBO",
+    "units": 1
+   }
+  ],
+  "tents": [
+   "tee_tienda_tropas_pequena",
+   "tee_tienda_tropas"
+  ]
+ },
+ "NEUTRALES": {
+  "label": "",
+  "trains": [],
+  "centurion": null,
+  "demotion": null,
+  "garrison": null,
+  "builds": [],
+  "maxScouts": null,
+  "maxMedics": null,
+  "pack": [],
+  "tents": []
+ }
+}

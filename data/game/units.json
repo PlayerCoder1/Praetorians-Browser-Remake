@@ -1,0 +1,7208 @@
+{
+ "GALO_CENTURION": {
+  "type": "GALO_CENTURION",
+  "race": "BARBAROS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PGJE_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CHIEF",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_CENTURION",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "GALO_MEDICO": {
+  "type": "GALO_MEDICO",
+  "race": "BARBAROS",
+  "base": "MEDICO",
+  "motor": "PGIN_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_PUEDE_CURAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "CURACION_RAPIDA",
+   "RANGO_REGENERACION",
+   "CEGAR_TROPA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MEDICO_GALO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "GALO_MEDICO",
+  "training": {
+   "time": 5,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "GALO_LIGERA": {
+  "type": "GALO_LIGERA",
+  "race": "BARBAROS",
+  "base": "INFANTERIA_LIGERA",
+  "motor": "PGIL_BASE",
+  "health": 1500,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_PUEDE_REPARAR",
+   "FLAG_PUEDE_CONSTRUIR",
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FRANCISCAS",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ILIGERA_GALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 80,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 70,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DEFENSA_MAQUINA": {
+    "damage": {
+     "melee": 25,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "FRANCISCAS": {
+    "damage": {
+     "melee": 300,
+     "projectile": 350,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 2,
+    "rangeMax": 11,
+    "kind": "ranged",
+    "ammo": "FRANCISCA"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_ILIGERA",
+  "training": {
+   "time": 2,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 188,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.027
+ },
+ "GALO_PESADA": {
+  "type": "GALO_PESADA",
+  "race": "BARBAROS",
+  "base": "INFANTERIA_PESADA",
+  "motor": "PGIP_BASE",
+  "health": 2900,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "BOLEADORAS",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "ORILLA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_IPESADA_GALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 50,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 140,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "BOLEADORAS": {
+    "damage": {
+     "melee": 150,
+     "projectile": 150,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 2,
+    "rangeMax": 10,
+    "kind": "ranged",
+    "ammo": "BOLEADORAS"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_IPESADA",
+  "training": {
+   "time": 4.68,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 422,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "GALO_ARQUERO": {
+  "type": "GALO_ARQUERO",
+  "race": "BARBAROS",
+  "base": "ARQUERO",
+  "motor": "PGAR_BASE",
+  "health": 1500,
+  "vision": 15,
+  "aggression": 15,
+  "reach": "LARGO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ARQUEROS_GALOS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 50,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 400,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 70,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": "FLECHA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 80,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "PLANTADO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 200,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "PLANTADO_FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 80,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 5,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": "FLECHA"
+   }
+  },
+  "formation": "GALO_ARQUERO",
+  "training": {
+   "time": 3.75,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 282,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "GALO_PIQUERO": {
+  "type": "GALO_PIQUERO",
+  "race": "BARBAROS",
+  "base": "PIQUERO",
+  "motor": "PGPI_BASE",
+  "health": 2250,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_DERRIBA_ESCALAS",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_PIQUEROS_GALOS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 65,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   },
+   "PLANTADOS": {
+    "received": {
+     "melee": 90,
+     "projectile": 80,
+     "fire": 0,
+     "building": 90
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 0,
+     "projectile": 200,
+     "fire": 0,
+     "building": 40
+    },
+    "interval": 1,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "PLANTADO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 350,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 2,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_PIQUERO",
+  "training": {
+   "time": 3.15,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 282,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "GALO_CABALLERIA_PESADA": {
+  "type": "GALO_CABALLERIA_PESADA",
+  "race": "BARBAROS",
+  "base": "CABALLERIA_PESADA",
+  "motor": "PGCP_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 12,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CPESADA_GALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 33,
+     "projectile": 100,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 150,
+     "projectile": 33,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 18,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_CPESADA",
+  "training": {
+   "time": 5.8,
+   "population": 2,
+   "step": 12,
+   "minDivision": 6,
+   "honour": 1,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 600,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 300
+  },
+  "construction": null,
+  "formationSpeed": 0.038
+ },
+ "GALO_CABALLERIA_ARQUERA": {
+  "type": "GALO_CABALLERIA_ARQUERA",
+  "race": "BARBAROS",
+  "base": "CABALLERIA_ARQUERA",
+  "motor": "PGAC_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_DISTANCIA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CARQUERA_GALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 60,
+     "projectile": 100,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 300,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 25,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_CARQUERA",
+  "training": {
+   "time": 3.75,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 1,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 300,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 400
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "EGIPCIO_CENTURION": {
+  "type": "EGIPCIO_CENTURION",
+  "race": "EGIPCIOS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PEJE_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ESPEJISMO_MANEJABLE"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_OFICIAL",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_CENTURION",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "EGIPCIO_MEDICO": {
+  "type": "EGIPCIO_MEDICO",
+  "race": "EGIPCIOS",
+  "base": "MEDICO",
+  "motor": "PEIN_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_PUEDE_CURAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "CURACION_RAPIDA",
+   "RANGO_REGENERACION",
+   "AURA_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MEDICO_EGIPCIO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "EGIPCIO_MEDICO",
+  "training": {
+   "time": 5,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "EGIPCIO_LIGERA": {
+  "type": "EGIPCIO_LIGERA",
+  "race": "EGIPCIOS",
+  "base": "INFANTERIA_LIGERA",
+  "motor": "PEIL_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_PUEDE_REPARAR",
+   "FLAG_PUEDE_CONSTRUIR",
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "CONSTRUCCION",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ILIGERA_EGIPCIA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 80,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 35,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DEFENSA_MAQUINA": {
+    "damage": {
+     "melee": 25,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_ILIGERA",
+  "training": {
+   "time": 1,
+   "population": 1,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 94,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "EGIPCIO_PESADA": {
+  "type": "EGIPCIO_PESADA",
+  "race": "EGIPCIOS",
+  "base": "INFANTERIA_PESADA",
+  "motor": "PEIP_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "REZAR",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "ORILLA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_IPESADA_EGIPCIA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 50,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 62,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_IPESADA",
+  "training": {
+   "time": 2.5,
+   "population": 1,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 211,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 160
+  },
+  "construction": null,
+  "formationSpeed": 0.02
+ },
+ "EGIPCIO_ARQUERO": {
+  "type": "EGIPCIO_ARQUERO",
+  "race": "EGIPCIOS",
+  "base": "ARQUERO",
+  "motor": "PEAR_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 15,
+  "reach": "LARGO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "REZAR",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ARQUEROS_EGIPCIOS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 50,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   },
+   "PLANTADOS": {
+    "received": {
+     "melee": 80,
+     "projectile": 50,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 25,
+     "projectile": 200,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "PLANTADOS": {
+    "damage": {
+     "melee": 25,
+     "projectile": 250,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1.5,
+    "rangeMin": 3,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "PLANTADOS_FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 20,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": "FLECHA"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_ARQUERO",
+  "training": {
+   "time": 2,
+   "population": 1,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 141,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "EGIPCIO_PIQUERO": {
+  "type": "EGIPCIO_PIQUERO",
+  "race": "EGIPCIOS",
+  "base": "PIQUERO",
+  "motor": "PEPI_BASE",
+  "health": 1500,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_DERRIBA_ESCALAS",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "REZAR",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_PIQUEROS_EGIPCIOS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 65,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   },
+   "PLANTADOS": {
+    "received": {
+     "melee": 90,
+     "projectile": 80,
+     "fire": 0,
+     "building": 90
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 0,
+     "projectile": 100,
+     "fire": 0,
+     "building": 20
+    },
+    "interval": 1,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "PLANTADOS": {
+    "damage": {
+     "melee": 0,
+     "projectile": 195,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 2,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_PIQUERO",
+  "training": {
+   "time": 1.66,
+   "population": 1,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 141,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "EGIPCIO_CABALLERIA_PESADA": {
+  "type": "EGIPCIO_CABALLERIA_PESADA",
+  "race": "EGIPCIOS",
+  "base": "CABALLERIA_PESADA",
+  "motor": "PECP_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 12,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CPESADA_EGIPCIA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 45,
+     "projectile": 85,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 185,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 18,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_CPESADA",
+  "training": {
+   "time": 5.8,
+   "population": 2,
+   "step": 12,
+   "minDivision": 6,
+   "honour": 1,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 600,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 300
+  },
+  "construction": null,
+  "formationSpeed": 0.038
+ },
+ "EGIPCIO_CABALLERIA_ARQUERA": {
+  "type": "EGIPCIO_CABALLERIA_ARQUERA",
+  "race": "EGIPCIOS",
+  "base": "CABALLERIA_ARQUERA",
+  "motor": "PEAC_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_DISTANCIA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CARQUERA_EGIPCIA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 80,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 300,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 20,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": "FLECHA"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_CARQUERA",
+  "training": {
+   "time": 3.75,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 1,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 300,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 400
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "CENTURION": {
+  "type": "CENTURION",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRC1_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CENTURION",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "ROMANO_CENTURION",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "MEDICO": {
+  "type": "MEDICO",
+  "race": "ROMANOS",
+  "base": "MEDICO",
+  "motor": "PRIN_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_PUEDE_CURAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "CURACION_RAPIDA",
+   "KIT_CURACION_EXTRA",
+   "RANGO_REGENERACION"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MEDICO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "ROMANO_MEDICO",
+  "training": {
+   "time": 5,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "INFANTERIA_LIGERA": {
+  "type": "INFANTERIA_LIGERA",
+  "race": "ROMANOS",
+  "base": "INFANTERIA_LIGERA",
+  "motor": "PRIL_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 30,
+  "flags": [
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_PUEDE_REPARAR",
+   "FLAG_PUEDE_CONSTRUIR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "PILUM",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ILIGERA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 80,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 35,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DEFENSA_MAQUINA": {
+    "damage": {
+     "melee": 25,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "PILUM": {
+    "damage": {
+     "melee": 250,
+     "projectile": 450,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 3,
+    "rangeMax": 10,
+    "kind": "ranged",
+    "ammo": "PILUM"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "ILIGERA_STANDARD",
+  "training": {
+   "time": 1,
+   "population": 1,
+   "step": 30,
+   "minDivision": 5,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 100,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 500
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "INFANTERIA_PESADA": {
+  "type": "INFANTERIA_PESADA",
+  "race": "ROMANOS",
+  "base": "INFANTERIA_PESADA",
+  "motor": "PRIP_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 30,
+  "flags": [
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "PILUM",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "ORILLA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_IPESADA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 50,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 10
+   },
+   "TORTUGA": {
+    "received": {
+     "melee": 30,
+     "projectile": 5,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 70,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "TORTUGA": {
+    "damage": {
+     "melee": 40,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DEFENSIVA": {
+    "damage": {
+     "melee": 50,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "PILUM": {
+    "damage": {
+     "melee": 150,
+     "projectile": 350,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 3,
+    "rangeMax": 10,
+    "kind": "ranged",
+    "ammo": "PILUM"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "IPESADA_STANDARD",
+  "training": {
+   "time": 2.5,
+   "population": 1,
+   "step": 30,
+   "minDivision": 5,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 225,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 300
+  },
+  "construction": null,
+  "formationSpeed": 0.017
+ },
+ "ARQUERO": {
+  "type": "ARQUERO",
+  "race": "ROMANOS",
+  "base": "ARQUERO",
+  "motor": "PRAR_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 15,
+  "reach": "LARGO",
+  "maxSoldiers": 30,
+  "flags": [
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ARQUEROS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 50,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 25,
+     "projectile": 200,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "PLANTADOS": {
+    "damage": {
+     "melee": 25,
+     "projectile": 250,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1.5,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "PLANTADOS_FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 5,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 20,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": "FLECHA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 4,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "ARQUEROS_STANDARD",
+  "training": {
+   "time": 2,
+   "population": 1,
+   "step": 30,
+   "minDivision": 5,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 150,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 500
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "PIQUERO": {
+  "type": "PIQUERO",
+  "race": "ROMANOS",
+  "base": "PIQUERO",
+  "motor": "PRPI_BASE",
+  "health": 1500,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 30,
+  "flags": [
+   "FLAG_DERRIBA_ESCALAS",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_PIQUEROS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 65,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   },
+   "PLANTADOS": {
+    "received": {
+     "melee": 90,
+     "projectile": 80,
+     "fire": 0,
+     "building": 90
+    },
+    "speed": 0
+   },
+   "LANZAS_LEVANTADAS": {
+    "received": {
+     "melee": 80,
+     "projectile": 25,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 15
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 0,
+     "projectile": 100,
+     "fire": 0,
+     "building": 20
+    },
+    "interval": 1,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "PLANTADOS": {
+    "damage": {
+     "melee": 0,
+     "projectile": 195,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 2,
+    "kind": "melee",
+    "ammo": null
+   },
+   "LEVANTADAS": {
+    "damage": {
+     "melee": 20,
+     "projectile": 70,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 0.5,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 20,
+     "projectile": 70,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 3,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "PIQUEROS_STANDARD",
+  "training": {
+   "time": 1.66,
+   "population": 1,
+   "step": 30,
+   "minDivision": 5,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 150,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 500
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "CABALLERIA_PESADA": {
+  "type": "CABALLERIA_PESADA",
+  "race": "ROMANOS",
+  "base": "CABALLERIA_PESADA",
+  "motor": "PRCP_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 12,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO",
+   "BOSQUE_CERRADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CPESADA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 32,
+     "projectile": 100,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 185,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 19,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "CPESADA_STANDARD",
+  "training": {
+   "time": 5.8,
+   "population": 2,
+   "step": 12,
+   "minDivision": 6,
+   "honour": 1,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 600,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 300
+  },
+  "construction": null,
+  "formationSpeed": 0.042
+ },
+ "CABALLERIA_ARQUERA": {
+  "type": "CABALLERIA_ARQUERA",
+  "race": "ROMANOS",
+  "base": "CABALLERIA_ARQUERA",
+  "motor": "PRAC_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_DISTANCIA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CARQUERA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 60,
+     "projectile": 100,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 300,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 2,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 40,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 4,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 20,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": "FLECHA"
+   },
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 6,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "CARQUERA_STANDARD",
+  "training": {
+   "time": 3.75,
+   "population": 2,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 1,
+   "pcu": 2,
+   "pct": 1
+  },
+  "power": 300,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 400
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "CATAPULTA_ROMANA": {
+  "type": "CATAPULTA_ROMANA",
+  "race": "ROMANOS",
+  "base": "CATAPULTA",
+  "motor": "CATAPULTA_ROMANA",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "DISPARO_FUEGO",
+   "DISPARO_METRALLA"
+  ],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_CATAPULTA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 35
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 15
+    },
+    "speed": 4
+   },
+   "PLANTADA": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 1000,
+     "projectile": 2000,
+     "fire": 0,
+     "building": 2000
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 100,
+     "projectile": 200,
+     "fire": 6000,
+     "building": 200
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA"
+   },
+   "DISPARO_METRALLA": {
+    "damage": {
+     "melee": 500,
+     "projectile": 500,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA_METRALLA"
+   }
+  },
+  "formation": "CATAPULTA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 4000,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 75
+  },
+  "construction": {
+   "factor": 10,
+   "maxBuilders": 20,
+   "repair": 9,
+   "maxRepairers": 16,
+   "icon": [
+    3,
+    1
+   ]
+  },
+  "formationSpeed": 0.015
+ },
+ "CATAPULTA_BARBARA": {
+  "type": "CATAPULTA_BARBARA",
+  "race": "BARBAROS",
+  "base": "CATAPULTA",
+  "motor": "CATAPULTA_BARBARA",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "DISPARO_FUEGO",
+   "DISPARO_METRALLA"
+  ],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_CATAPULTA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 35
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 15
+    },
+    "speed": 4
+   },
+   "PLANTADA": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 1000,
+     "projectile": 2000,
+     "fire": 0,
+     "building": 2000
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 100,
+     "projectile": 200,
+     "fire": 6000,
+     "building": 200
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA"
+   },
+   "DISPARO_METRALLA": {
+    "damage": {
+     "melee": 500,
+     "projectile": 500,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA_METRALLA"
+   }
+  },
+  "formation": "CATAPULTA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 4000,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 75
+  },
+  "construction": {
+   "factor": 10,
+   "maxBuilders": 20,
+   "repair": 9,
+   "maxRepairers": 16,
+   "icon": [
+    3,
+    1
+   ]
+  },
+  "formationSpeed": 0.015
+ },
+ "CATAPULTA_EGIPCIA": {
+  "type": "CATAPULTA_EGIPCIA",
+  "race": "EGIPCIOS",
+  "base": "CATAPULTA",
+  "motor": "CATAPULTA_EGIPCIA",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "DISPARO_FUEGO",
+   "DISPARO_METRALLA"
+  ],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_CATAPULTA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 35
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 15
+    },
+    "speed": 4
+   },
+   "PLANTADA": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 1000,
+     "projectile": 2000,
+     "fire": 0,
+     "building": 2000
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 100,
+     "projectile": 200,
+     "fire": 6000,
+     "building": 200
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA"
+   },
+   "DISPARO_METRALLA": {
+    "damage": {
+     "melee": 500,
+     "projectile": 500,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 10,
+    "rangeMin": 5,
+    "rangeMax": 20,
+    "kind": "ranged",
+    "ammo": "PIEDRA_METRALLA"
+   }
+  },
+  "formation": "CATAPULTA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 4000,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 75
+  },
+  "construction": {
+   "factor": 10,
+   "maxBuilders": 20,
+   "repair": 9,
+   "maxRepairers": 16,
+   "icon": [
+    3,
+    1
+   ]
+  },
+  "formationSpeed": 0.015
+ },
+ "BALLESTA_MOVIL_ROMANA": {
+  "type": "BALLESTA_MOVIL_ROMANA",
+  "race": "ROMANOS",
+  "base": "BALLESTA_MOVIL",
+  "motor": "BALLESTA_MOVIL_ROMANA",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_BALLESTA_MOVIL",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 6
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 15
+    },
+    "speed": 6
+   },
+   "PLANTADA": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 500,
+     "projectile": 5000,
+     "fire": 0,
+     "building": 1000
+    },
+    "interval": 6,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_BALLESTA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 300,
+     "projectile": 3000,
+     "fire": 700,
+     "building": 1000
+    },
+    "interval": 6,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_BALLESTA"
+   }
+  },
+  "formation": "BALLESTA_MOVIL",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 4000,
+  "stamina": null,
+  "construction": {
+   "factor": 10,
+   "maxBuilders": 20,
+   "repair": 9,
+   "maxRepairers": 16,
+   "icon": [
+    3,
+    0
+   ]
+  },
+  "formationSpeed": 0.015
+ },
+ "BALLESTA_MOVIL_BARBARA": {
+  "type": "BALLESTA_MOVIL_BARBARA",
+  "race": "BARBAROS",
+  "base": "BALLESTA_MOVIL",
+  "motor": "BALLESTA_MOVIL_BARBARA",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_BALLESTA_MOVIL",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 6
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 15
+    },
+    "speed": 6
+   },
+   "PLANTADA": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 500,
+     "projectile": 5000,
+     "fire": 0,
+     "building": 1000
+    },
+    "interval": 6,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_BALLESTA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 300,
+     "projectile": 3000,
+     "fire": 700,
+     "building": 1000
+    },
+    "interval": 6,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_BALLESTA"
+   }
+  },
+  "formation": "BALLESTA_MOVIL",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 4000,
+  "stamina": null,
+  "construction": {
+   "factor": 10,
+   "maxBuilders": 20,
+   "repair": 9,
+   "maxRepairers": 16,
+   "icon": [
+    3,
+    0
+   ]
+  },
+  "formationSpeed": 0.015
+ },
+ "BALLESTA_MOVIL_EGIPCIA": {
+  "type": "BALLESTA_MOVIL_EGIPCIA",
+  "race": "EGIPCIOS",
+  "base": "BALLESTA_MOVIL",
+  "motor": "BALLESTA_MOVIL_EGIPCIA",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_BALLESTA_MOVIL",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 6
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 15
+    },
+    "speed": 6
+   },
+   "PLANTADA": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 100,
+     "building": 10
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 500,
+     "projectile": 5000,
+     "fire": 0,
+     "building": 1000
+    },
+    "interval": 6,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_BALLESTA"
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 300,
+     "projectile": 3000,
+     "fire": 700,
+     "building": 1000
+    },
+    "interval": 6,
+    "rangeMin": 5,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_BALLESTA"
+   }
+  },
+  "formation": "BALLESTA_MOVIL",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 4000,
+  "stamina": null,
+  "construction": {
+   "factor": 10,
+   "maxBuilders": 20,
+   "repair": 9,
+   "maxRepairers": 16,
+   "icon": [
+    3,
+    0
+   ]
+  },
+  "formationSpeed": 0.015
+ },
+ "ARIETE_ROMANO": {
+  "type": "ARIETE_ROMANO",
+  "race": "ROMANOS",
+  "base": "ARIETE",
+  "motor": "ARIETE_ROMANO",
+  "health": 8000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_PUEDE_EMBESTIR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_NO_ATAQUE",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_ARIETE",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 15,
+     "building": 10
+    },
+    "speed": 10
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 15,
+     "building": 10
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "CARGA": {
+    "damage": {
+     "melee": 3000,
+     "projectile": 10,
+     "fire": 0,
+     "building": 3000
+    },
+    "interval": 3,
+    "rangeMin": 0,
+    "rangeMax": 6,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 200,
+     "projectile": 100,
+     "fire": 0,
+     "building": 3000
+    },
+    "interval": 3,
+    "rangeMin": 6,
+    "rangeMax": 12,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "ARIETE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 20,
+   "maxBuilders": 20,
+   "repair": 18,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    7
+   ]
+  },
+  "formationSpeed": 0.02
+ },
+ "ARIETE_BARBARO": {
+  "type": "ARIETE_BARBARO",
+  "race": "BARBAROS",
+  "base": "ARIETE",
+  "motor": "ARIETE_BARBARO",
+  "health": 8000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_PUEDE_EMBESTIR",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_NO_ATAQUE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_ARIETE",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 15,
+     "building": 10
+    },
+    "speed": 10
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 15,
+     "building": 10
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "CARGA": {
+    "damage": {
+     "melee": 3000,
+     "projectile": 10,
+     "fire": 0,
+     "building": 3000
+    },
+    "interval": 3,
+    "rangeMin": 0,
+    "rangeMax": 6,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 200,
+     "projectile": 100,
+     "fire": 0,
+     "building": 3000
+    },
+    "interval": 3,
+    "rangeMin": 6,
+    "rangeMax": 0,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "ARIETE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 20,
+   "maxBuilders": 20,
+   "repair": 18,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    7
+   ]
+  },
+  "formationSpeed": 0.02
+ },
+ "ARIETE_EGIPCIO": {
+  "type": "ARIETE_EGIPCIO",
+  "race": "EGIPCIOS",
+  "base": "ARIETE",
+  "motor": "ARIETE_EGIPCIO",
+  "health": 8000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_PUEDE_EMBESTIR",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_NO_ATAQUE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_ARIETE",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 15,
+     "building": 10
+    },
+    "speed": 10
+   },
+   "MOVIL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 15,
+     "building": 10
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "CARGA": {
+    "damage": {
+     "melee": 3000,
+     "projectile": 10,
+     "fire": 0,
+     "building": 3000
+    },
+    "interval": 3,
+    "rangeMin": 0,
+    "rangeMax": 6,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 200,
+     "projectile": 100,
+     "fire": 0,
+     "building": 3000
+    },
+    "interval": 3,
+    "rangeMin": 6,
+    "rangeMax": 12,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "ARIETE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 20,
+   "maxBuilders": 20,
+   "repair": 18,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    7
+   ]
+  },
+  "formationSpeed": 0.02
+ },
+ "TORRE_ASALTO_ROMANA": {
+  "type": "TORRE_ASALTO_ROMANA",
+  "race": "ROMANOS",
+  "base": "TORRE_ASALTO",
+  "motor": "TORRE_ASALTO_ROMANA",
+  "health": 5000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_CONTENEDOR",
+   "FLAG_PUEDE_ASALTAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_SOLO_MISIONES"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS",
+   "FLAG_PUERTA"
+  ],
+  "name": "LTEXT_UNIDAD_TORRE_ASALTO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 30,
+     "building": 10
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {},
+  "formation": "TORRE_ASALTO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 12,
+   "maxBuilders": 20,
+   "repair": 12,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    5
+   ]
+  },
+  "formationSpeed": 0.01
+ },
+ "TORRE_ASALTO_EGIPCIA": {
+  "type": "TORRE_ASALTO_EGIPCIA",
+  "race": "EGIPCIOS",
+  "base": "TORRE_ASALTO",
+  "motor": "TORRE_ASALTO_EGIPCIA",
+  "health": 5000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_CONTENEDOR",
+   "FLAG_PUEDE_ASALTAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_SOLO_MISIONES"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS",
+   "FLAG_PUERTA"
+  ],
+  "name": "LTEXT_UNIDAD_TORRE_ASALTO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 30,
+     "building": 10
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {},
+  "formation": "TORRE_ASALTO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 12,
+   "maxBuilders": 20,
+   "repair": 12,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    5
+   ]
+  },
+  "formationSpeed": 0.01
+ },
+ "TORRE_ASALTO_BARBARA": {
+  "type": "TORRE_ASALTO_BARBARA",
+  "race": "BARBAROS",
+  "base": "TORRE_ASALTO",
+  "motor": "TORRE_ASALTO_BARBARA",
+  "health": 5000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_CONTENEDOR",
+   "FLAG_PUEDE_ASALTAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_SOLO_MISIONES"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS",
+   "FLAG_PUERTA"
+  ],
+  "name": "LTEXT_UNIDAD_TORRE_ASALTO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 30,
+     "building": 10
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {},
+  "formation": "TORRE_ASALTO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 12,
+   "maxBuilders": 20,
+   "repair": 12,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    5
+   ]
+  },
+  "formationSpeed": 0.01
+ },
+ "ESCALA_ROMANA": {
+  "type": "ESCALA_ROMANA",
+  "race": "ROMANOS",
+  "base": "ESCALA",
+  "motor": "MRE_ESCALA",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_COGER_SOLTAR",
+   "FLAG_PUEDE_ASALTAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_SOLO_MISIONES"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_ESCALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 20,
+     "fire": 0,
+     "building": 20
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {},
+  "formation": "ESCALA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 40,
+   "maxBuilders": 10,
+   "repair": 50,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    6
+   ]
+  },
+  "formationSpeed": 0.025
+ },
+ "ESCALA_BARBARA": {
+  "type": "ESCALA_BARBARA",
+  "race": "BARBAROS",
+  "base": "ESCALA",
+  "motor": "MRE_ESCALA",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_COGER_SOLTAR",
+   "FLAG_PUEDE_ASALTAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_SOLO_MISIONES"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_ESCALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 20,
+     "fire": 0,
+     "building": 20
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {},
+  "formation": "ESCALA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 40,
+   "maxBuilders": 10,
+   "repair": 50,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    6
+   ]
+  },
+  "formationSpeed": 0.025
+ },
+ "ESCALA_EGIPCIA": {
+  "type": "ESCALA_EGIPCIA",
+  "race": "EGIPCIOS",
+  "base": "ESCALA",
+  "motor": "MRE_ESCALA",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_ESQUIVABLE",
+   "FLAG_COGER_SOLTAR",
+   "FLAG_PUEDE_ASALTAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_SOLO_MISIONES"
+  ],
+  "abilities": [],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_ESCALA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 20,
+     "fire": 0,
+     "building": 20
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {},
+  "formation": "ESCALA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": {
+   "factor": 40,
+   "maxBuilders": 10,
+   "repair": 50,
+   "maxRepairers": 16,
+   "icon": [
+    2,
+    6
+   ]
+  },
+  "formationSpeed": 0.025
+ },
+ "GLADIADOR": {
+  "type": "GLADIADOR",
+  "race": "ROMANOS",
+  "base": "GLADIADOR",
+  "motor": "GLADIADOR",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_TRANSFORMA_CENTURION",
+   "FLAG_MAXIMO_DANYO",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_SIEMPRE_AGRESIVO",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "RED",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_GLADIADOR",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 55,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 14,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 250,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "RED": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 3,
+    "rangeMax": 8,
+    "kind": "ranged",
+    "ammo": "RED"
+   }
+  },
+  "formation": "GLADIADOR",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 625,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.022
+ },
+ "MENSAJERO": {
+  "type": "MENSAJERO",
+  "race": "ROMANOS",
+  "base": "MENSAJERO",
+  "motor": "PRME_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MENSAJERO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 10,
+     "fire": 0,
+     "building": 100
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "MENSAJERO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.041
+ },
+ "HONDERO": {
+  "type": "HONDERO",
+  "race": "ROMANOS",
+  "base": "HONDERO",
+  "motor": "PRHO_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_TRANSFORMA_CENTURION",
+   "FLAG_MAXIMO_DANYO",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_ANTIMAQUINA",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO",
+   "ATAQUE_CABEZA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_HONDERO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 50,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 14,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 100,
+     "projectile": 450,
+     "fire": 0,
+     "building": 50
+    },
+    "interval": 1,
+    "rangeMin": 2,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "PIEDRA_HONDERO"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 50,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HONDERO",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 625,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 250
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "PIQUERO_ELITE": {
+  "type": "PIQUERO_ELITE",
+  "race": "ROMANOS",
+  "base": "PIQUERO_ELITE",
+  "motor": "PRESP_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "MEDIO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_DERRIBA_ESCALAS",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_TROPA_ESPECIAL"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_PIQUEROS_ELITE",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 30,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 8,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 25,
+     "projectile": 75,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "PIQUERO_ELITE",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 625,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.017
+ },
+ "EXPLORADOR_LOBO": {
+  "type": "EXPLORADOR_LOBO",
+  "race": "BARBAROS",
+  "base": "EXPLORADOR",
+  "motor": "PGE_BASE",
+  "health": 100,
+  "vision": 25,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_EXPLORADOR",
+   "FLAG_NO_CEGUERA",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ACK_CIVILIZACION",
+   "FLAG_ATACA_PROTEGIENDO"
+  ],
+  "abilities": [
+   "SOLTAR_FAMILIAR_LOBO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_EXPLORADOR_LOBO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 10,
+     "fire": 0,
+     "building": 100
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "EXPLORADOR",
+  "training": {
+   "time": 5,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.035
+ },
+ "LOBO_SCOUT": {
+  "type": "LOBO_SCOUT",
+  "race": "BARBAROS",
+  "base": "LOBO_SCOUT",
+  "motor": "PGE_LOBO",
+  "health": 1000,
+  "vision": 12,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_NO_CEGUERA",
+   "FLAG_VISION_BOSQUES",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_FAMILIAR"
+  ],
+  "abilities": [],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_LOBO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "LOBO_SCOUT",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 0
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "GALO_MENSAJERO": {
+  "type": "GALO_MENSAJERO",
+  "race": "BARBAROS",
+  "base": "MENSAJERO",
+  "motor": "PGME_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MENSAJERO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 10,
+     "fire": 0,
+     "building": 100
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "MENSAJERO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.041
+ },
+ "CABALLERIA_GERMANA": {
+  "type": "CABALLERIA_GERMANA",
+  "race": "BARBAROS",
+  "base": "CABALLERIA_GERMANA",
+  "motor": "PGCG_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 12,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_PUEDE_REALIZAR_CARGA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO",
+   "CARGA_EMPALADORA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CGERMANA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 25,
+     "projectile": 75,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 12,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 200,
+     "projectile": 100,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": "TIPO_CC"
+   }
+  },
+  "formation": "CGERMANA",
+  "training": {
+   "time": 7.5,
+   "population": 4,
+   "step": 12,
+   "minDivision": 6,
+   "honour": 2,
+   "pcu": 4,
+   "pct": 1
+  },
+  "power": 833,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.035
+ },
+ "GALO_CAZADOR": {
+  "type": "GALO_CAZADOR",
+  "race": "BARBAROS",
+  "base": "CAZADOR",
+  "motor": "PGCA_BASE",
+  "health": 2500,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "LARGO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_ESTRUCTURA_CC"
+  ],
+  "abilities": [
+   "FRENESI",
+   "FISICO",
+   "ATAQUE_SORPRESA"
+  ],
+  "terrain": [
+   "FIN_ESCENARIO",
+   "AGUA_PROFUNDA"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CAZADOR",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 60,
+     "projectile": 40,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 8,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 400,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 3,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 100,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "GALO_CAZADOR",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 650,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 250
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "GALO_ESPADON": {
+  "type": "GALO_ESPADON",
+  "race": "BARBAROS",
+  "base": "GALO_ESPADON",
+  "motor": "PGTA_BASE",
+  "health": 3500,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_DESENFUNDA_ARMA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_GESPADON",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 75,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 7,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 150,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": "TIPO_CC"
+   }
+  },
+  "formation": "GALO_ESPADON",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 650,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 200
+  },
+  "construction": null,
+  "formationSpeed": 0.02
+ },
+ "BARBARO_CUADRIGA": {
+  "type": "BARBARO_CUADRIGA",
+  "race": "BARBAROS",
+  "base": "CUADRIGA",
+  "motor": "PGC_BASE",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 8,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_NO_ENGANCHAR_EN_CARRERA",
+   "FLAG_DANYAR_EN_CARRERA",
+   "FLAG_POCA_MOVILIDAD",
+   "FLAG_NOINTERPOLA_ANIM_E",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO",
+   "DESENGANCHARSE"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CUADRIGA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 30,
+     "projectile": 60,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 15,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_CUADRIGA",
+  "training": {
+   "time": 11.25,
+   "population": 6,
+   "step": 8,
+   "minDivision": 4,
+   "honour": 2,
+   "pcu": 6,
+   "pct": 1
+  },
+  "power": 2000,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 100
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "EXPLORADOR_HALCON": {
+  "type": "EXPLORADOR_HALCON",
+  "race": "EGIPCIOS",
+  "base": "EXPLORADOR",
+  "motor": "PEE_BASE",
+  "health": 100,
+  "vision": 25,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_EXPLORADOR",
+   "FLAG_NO_CEGUERA",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ACK_CIVILIZACION",
+   "FLAG_ATACA_PROTEGIENDO"
+  ],
+  "abilities": [
+   "SOLTAR_FAMILIAR_HALCON"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_EXPLORADOR_HALCON",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 10,
+     "fire": 0,
+     "building": 100
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "EXPLORADOR",
+  "training": {
+   "time": 5,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.035
+ },
+ "HALCON": {
+  "type": "HALCON",
+  "race": "EGIPCIOS",
+  "base": "HALCON",
+  "motor": "PEE_HALCON_BASE",
+  "health": 100,
+  "vision": 9,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_VOLADORA",
+   "FLAG_FAMILIAR",
+   "FLAG_NO_ATAQUE"
+  ],
+  "abilities": [],
+  "terrain": [],
+  "noPass": [],
+  "name": "LTEXT_UNIDAD_HALCON",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "HALCON",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 0,
+   "pct": 0
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": null,
+  "formationSpeed": 0.05
+ },
+ "EGIPCIO_MENSAJERO": {
+  "type": "EGIPCIO_MENSAJERO",
+  "race": "EGIPCIOS",
+  "base": "MENSAJERO",
+  "motor": "PEME_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MENSAJERO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 100,
+     "projectile": 10,
+     "fire": 0,
+     "building": 100
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "MENSAJERO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.041
+ },
+ "CABALLERIA_PARTHA": {
+  "type": "CABALLERIA_PARTHA",
+  "race": "EGIPCIOS",
+  "base": "CABALLERIA_PARTHA",
+  "motor": "PECPA_BASE",
+  "health": 2500,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_TRANSFORMA_CENTURION",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_NO_ORIENTAR_AL_DISPARAR",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "DISPARO_PARTHO",
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CPARTHA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 75,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 8,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 250,
+     "projectile": 300,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 2,
+    "rangeMin": 2,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 50,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 100,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 2,
+    "rangeMax": 15,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   }
+  },
+  "formation": "CPARTHA",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 650,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 400
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "EGIPCIO_CUADRIGA": {
+  "type": "EGIPCIO_CUADRIGA",
+  "race": "EGIPCIOS",
+  "base": "CUADRIGA",
+  "motor": "PEC_BASE",
+  "health": 4000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 8,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_NO_ENGANCHAR_EN_CARRERA",
+   "FLAG_DANYAR_EN_CARRERA",
+   "FLAG_POCA_MOVILIDAD",
+   "FLAG_NOINTERPOLA_ANIM_E",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [
+   "FISICO",
+   "DESENGANCHARSE"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CUADRIGA",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 30,
+     "projectile": 60,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 15,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 200,
+     "projectile": 100,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "EGIPCIO_CUADRIGA",
+  "training": {
+   "time": 11.25,
+   "population": 6,
+   "step": 8,
+   "minDivision": 4,
+   "honour": 2,
+   "pcu": 6,
+   "pct": 1
+  },
+  "power": 2000,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 100
+  },
+  "construction": null,
+  "formationSpeed": 0.04
+ },
+ "EGIPCIO_ARQUERON": {
+  "type": "EGIPCIO_ARQUERON",
+  "race": "EGIPCIOS",
+  "base": "ARQUERO",
+  "motor": "PEARN_BASE",
+  "health": 2000,
+  "vision": 18,
+  "aggression": 15,
+  "reach": "LARGO",
+  "maxSoldiers": 16,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_ATACA_DISTANCIA",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA"
+  ],
+  "abilities": [
+   "FISICO",
+   "VENENO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_ARQUERON",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 40,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 17
+   }
+  },
+  "weapons": {
+   "DESMANTELAR": {
+    "damage": {
+     "melee": 8,
+     "projectile": 0,
+     "fire": 0,
+     "building": 2
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 400,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1.5,
+    "rangeMin": 3,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA"
+   },
+   "CUERPO": {
+    "damage": {
+     "melee": 100,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   },
+   "FUEGO": {
+    "damage": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 100,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 3,
+    "rangeMax": 18,
+    "kind": "ranged",
+    "ammo": "FLECHA_FUEGO"
+   }
+  },
+  "formation": "EGIPCIO_ARQUERON",
+  "training": {
+   "time": 5.625,
+   "population": 3,
+   "step": 16,
+   "minDivision": 8,
+   "honour": 2,
+   "pcu": 3,
+   "pct": 1
+  },
+  "power": 650,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 250
+  },
+  "construction": null,
+  "formationSpeed": 0.027
+ },
+ "MENSAJERO_RESISTENTE": {
+  "type": "MENSAJERO_RESISTENTE",
+  "race": "ROMANOS",
+  "base": "MENSAJERO",
+  "motor": "PRME_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_EVITA_ENEMIGOS",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MENSAJERO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 10,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "MENSAJERO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.041
+ },
+ "JEFE_GERMANO": {
+  "type": "JEFE_GERMANO",
+  "race": "BARBAROS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PGJE_BASE",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CHIEF",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "JEFE_GERMANO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.014
+ },
+ "CARRO": {
+  "type": "CARRO",
+  "race": "ROMANOS",
+  "base": "CARRO",
+  "motor": "CARRO",
+  "health": 1000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_NO_PUEDE_CONSTRUIR",
+   "FLAG_ESQUIVABLE",
+   "FLAG_HACE_INCLINACION",
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BOSQUE_CERRADO",
+   "ORILLA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "name": "LTEXT_UNIDAD_CARRO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 30,
+     "projectile": 0,
+     "fire": 10,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "CARRO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": null,
+  "formationSpeed": 0.02
+ },
+ "CABALLO_CARRO": {
+  "type": "CABALLO_CARRO",
+  "race": "ROMANOS",
+  "base": "CARRO",
+  "motor": "MRE_CR_CABALLO_Base",
+  "health": 100,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_NO_ATAQUE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO",
+   "ORILLA"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 80,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "CARRO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": null,
+  "formationSpeed": 0.02
+ },
+ "PILOTO_CARRO": {
+  "type": "PILOTO_CARRO",
+  "race": "ROMANOS",
+  "base": "CARRO",
+  "motor": "MRE_CR_PILOTO_Base",
+  "health": 100,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_NO_ATAQUE",
+   "FLAG_SOMBRA_ROTABLE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO",
+   "ORILLA"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2",
+   "FLAG_BLOQUEADO_MAQUINAS"
+  ],
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 80,
+     "projectile": 80,
+     "fire": 0,
+     "building": 80
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "CARRO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": null,
+  "formationSpeed": 0.02
+ },
+ "HEROE_AGRADO": {
+  "type": "HEROE_AGRADO",
+  "race": "EGIPCIOS",
+  "base": "EXPLORADOR",
+  "motor": "PGHE_BASE",
+  "health": 2000,
+  "vision": 25,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_EXPLORADOR",
+   "FLAG_NO_CEGUERA",
+   "FLAG_NO_ATAQUE",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ACK_CIVILIZACION",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "SOLTAR_FAMILIAR_HALCON"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_AGRADO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 25,
+     "projectile": 10,
+     "fire": 0,
+     "building": 25
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "EXPLORADOR",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.035
+ },
+ "HEROE_CAYO_TITO": {
+  "type": "HEROE_CAYO_TITO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRECE_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CAIUS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "LABIENO": {
+  "type": "LABIENO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRHL_2_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_LABIENO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_CNEO_GABINO": {
+  "type": "HEROE_CNEO_GABINO",
+  "race": "ROMANOS",
+  "base": "MEDICO",
+  "motor": "PREM_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_PUEDE_CURAR",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION",
+   "FLAG_NO_ATAQUE"
+  ],
+  "abilities": [
+   "CURACION_RAPIDA",
+   "RANGO_REGENERACION",
+   "KIT_CURACION_EXTRA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CNAEUS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 10,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "ROMANO_MEDICO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_DIVICIACO": {
+  "type": "HEROE_DIVICIACO",
+  "race": "BARBAROS",
+  "base": "MEDICO",
+  "motor": "PGHD_BASE",
+  "health": 2000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_PUEDE_CURAR",
+   "FLAG_NO_ATAQUE",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "CEGAR_TROPA",
+   "CURACION_RAPIDA",
+   "RANGO_REGENERACION"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_DIVICIACO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 40,
+     "projectile": 10,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {},
+  "formation": "GALO_MEDICO",
+  "training": {
+   "time": 5,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_CAYO_CRASTINO": {
+  "type": "HEROE_CAYO_CRASTINO",
+  "race": "ROMANOS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PRHL_4_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CRASTINUS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_PUBLIO_CRASO": {
+  "type": "HEROE_PUBLIO_CRASO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRGC_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_PUBLIO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_MARCO_CRASO": {
+  "type": "HEROE_MARCO_CRASO",
+  "race": "ROMANOS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PRECR_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MARCO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_CASIO_LONGINO": {
+  "type": "HEROE_CASIO_LONGINO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRHL_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CASIO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_QUINTO_CICERO": {
+  "type": "HEROE_QUINTO_CICERO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRHL_3_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_QUINTO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_COMIO": {
+  "type": "HEROE_COMIO",
+  "race": "BARBAROS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PREC_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_COMIO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_DUMNORIX": {
+  "type": "HEROE_DUMNORIX",
+  "race": "BARBAROS",
+  "base": "CENTURION",
+  "motor": "PGHJC_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_DUMNORIX",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_CASIOVELAUNO": {
+  "type": "HEROE_CASIOVELAUNO",
+  "race": "BARBAROS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PGHJ_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_CASIOVELAUNO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_DUBALIX": {
+  "type": "HEROE_DUBALIX",
+  "race": "BARBAROS",
+  "base": "CENTURION",
+  "motor": "PGHDU_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_DUBALIX",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_GOBANITIO": {
+  "type": "HEROE_GOBANITIO",
+  "race": "BARBAROS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PGHGO_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_GOBANITIO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_MARCO_LUCIO": {
+  "type": "HEROE_MARCO_LUCIO",
+  "race": "ROMANOS",
+  "base": "EXPLORADOR",
+  "motor": "PGE_BASE",
+  "health": 1000,
+  "vision": 25,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_TROPA_ESPECIAL",
+   "FLAG_EXPLORADOR",
+   "FLAG_NO_CEGUERA",
+   "FLAG_NO_ATAQUE",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ACK_CIVILIZACION",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "SOLTAR_FAMILIAR_LOBO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MARCUS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 10,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": "EXPLORADOR",
+  "training": {
+   "time": 10,
+   "population": 5,
+   "step": 1,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.035
+ },
+ "HEROE_SEXTO_CALPURNIO": {
+  "type": "HEROE_SEXTO_CALPURNIO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRECE_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_SEXTUS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_TITO_LUCIO": {
+  "type": "HEROE_TITO_LUCIO",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRECE_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_TITUS_LUCIUS",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_ROMANO_MUNDA": {
+  "type": "HEROE_ROMANO_MUNDA",
+  "race": "ROMANOS",
+  "base": "CENTURION",
+  "motor": "PRC1_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_GIRAR_AL_ANDAR",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_SOMBRA_ROTABLE",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ACELERAR_RECUPERACION_MANA"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_PROVINCIAL_CENT",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 35
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_CABALLO",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.03
+ },
+ "HEROE_GALO_MUNDA": {
+  "type": "HEROE_GALO_MUNDA",
+  "race": "BARBAROS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PGJE_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "REZAR_ROBAR"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_IBERIAN_CHIEF",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_EGIPCIO_MUNDA": {
+  "type": "HEROE_EGIPCIO_MUNDA",
+  "race": "EGIPCIOS",
+  "base": "CENTURION_A_PIE",
+  "motor": "PEJE_BASE",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO",
+   "ESPEJISMO_MANEJABLE"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_MAURETANEAN_OFF",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "HEROE_COMIO_PRESO": {
+  "type": "HEROE_COMIO_PRESO",
+  "race": "BARBAROS",
+  "base": "PRISIONERO",
+  "motor": "PREC_BASE_preso",
+  "health": 3000,
+  "vision": 15,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 1,
+  "flags": [
+   "FLAG_BOTON_ESPECIALES",
+   "FLAG_IGNORA_ATAQUES",
+   "FLAG_RASTRO_HUMO_MIENTRAS_ANDA",
+   "FLAG_NO_ES_EMPUJADA",
+   "FLAG_ATACA_PROTEGIENDO",
+   "FLAG_CENTRAR_EN_DISTRIBUCION"
+  ],
+  "abilities": [
+   "FISICO"
+  ],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "FIN_ESCENARIO"
+  ],
+  "noPass": [
+   "FLAG_PENDIENTE2"
+  ],
+  "name": "LTEXT_UNIDAD_COMIO",
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 20,
+     "projectile": 20,
+     "fire": 0,
+     "building": 40
+    },
+    "speed": 20
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 13,
+     "projectile": 0,
+     "fire": 0,
+     "building": 12
+    },
+    "interval": 0.5,
+    "rangeMin": 0,
+    "rangeMax": 0.5,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "HEROE_A_PIE",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 5,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": {
+   "max": 1000,
+   "initial": 1000,
+   "growth": 25
+  },
+  "construction": null,
+  "formationSpeed": 0.025
+ },
+ "PRADERA": {
+  "type": "PRADERA",
+  "base": "PRADERA",
+  "health": 15000,
+  "vision": 10,
+  "aggression": 0,
+  "maxSoldiers": 0,
+  "flags": [],
+  "abilities": [],
+  "terrain": [],
+  "noPass": [],
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 0,
+     "projectile": 0,
+     "fire": 100,
+     "building": 0
+    },
+    "speed": 0
+   }
+  },
+  "weapons": {},
+  "formation": null,
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": null,
+  "formationSpeed": null
+ },
+ "LOBO": {
+  "type": "LOBO",
+  "race": "NEUTRALES",
+  "base": "LOBO",
+  "motor": "PGE_LOBO",
+  "health": 800,
+  "vision": 2,
+  "aggression": 0,
+  "reach": "CORTO",
+  "maxSoldiers": 0,
+  "flags": [
+   "FLAG_MANADA",
+   "FLAG_NO_ATAQUE"
+  ],
+  "abilities": [],
+  "terrain": [
+   "AGUA_PROFUNDA",
+   "BLOQUEADO"
+  ],
+  "noPass": [
+   "FLAG_NOPASABLE",
+   "FLAG_PENDIENTE2",
+   "FLAG_PENDIENTE3",
+   "FLAG_ESTRUCTURA",
+   "FLAG_PUENTE",
+   "FLAG_PUERTA",
+   "FLAG_NO_ASALTABLE"
+  ],
+  "states": {
+   "NORMAL": {
+    "received": {
+     "melee": 50,
+     "projectile": 50,
+     "fire": 0,
+     "building": 50
+    },
+    "speed": 10
+   }
+  },
+  "weapons": {
+   "NORMAL": {
+    "damage": {
+     "melee": 50,
+     "projectile": 0,
+     "fire": 0,
+     "building": 0
+    },
+    "interval": 1,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "kind": "melee",
+    "ammo": null
+   }
+  },
+  "formation": "MANADA",
+  "training": {
+   "time": 0,
+   "population": 1,
+   "step": 0,
+   "minDivision": 0,
+   "honour": 0,
+   "pcu": 1,
+   "pct": 1
+  },
+  "power": 0,
+  "stamina": null,
+  "construction": null,
+  "formationSpeed": 0.04
+ }
+}

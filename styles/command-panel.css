@@ -1,0 +1,62 @@
+/* Command panel (src/ui/command-panel.js): the HD Remaster's order window
+   right of the parchment - round category tabs on their black humps
+   (IconCategory_Panel_01), then a 4 x 3 grid of IconUtil buttons on a dark
+   panel (UIPanelBackBasic_01). Sizes follow the 1920 px HUD (--hd-px). */
+.command-panel{position:absolute;right:0;bottom:0;width:calc(276 * var(--hd-px));height:calc(186 * var(--hd-px));z-index:2;pointer-events:auto;
+ --cp-size:calc(54 * var(--hd-px));--cp-gap:calc(6 * var(--hd-px));--cp-cols:4}
+/* Five troop portraits a row for recruiting, slightly smaller. */
+.command-panel.cp-wide{--cp-size:calc(48 * var(--hd-px));--cp-gap:calc(5 * var(--hd-px))}
+.command-panel::before{content:'';position:absolute;inset:0;border:calc(6 * var(--hd-px)) solid transparent;border-right:0;border-bottom:0;
+ border-image:url('../assets/hd/interface/UIPanelBackBasic_01.png') 8 fill stretch;opacity:.94;transition:opacity .25s}
+.command-panel.cp-idle::before{opacity:.55}
+
+/* Category tabs */
+.cp-tabs{position:absolute;right:calc(70 * var(--hd-px));top:calc(-58 * var(--hd-px));width:calc(178 * var(--hd-px));height:calc(58 * var(--hd-px));
+ background:url('../assets/hd/interface/IconCategory_Panel_01.png') center/100% 100% no-repeat;opacity:.92}
+.cp-tab{position:absolute;top:calc(5 * var(--hd-px));width:calc(42 * var(--hd-px));height:calc(42 * var(--hd-px));padding:0;border:0;border-radius:50%;
+ background:none;cursor:pointer}
+.cp-tab[data-tab="actions"]{left:calc(17 * var(--hd-px))}
+.cp-tab[data-tab="abilities"]{left:calc(71 * var(--hd-px))}
+.cp-tab[data-tab="construction"]{left:calc(125 * var(--hd-px))}
+.cp-tab::before{content:'';position:absolute;inset:calc(2 * var(--hd-px));background:#8a8b86;
+ -webkit-mask:url('../assets/hd/interface/IconCategory_CircleBase_01.png') center/100% 100% no-repeat;mask:url('../assets/hd/interface/IconCategory_CircleBase_01.png') center/100% 100% no-repeat;
+ box-shadow:inset 0 0 0 1px #0006;transition:background .15s}
+.cp-tab::after{content:'';position:absolute;inset:22%;background:var(--glyph) center/contain no-repeat;filter:drop-shadow(0 1px 1px #0009)}
+.cp-tab:hover::before{background:#a9a9a2}
+.cp-tab.cp-active::before{background:#b5b3a8;box-shadow:0 0 0 calc(2 * var(--hd-px)) #f1e4b7}
+.cp-tab.cp-active{background:url('../assets/hd/interface/IconCategory_CircleActivated_01.png') center/100% 100% no-repeat}
+.cp-tab.cp-empty{cursor:default}
+.cp-tab.cp-empty::before{background:#5d5e5a}
+.cp-tab.cp-empty::after{display:none}
+
+/* The 4 x 3 order grid */
+.cp-grid{position:absolute;left:calc(12 * var(--hd-px));top:calc(10 * var(--hd-px));display:grid;
+ grid-template-columns:repeat(var(--cp-cols),var(--cp-size));grid-template-rows:repeat(3,var(--cp-size));gap:var(--cp-gap)}
+.cp-button{position:relative;width:var(--cp-size);height:var(--cp-size);padding:0;border:0;cursor:pointer;
+ background:url('../assets/hd/interface/IconUtil_Base_01.png') center/100% 100% no-repeat;filter:drop-shadow(0 calc(2 * var(--hd-px)) calc(2 * var(--hd-px)) #0008);
+ animation:cp-in .18s ease-out both}
+.cp-button[hidden]{display:none}
+@keyframes cp-in{from{opacity:0;transform:scale(.85)}}
+.cp-button::before{content:'';position:absolute;inset:7%;background:url('../assets/hd/interface/IconUtil_Activated_01.png') center/100% 100% no-repeat;opacity:0;transition:opacity .15s}
+.cp-button.cp-on::before{opacity:1}
+.cp-art{position:absolute;inset:6%;background:center/contain no-repeat;pointer-events:none;transition:filter .12s}
+/* Troop portraits fill their frame. */
+.cp-button.cp-portrait .cp-art{inset:7%;background-size:cover;border-radius:calc(2 * var(--hd-px))}
+.cp-button::after{content:'';position:absolute;inset:-3%;background:url('../assets/hd/interface/IconUtil_Highlight_01.png') center/100% 100% no-repeat;opacity:0;transition:opacity .12s;pointer-events:none}
+.cp-button:hover::after,.cp-button:focus-visible::after{opacity:.95}
+.cp-button:active .cp-art{transform:translateY(1px)}
+.cp-button:focus-visible{outline:none}
+.cp-button.cp-disabled{cursor:default;filter:grayscale(1) brightness(.62) drop-shadow(0 calc(2 * var(--hd-px)) calc(2 * var(--hd-px)) #0008)}
+.cp-button.cp-disabled .cp-art{opacity:.55}
+.cp-button.cp-disabled:hover::after{opacity:.35}
+
+/* Tooltip: the HD's dark label over the hovered button. */
+.cp-tip{position:fixed;z-index:30;max-width:calc(320 * var(--hd-px));padding:calc(4 * var(--hd-px)) calc(9 * var(--hd-px));white-space:pre-line;pointer-events:none;
+ border:calc(3 * var(--hd-px)) solid transparent;border-image:url('../assets/hd/interface/TooltipBackground.png') 6 fill stretch;
+ color:#f2e8cc;font:calc(18 * var(--hd-px))/1.2 PraetoriansTimes,'Times New Roman',serif;text-shadow:0 1px 1px #000}
+.cp-tip[hidden]{display:none}
+#game.cinema .command-panel{visibility:hidden}
+
+@media(max-width:700px){
+ .command-panel{width:calc(276 * var(--hd-px) * 1.4);height:calc(186 * var(--hd-px) * 1.4);--cp-size:calc(54 * var(--hd-px) * 1.4);--cp-gap:calc(6 * var(--hd-px) * 1.4)}
+}

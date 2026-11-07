@@ -1,0 +1,7871 @@
+{
+ "1080": {
+  "files": [
+   "characters\\1080.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "1081": {
+  "files": [
+   "characters\\1081.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "1082": {
+  "files": [
+   "characters\\1082.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "1083": {
+  "files": [
+   "characters\\1083.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "1084": {
+  "files": [
+   "characters\\1084.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "1190": {
+  "files": [
+   "characters\\1190.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "1191": {
+  "files": [
+   "characters\\1191.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "1192": {
+  "files": [
+   "characters\\1192.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "1770": {
+  "files": [
+   "characters\\1770.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "1771": {
+  "files": [
+   "characters\\1771.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "SA01": {
+  "files": [
+   "m_001.ogi"
+  ],
+  "alias": "Musica",
+  "volume": 0.3,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "SMNU": {
+  "files": [
+   "m_a_001.ogi"
+  ],
+  "alias": "Musica menu",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "SB01": {
+  "files": [
+   "m_b_001.ogi"
+  ],
+  "alias": "Musica batalla",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "SA02": {
+  "files": [
+   "m_nieve_01.ogi"
+  ],
+  "alias": "Musica nieve",
+  "volume": 0.45,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "SB02": {
+  "files": [
+   "batalla_nieve.ogi"
+  ],
+  "alias": "Musica batalla Nieve",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "SA03": {
+  "files": [
+   "musica_amb_egipto.ogi"
+  ],
+  "alias": "Musica desierto",
+  "volume": 0.45,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "SB03": {
+  "files": [
+   "m_bat_eg.ogi"
+  ],
+  "alias": "Musica batalla Egipto",
+  "volume": 0.45,
+  "polyphony": 4,
+  "loop": true,
+  "source": "Musicas.dat"
+ },
+ "IGZM": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Centurion Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGZN": {
+  "files": [
+   "voices\\igan_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGZR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Centurion Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGZA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Centurion Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGZT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara Centurion Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGZS": {
+  "files": [
+   "voices\\igck_1"
+  ],
+  "alias": "ACK Tropa Barbara Centurion Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGZG": {
+  "files": [
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Centurion Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIM": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Medico Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIN": {
+  "files": [
+   "voices\\igan_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Medico Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara M Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara M Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIS": {
+  "files": [
+   "voices\\igmk_1"
+  ],
+  "alias": "ACK Tropa Barbara Medico Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGIG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Medico Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGEM": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Medico Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGEN": {
+  "files": [
+   "voices\\igan_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGER": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Medico Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGEA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara M Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGET": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara M Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGES": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Medico Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGEG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Medico Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Pesada Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Pesada Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Pesada Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Pesada Atacar Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Pesada Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGPG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Pesada Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Ligera Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Ligera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Ligera Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Ligera Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Ligera Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGLG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Infanteria Ligera Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Arquero Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Arquero Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Arquero Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara Arquero Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Arquero Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGAG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Arquero Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Piquero Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Piquero Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Piquero Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara Piquero Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Piquero Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGQG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Piquero Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Pesada Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Pesada Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Pesada Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCT": {
+  "files": [
+   "voices\\igta_2"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Pesada Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Pesada Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGCG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Pesada Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGKM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Arquera Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGKN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGKR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Arquera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGKA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_2",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Arquera Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGKS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Arquera Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGKG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Caballeria Arquera Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTT": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBT": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGBG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Catapulta Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Ariete Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Ariete Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Ariete Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWT": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Ariete Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Ariete Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGWG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Ariete Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Torre Asalto Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Torre Asalto Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Torre Asalto Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYT": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Torre Asalto Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Torre Asalto Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGYG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Torre Asalto Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXM": {
+  "files": [
+   "voices\\igtm_1",
+   "voices\\igtk_3",
+   "voices\\igtk_2",
+   "voices\\igto_2"
+  ],
+  "alias": "ACK Tropa Barbara Escala Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXN": {
+  "files": [
+   "voices\\igtn_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXR": {
+  "files": [
+   "voices\\igtm_2"
+  ],
+  "alias": "ACK Tropa Barbara Escala Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXA": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Escala Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXT": {
+  "files": [
+   "voices\\igta_1",
+   "voices\\igta_4",
+   "voices\\igta_3"
+  ],
+  "alias": "ACK Tropa Barbara Escala Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXS": {
+  "files": [
+   "voices\\igtk_3",
+   "voices\\igtk_4",
+   "voices\\igtk_1",
+   "voices\\igtk_2",
+   "voices\\igtk_5"
+  ],
+  "alias": "ACK Tropa Barbara Escala Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGXG": {
+  "files": [
+   "voices\\igto_1",
+   "voices\\igto_2",
+   "voices\\igto_3"
+  ],
+  "alias": "ACK Tropa Barbara Escala Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTU": {
+  "files": [
+   "voices\\igtn_2"
+  ],
+  "alias": "ACK Tropa Barbara No puede",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IGTB": {
+  "files": [
+   "voices\\igtb_1"
+  ],
+  "alias": "ACK Tropa Barbara No puede Construir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasBarbaras.dat"
+ },
+ "IEZM": {
+  "files": [
+   "voices\\ieto_2",
+   "voices\\ietk_3"
+  ],
+  "alias": "ACK Tropa Egipcia Centurion Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEZN": {
+  "files": [
+   "voices\\iean_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEZR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Centurion Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEZA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Centurion Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEZT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Centurion Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEZS": {
+  "files": [
+   "voices\\ieck_1"
+  ],
+  "alias": "ACK Tropa Egipcia Centurion Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEZG": {
+  "files": [
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Centurion Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIM": {
+  "files": [
+   "voices\\ieto_2",
+   "voices\\ietk_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIN": {
+  "files": [
+   "voices\\iean_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIS": {
+  "files": [
+   "voices\\iemk_1"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEIG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEEM": {
+  "files": [
+   "voices\\ieto_2",
+   "voices\\ietk_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEEN": {
+  "files": [
+   "voices\\iean_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEER": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEEA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEET": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEES": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEEG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Medico Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Pesada Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Pesada Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Pesada Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Pesada Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Pesada Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEPG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Pesada Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Ligera Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Ligera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Ligera Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Ligera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Ligera Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IELG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Infanteria Ligera Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Arquero Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Arquero Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Arquero Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Arquero Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Arquero Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEAG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Arquero Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQM": {
+  "files": [
+   "voices\\ietm_1"
+  ],
+  "alias": "ACK Tropa Egipcia Piquero Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Piquero Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Piquero Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Piquero Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Piquero Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEQG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Piquero Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Pesada Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Pesada Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Pesada Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Pesada Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Pesada Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IECG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Pesada Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Arquera Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia No Puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Arquera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Arquera Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKT": {
+  "files": [
+   "voices\\ieta_2"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Arquera Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Arquera Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEKG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Caballeria Arquera Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia No Puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETT": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia No Puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBT": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEBG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Catapulta Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Ariete Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia No Puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Ariete Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Ariete Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWT": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Ariete Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Ariete Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEWG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Ariete Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Torre Asalto Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYN": {
+  "files": [
+   "voices\\ietn_1"
+  ],
+  "alias": "ACK Tropa Egipcia No Puede Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Torre Asalto Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Torre Asalto Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYT": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Torre Asalto Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Torre Asalto Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEYG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Torre Asalto Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEXM": {
+  "files": [
+   "voices\\ietm_1",
+   "voices\\ietk_3",
+   "voices\\ietk_2",
+   "voices\\ieto_2"
+  ],
+  "alias": "ACK Tropa Egipcia Escala Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEXR": {
+  "files": [
+   "voices\\ietm_2"
+  ],
+  "alias": "ACK Tropa Egipcia Escala Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEXA": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Escala Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEXT": {
+  "files": [
+   "voices\\ieta_1",
+   "voices\\ieta_3"
+  ],
+  "alias": "ACK Tropa Egipcia Escala Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEXS": {
+  "files": [
+   "voices\\ietk_3",
+   "voices\\ietk_4",
+   "voices\\ietk_1",
+   "voices\\ietk_2",
+   "voices\\ietk_5"
+  ],
+  "alias": "ACK Tropa Egipcia Escala Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IEXG": {
+  "files": [
+   "voices\\ieto_1",
+   "voices\\ieto_2",
+   "voices\\ieto_3"
+  ],
+  "alias": "ACK Tropa Egipcia Escala Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETU": {
+  "files": [
+   "voices\\ietn_2"
+  ],
+  "alias": "ACK Tropa Egipcia No puede",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IETB": {
+  "files": [
+   "voices\\ietb_1"
+  ],
+  "alias": "ACK Tropa Egipcia No puede Construir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasEgipcias.dat"
+ },
+ "IRZM": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irto_2"
+  ],
+  "alias": "ACK Tropa Romana Centurion Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRZN": {
+  "files": [
+   "voices\\iran_1"
+  ],
+  "alias": "ACK Tropa Romana Centurion No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRZR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Centurion Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRZA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Centurion Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRZT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Centurion Atacar corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRZS": {
+  "files": [
+   "voices\\irck_1"
+  ],
+  "alias": "ACK Tropa Romana Centurion Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRZG": {
+  "files": [
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Centurion Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIM": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irto_2"
+  ],
+  "alias": "ACK Tropa Romana Medico Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIN": {
+  "files": [
+   "voices\\iran_1"
+  ],
+  "alias": "ACK Tropa Romana Medico No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Medico Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Medico Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Medico Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIS": {
+  "files": [
+   "voices\\irmk_1"
+  ],
+  "alias": "ACK Tropa Romana Medico Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRIG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Medico Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IREM": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irto_2"
+  ],
+  "alias": "ACK Tropa Romana Medico Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IREN": {
+  "files": [
+   "voices\\iran_1"
+  ],
+  "alias": "ACK Tropa Romana Explorador No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRER": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Medico Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IREA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Medico Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRET": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Medico Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRES": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Medico Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IREG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Medico Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Pesada Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Pesada Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Pesada Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Pesada Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Pesada Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRPG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Pesada Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Ligera Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Ligera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Ligera Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Ligera Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Ligera Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRLG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Infanteria Ligera Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Arquero Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Arquero Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Arquero Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Arquero Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Arquero Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRAG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Arquero Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Piquero Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Piquero Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Piquero Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Piquero Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Piquero Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRQG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Piquero Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Pesada Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Pesada Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Pesada Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Pesada Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Pesada Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRCG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Pesada Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Arquera Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Arquera Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKA": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Arquera Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Arquera Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Arquera Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRKG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Caballeria Arquera Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTT": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBT": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRBG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Catapulta Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Ariete Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Ariete Mover Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Ariete Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWT": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Ariete Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Ariete Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRWG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Ariete Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Torre Asalto Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Torre Asalto Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Torre Asalto Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYT": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Torre Asalto Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Torre Asalto Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRYG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Torre Asalto Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXM": {
+  "files": [
+   "voices\\irtm_1",
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irtk_3",
+   "voices\\irtk_2"
+  ],
+  "alias": "ACK Tropa Romana Escala Mover",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXN": {
+  "files": [
+   "voices\\irtn_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Ir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXR": {
+  "files": [
+   "voices\\irtm_2"
+  ],
+  "alias": "ACK Tropa Romana Escala Correr",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXA": {
+  "files": [
+   "voices\\irta_1",
+   "voices\\irta_2",
+   "voices\\irta_3"
+  ],
+  "alias": "ACK Tropa Romana Escala Atacar",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXT": {
+  "files": [
+   "voices\\irta_4"
+  ],
+  "alias": "ACK Tropa Romana Escala Atacar Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXS": {
+  "files": [
+   "voices\\irtk_3",
+   "voices\\irtk_4",
+   "voices\\irtk_1",
+   "voices\\irtk_2",
+   "voices\\irtk_5"
+  ],
+  "alias": "ACK Tropa Romana Escala Seleccion",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRXG": {
+  "files": [
+   "voices\\irto_1",
+   "voices\\irto_2",
+   "voices\\irto_3"
+  ],
+  "alias": "ACK Tropa Romana Escala Orden Generica",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTU": {
+  "files": [
+   "voices\\irtn_2"
+  ],
+  "alias": "ACK Tropa Romana No puede",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "IRTB": {
+  "files": [
+   "voices\\irtb_1"
+  ],
+  "alias": "ACK Tropa Romana No puede Construir",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosACKTropasRomanas.dat"
+ },
+ "ACSD": {
+  "files": [
+   ""
+  ],
+  "alias": "Cascada",
+  "volume": 0.3,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosAmbiente.dat"
+ },
+ "ABSQ": {
+  "files": [
+   ""
+  ],
+  "alias": "Bosque",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosAmbiente.dat"
+ },
+ "ALLV": {
+  "files": [
+   "lluvia2"
+  ],
+  "alias": "Lluvia",
+  "volume": 0.3,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosAmbiente.dat"
+ },
+ "AVNT": {
+  "files": [
+   "viento_ventisca1",
+   "viento_ventisca1"
+  ],
+  "alias": "Ventisca nieve",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosAmbiente.dat"
+ },
+ "AVND": {
+  "files": [
+   "viento_desierto1",
+   "viento_desierto2"
+  ],
+  "alias": "Ventisca desierto",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosAmbiente.dat"
+ },
+ "ARLM": {
+  "files": [
+   "trueno01",
+   "trueno02",
+   "trueno03",
+   "trueno04",
+   "trueno05"
+  ],
+  "alias": "Relampago",
+  "volume": 0.9,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosAmbiente.dat"
+ },
+ "ARIO": {
+  "files": [
+   "rio"
+  ],
+  "alias": "Rio",
+  "volume": 0.1,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosAmbiente.dat"
+ },
+ "AOLA": {
+  "files": [
+   "ola_01",
+   "ola_02",
+   "ola_03",
+   "ola_04",
+   "ola_05",
+   "ola_06",
+   "ola_07",
+   "ola_08",
+   "ola_09"
+  ],
+  "alias": "Ola 1",
+  "volume": 0.15,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosAmbiente.dat"
+ },
+ "APAJ": {
+  "files": [
+   "pajaro01",
+   "pajaro02",
+   "pajaro03",
+   "pajaro04",
+   "pajaro05",
+   "pajaro06",
+   "pajaro07",
+   "pajaro09",
+   "pajaro0a",
+   "pajaro0b"
+  ],
+  "alias": "Pajaro 1",
+  "volume": 0.025,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosAmbiente.dat"
+ },
+ "EOAG": {
+  "files": [
+   "pasos_agua_1",
+   "pasos_agua_2",
+   "pasos_agua_3",
+   "pasos_agua_4",
+   "pasos_agua_5",
+   "pasos_agua_6",
+   "pasos_agua_7"
+  ],
+  "alias": "Onda agua",
+  "volume": 0.05,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosAmbiente.dat"
+ },
+ "XGDT": {
+  "files": [
+   "derrumbamiento_03",
+   "derrumbamiento_04",
+   "derrumbamiento_05",
+   "derrumbamiento_06",
+   "derrumbamiento_07"
+  ],
+  "alias": "Estructura guarnicion destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosEstructuras.dat"
+ },
+ "XTDT": {
+  "files": [
+   "derrumbamiento_03",
+   "derrumbamiento_04",
+   "derrumbamiento_05",
+   "derrumbamiento_06",
+   "derrumbamiento_07"
+  ],
+  "alias": "Estructura torre defensa destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosEstructuras.dat"
+ },
+ "XADT": {
+  "files": [
+   "derrumbamiento_03",
+   "derrumbamiento_04",
+   "derrumbamiento_05",
+   "derrumbamiento_06",
+   "derrumbamiento_07"
+  ],
+  "alias": "Estructura andamio destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosEstructuras.dat"
+ },
+ "IAAM": {
+  "files": [
+   "aviso06"
+  ],
+  "alias": "Mensaje Accion Minimapa",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAOC": {
+  "files": [
+   "aviso06"
+  ],
+  "alias": "Mensaje Objetivo completado",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IASG": {
+  "files": [
+   "aviso06"
+  ],
+  "alias": "Mensaje Generico",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAAV": {
+  "files": [
+   "aviso06"
+  ],
+  "alias": "Mensaje Aviso",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAAL": {
+  "files": [
+   "aviso06"
+  ],
+  "alias": "Mensaje Aliado",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAEN": {
+  "files": [
+   "aviso06"
+  ],
+  "alias": "Mensaje Enemigo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMH": {
+  "files": [
+   "voices\\iamh"
+  ],
+  "alias": "Mensaje Heroe atacado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMP": {
+  "files": [
+   "voices\\iamp"
+  ],
+  "alias": "Mensaje Pueblo atacado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMT": {
+  "files": [
+   "voices\\iamt"
+  ],
+  "alias": "Mensaje Tropa atacada",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMA": {
+  "files": [
+   "voices\\iama_1"
+  ],
+  "alias": "Mensaje Tropa nuestra atacando",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMC": {
+  "files": [
+   "voices\\iamc"
+  ],
+  "alias": "Mensaje Construccion acabada",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAME": {
+  "files": [
+   "voices\\iame"
+  ],
+  "alias": "Mensaje Entrenamiento acabado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMQ": {
+  "files": [
+   "voices\\iamq"
+  ],
+  "alias": "Mensaje Pueblo aliado atacado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMU": {
+  "files": [
+   "voices\\iamu"
+  ],
+  "alias": "Mensaje aliado atacado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAMB": {
+  "files": [
+   "voices\\iamb"
+  ],
+  "alias": "Mensaje Pueblo aliado atacando",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IASE": {
+  "files": [
+   "voices\\iase"
+  ],
+  "alias": "Mensaje General SinglePlayer Entrenamiento",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IASO": {
+  "files": [
+   "voices\\iaso"
+  ],
+  "alias": "Mensaje General SinglePlayer Objetivo completo",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IASC": {
+  "files": [
+   "voices\\iasc"
+  ],
+  "alias": "Mensaje General SinglePlayer Objetivos Mision Cambiados",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IASF": {
+  "files": [
+   "voices\\iasf"
+  ],
+  "alias": "Mensaje General SinglePlayer Objetivos Fallidos",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IASM": {
+  "files": [
+   "voices\\iasm"
+  ],
+  "alias": "Mensaje General SinglePlayer Mision Completada",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWV": {
+  "files": [
+   "voices\\iawv"
+  ],
+  "alias": "Mensaje General MultiPlayer Victoria",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWD": {
+  "files": [
+   "voices\\iawd"
+  ],
+  "alias": "Mensaje General MultiPlayer Derrota",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWN": {
+  "files": [
+   "voices\\iawn"
+  ],
+  "alias": "Mensaje General MultiPlayer Aliado abandona partida",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWB": {
+  "files": [
+   "voices\\iawb"
+  ],
+  "alias": "Mensaje General MultiPlayer Enemigo abandona partida",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWA": {
+  "files": [
+   "voices\\iawa"
+  ],
+  "alias": "Mensaje General MultiPlayer Aliado derrotado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWE": {
+  "files": [
+   "voices\\iawe"
+  ],
+  "alias": "Mensaje General MultiPlayer Enemigo Derrotado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWT": {
+  "files": [
+   "voices\\iawt"
+  ],
+  "alias": "Mensaje General MultiPlayer Equipo enemigo pierde",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAWP": {
+  "files": [
+   "voices\\iawp"
+  ],
+  "alias": "Mensaje General MultiPlayer Jugador derrotado",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAIE": {
+  "files": [
+   "voices\\iaie"
+  ],
+  "alias": "Mensaje General Inferioridad Muestran tropas enemigas",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAIC": {
+  "files": [
+   "voices\\iaic"
+  ],
+  "alias": "Mensaje General Inferioridad Empieza el contador",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IAIJ": {
+  "files": [
+   "voices\\iaij"
+  ],
+  "alias": "Mensaje General Inferioridad Muestran nuestras tropas",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IACA": {
+  "files": [
+   "voices\\iaca"
+  ],
+  "alias": "Mensaje CPU Apoyo",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IACP": {
+  "files": [
+   "voices\\iacp"
+  ],
+  "alias": "Mensaje CPU Conquista Pueblo",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IACH": {
+  "files": [
+   "voices\\iach"
+  ],
+  "alias": "Mensaje CPU Aydame",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IACN": {
+  "files": [
+   "voices\\iacn"
+  ],
+  "alias": "Mensaje CPU Not available",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IACM": {
+  "files": [
+   "voices\\iacm"
+  ],
+  "alias": "Mensaje CPU Not now",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IATU": {
+  "files": [
+   "aviso_tut_02"
+  ],
+  "alias": "Paso Tutorial",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IANO": {
+  "files": [
+   ""
+  ],
+  "alias": "No se puede ejecutar la accion",
+  "volume": 0.8,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IBPS": {
+  "files": [
+   "inv_abrir"
+  ],
+  "alias": "Pulsar boton",
+  "volume": 0.4,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IBST": {
+  "files": [
+   ""
+  ],
+  "alias": "Soltar boton",
+  "volume": 0.4,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IBOD": {
+  "files": [
+   "inv_abrir"
+  ],
+  "alias": "Pulsar boton de orden",
+  "volume": 0.2,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IBOU": {
+  "files": [
+   ""
+  ],
+  "alias": "Soltar boton de orden",
+  "volume": 0.2,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IPDS": {
+  "files": [
+   "inv_desplazar"
+  ],
+  "alias": "Desplazarse en una pantalla",
+  "volume": 0.2,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IPEC": {
+  "files": [
+   "inv_cerrar"
+  ],
+  "alias": "ESC en una pantalla",
+  "volume": 0.4,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IINM": {
+  "files": [
+   "inv_cerrar"
+  ],
+  "alias": "Muestra el interfaz",
+  "volume": 0.4,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "IINO": {
+  "files": [
+   "inv_cerrar"
+  ],
+  "alias": "Oculta el interfaz",
+  "volume": 0.4,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosInterfaz.dat"
+ },
+ "0110": {
+  "files": [
+   "characters\\0110.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis01.dat"
+ },
+ "0111": {
+  "files": [
+   "characters\\0111.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis01.dat"
+ },
+ "0210": {
+  "files": [
+   "characters\\0210.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0211": {
+  "files": [
+   "characters\\0211.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0212": {
+  "files": [
+   "characters\\0212.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0220": {
+  "files": [
+   "characters\\0220.ogi"
+  ],
+  "alias": "Evento 3-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0221": {
+  "files": [
+   "characters\\0221.ogi"
+  ],
+  "alias": "Evento 3-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0213": {
+  "files": [
+   "characters\\0213.ogi"
+  ],
+  "alias": "Evento 4-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0214": {
+  "files": [
+   "characters\\0214.ogi"
+  ],
+  "alias": "Evento 4-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "0215": {
+  "files": [
+   "characters\\0215.ogi"
+  ],
+  "alias": "Evento 4-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis02.dat"
+ },
+ "03N0": {
+  "files": [
+   "narrador\\03n0.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis03.dat"
+ },
+ "0330": {
+  "files": [
+   "characters\\0330.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis03.dat"
+ },
+ "0331": {
+  "files": [
+   "characters\\0331.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis03.dat"
+ },
+ "0332": {
+  "files": [
+   "characters\\0332.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis03.dat"
+ },
+ "0440": {
+  "files": [
+   "characters\\0440.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0441": {
+  "files": [
+   "characters\\0441.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0442": {
+  "files": [
+   "characters\\0442.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0443": {
+  "files": [
+   "characters\\0443.ogi"
+  ],
+  "alias": "Evento 1-3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0444": {
+  "files": [
+   "characters\\0444.ogi"
+  ],
+  "alias": "Evento 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0445": {
+  "files": [
+   "characters\\0445.ogi"
+  ],
+  "alias": "Evento 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0410": {
+  "files": [
+   "characters\\0410.ogi"
+  ],
+  "alias": "Evento 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0411": {
+  "files": [
+   "characters\\0411.ogi"
+  ],
+  "alias": "Evento 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0446": {
+  "files": [
+   "characters\\0446.ogi"
+  ],
+  "alias": "Evento 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0447": {
+  "files": [
+   "characters\\0447.ogi"
+  ],
+  "alias": "Evento 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0448": {
+  "files": [
+   "characters\\0448.ogi"
+  ],
+  "alias": "Evento 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "0449": {
+  "files": [
+   "characters\\0449.ogi"
+  ],
+  "alias": "Evento 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "044A": {
+  "files": [
+   "characters\\044a.ogi"
+  ],
+  "alias": "Evento 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis04.dat"
+ },
+ "05N0": {
+  "files": [
+   "narrador\\05n0.ogi"
+  ],
+  "alias": "Narrador 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "05N1": {
+  "files": [
+   "narrador\\05n1.ogi"
+  ],
+  "alias": "Narrador 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "05N2": {
+  "files": [
+   "narrador\\05n2.ogi"
+  ],
+  "alias": "Narrador 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "05N3": {
+  "files": [
+   "narrador\\05n3.ogi"
+  ],
+  "alias": "Narrador 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "05N4": {
+  "files": [
+   "narrador\\05n4.ogi"
+  ],
+  "alias": "Narrador 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "05N5": {
+  "files": [
+   "narrador\\05n5.ogi"
+  ],
+  "alias": "Narrador 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "0560": {
+  "files": [
+   "characters\\0560.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "0561": {
+  "files": [
+   "characters\\0561.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "0562": {
+  "files": [
+   "characters\\0562.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "0563": {
+  "files": [
+   "characters\\0563.ogi"
+  ],
+  "alias": "Evento 1-3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "0550": {
+  "files": [
+   "characters\\0550.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "0551": {
+  "files": [
+   "characters\\0551.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis05.dat"
+ },
+ "06N0": {
+  "files": [
+   "narrador\\06n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis06.dat"
+ },
+ "06N1": {
+  "files": [
+   "narrador\\06n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis06.dat"
+ },
+ "06N2": {
+  "files": [
+   "narrador\\06n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis06.dat"
+ },
+ "06N3": {
+  "files": [
+   "narrador\\06n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis06.dat"
+ },
+ "0650": {
+  "files": [
+   "characters\\0650.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis06.dat"
+ },
+ "0651": {
+  "files": [
+   "characters\\0651.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis06.dat"
+ },
+ "07N0": {
+  "files": [
+   "narrador\\07n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N1": {
+  "files": [
+   "narrador\\07n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N2": {
+  "files": [
+   "narrador\\07n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N3": {
+  "files": [
+   "narrador\\07n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N4": {
+  "files": [
+   "narrador\\07n4.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N5": {
+  "files": [
+   "narrador\\07n5.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N6": {
+  "files": [
+   "narrador\\07n6.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N7": {
+  "files": [
+   "narrador\\07n7.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N8": {
+  "files": [
+   "narrador\\07n8.ogi"
+  ],
+  "alias": "Mensaje 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07N9": {
+  "files": [
+   "narrador\\07n9.ogi"
+  ],
+  "alias": "Mensaje 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07NA": {
+  "files": [
+   "narrador\\07na.ogi"
+  ],
+  "alias": "Mensaje 7",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07NB": {
+  "files": [
+   "narrador\\07nb.ogi"
+  ],
+  "alias": "Mensaje 8",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07NC": {
+  "files": [
+   "narrador\\07nc.ogi"
+  ],
+  "alias": "Mensaje 9",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "07H0": {
+  "files": [
+   "characters\\07h0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis07.dat"
+ },
+ "08N0": {
+  "files": [
+   "narrador\\08n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N1": {
+  "files": [
+   "narrador\\08n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N2": {
+  "files": [
+   "narrador\\08n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N3": {
+  "files": [
+   "narrador\\08n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N4": {
+  "files": [
+   "narrador\\08n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N5": {
+  "files": [
+   "narrador\\08n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N6": {
+  "files": [
+   "narrador\\08n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N7": {
+  "files": [
+   "narrador\\08n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N8": {
+  "files": [
+   "narrador\\08n8.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "08N9": {
+  "files": [
+   "narrador\\08n9.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "0850": {
+  "files": [
+   "characters\\0850.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "0851": {
+  "files": [
+   "characters\\0851.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis08.dat"
+ },
+ "09N0": {
+  "files": [
+   "narrador\\09n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "09N1": {
+  "files": [
+   "narrador\\09n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "09N2": {
+  "files": [
+   "narrador\\09n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "09N3": {
+  "files": [
+   "narrador\\09n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "09N4": {
+  "files": [
+   "narrador\\09n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "09N5": {
+  "files": [
+   "narrador\\09n5.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "0970": {
+  "files": [
+   "characters\\0970.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "0971": {
+  "files": [
+   "characters\\0971.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis09.dat"
+ },
+ "10N0": {
+  "files": [
+   "narrador\\10n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N1": {
+  "files": [
+   "narrador\\10n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N2": {
+  "files": [
+   "narrador\\10n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N3": {
+  "files": [
+   "narrador\\10n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N4": {
+  "files": [
+   "narrador\\10n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N5": {
+  "files": [
+   "narrador\\10n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N6": {
+  "files": [
+   "narrador\\10n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10N7": {
+  "files": [
+   "narrador\\10n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10G0": {
+  "files": [
+   "characters\\10g0.ogi"
+  ],
+  "alias": "Evento 3-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "10G1": {
+  "files": [
+   "characters\\10g1.ogi"
+  ],
+  "alias": "Evento 3-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis10.dat"
+ },
+ "11N0": {
+  "files": [
+   "narrador\\11n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N1": {
+  "files": [
+   "narrador\\11n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N2": {
+  "files": [
+   "narrador\\11n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N3": {
+  "files": [
+   "narrador\\11n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N4": {
+  "files": [
+   "narrador\\11n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N5": {
+  "files": [
+   "narrador\\11n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N6": {
+  "files": [
+   "narrador\\11n6.ogi"
+  ],
+  "alias": "Briefing 7",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N7": {
+  "files": [
+   "narrador\\11n7.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N8": {
+  "files": [
+   "narrador\\11n8.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11N9": {
+  "files": [
+   "narrador\\11n9.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11NA": {
+  "files": [
+   "narrador\\11na.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11A0": {
+  "files": [
+   "characters\\11a0.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11A1": {
+  "files": [
+   "characters\\11a1.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "11A2": {
+  "files": [
+   "characters\\11a2.ogi"
+  ],
+  "alias": "Evento 2-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis11.dat"
+ },
+ "12N0": {
+  "files": [
+   "narrador\\12n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N1": {
+  "files": [
+   "narrador\\12n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N2": {
+  "files": [
+   "narrador\\12n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N3": {
+  "files": [
+   "narrador\\12n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N4": {
+  "files": [
+   "narrador\\12n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N5": {
+  "files": [
+   "narrador\\12n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N6": {
+  "files": [
+   "narrador\\12n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N7": {
+  "files": [
+   "narrador\\12n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N8": {
+  "files": [
+   "narrador\\12n8.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12N9": {
+  "files": [
+   "narrador\\12n9.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12NA": {
+  "files": [
+   "narrador\\12na.ogi"
+  ],
+  "alias": "Mensaje 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12NB": {
+  "files": [
+   "narrador\\12nb.ogi"
+  ],
+  "alias": "Mensaje 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "12NC": {
+  "files": [
+   "narrador\\12nc.ogi"
+  ],
+  "alias": "Mensaje 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis12.dat"
+ },
+ "13N0": {
+  "files": [
+   "narrador\\13n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13N1": {
+  "files": [
+   "narrador\\13n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13N2": {
+  "files": [
+   "narrador\\13n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13N3": {
+  "files": [
+   "narrador\\13n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13N4": {
+  "files": [
+   "narrador\\13n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13N5": {
+  "files": [
+   "narrador\\13n5.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13B0": {
+  "files": [
+   "characters\\13b0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13B1": {
+  "files": [
+   "characters\\13b1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13C0": {
+  "files": [
+   "characters\\13c0.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "13C1": {
+  "files": [
+   "characters\\13c1.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis13.dat"
+ },
+ "14N0": {
+  "files": [
+   "narrador\\14n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14N1": {
+  "files": [
+   "narrador\\14n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14N2": {
+  "files": [
+   "narrador\\14n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14N3": {
+  "files": [
+   "narrador\\14n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14D0": {
+  "files": [
+   "characters\\14d0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14D1": {
+  "files": [
+   "characters\\14d1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14E0": {
+  "files": [
+   "characters\\14e0.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14E1": {
+  "files": [
+   "characters\\14e1.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14E2": {
+  "files": [
+   "characters\\14e2.ogi"
+  ],
+  "alias": "Evento 3-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14E3": {
+  "files": [
+   "characters\\14e3.ogi"
+  ],
+  "alias": "Evento 3-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14E4": {
+  "files": [
+   "characters\\14e4.ogi"
+  ],
+  "alias": "Evento 3-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14E5": {
+  "files": [
+   "characters\\14e5.ogi"
+  ],
+  "alias": "Evento 4-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14D6": {
+  "files": [
+   "characters\\14d6.ogi"
+  ],
+  "alias": "Evento 5-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14D7": {
+  "files": [
+   "characters\\14d7.ogi"
+  ],
+  "alias": "Evento 5-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "14D8": {
+  "files": [
+   "characters\\14d8.ogi"
+  ],
+  "alias": "Evento 5-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis14.dat"
+ },
+ "15N0": {
+  "files": [
+   "narrador\\15n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N1": {
+  "files": [
+   "narrador\\15n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N2": {
+  "files": [
+   "narrador\\15n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N3": {
+  "files": [
+   "narrador\\15n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N4": {
+  "files": [
+   "narrador\\15n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N5": {
+  "files": [
+   "narrador\\15n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N6": {
+  "files": [
+   "narrador\\15n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N7": {
+  "files": [
+   "narrador\\15n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15N8": {
+  "files": [
+   "narrador\\15n8.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15F0": {
+  "files": [
+   "characters\\15f0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15F1": {
+  "files": [
+   "characters\\15f1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "15F2": {
+  "files": [
+   "characters\\15f2.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis15.dat"
+ },
+ "16N0": {
+  "files": [
+   "narrador\\16n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N1": {
+  "files": [
+   "narrador\\16n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N2": {
+  "files": [
+   "narrador\\16n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N3": {
+  "files": [
+   "narrador\\16n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N4": {
+  "files": [
+   "narrador\\16n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N5": {
+  "files": [
+   "narrador\\16n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N6": {
+  "files": [
+   "narrador\\16n6.ogi"
+  ],
+  "alias": "Briefing 7",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N7": {
+  "files": [
+   "narrador\\16n7.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16N8": {
+  "files": [
+   "narrador\\16n8.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16D0": {
+  "files": [
+   "characters\\16d0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16D1": {
+  "files": [
+   "characters\\16d1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "16D2": {
+  "files": [
+   "characters\\16d2.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis16.dat"
+ },
+ "17N0": {
+  "files": [
+   "narrador\\17n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N1": {
+  "files": [
+   "narrador\\17n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N2": {
+  "files": [
+   "narrador\\17n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N3": {
+  "files": [
+   "narrador\\17n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N4": {
+  "files": [
+   "narrador\\17n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N5": {
+  "files": [
+   "narrador\\17n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N6": {
+  "files": [
+   "narrador\\17n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "17N7": {
+  "files": [
+   "narrador\\17n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis17.dat"
+ },
+ "18N0": {
+  "files": [
+   "narrador\\18n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N1": {
+  "files": [
+   "narrador\\18n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N2": {
+  "files": [
+   "narrador\\18n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N3": {
+  "files": [
+   "narrador\\18n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N4": {
+  "files": [
+   "narrador\\18n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N5": {
+  "files": [
+   "narrador\\18n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N6": {
+  "files": [
+   "narrador\\18n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N7": {
+  "files": [
+   "narrador\\18n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N8": {
+  "files": [
+   "narrador\\18n8.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18N9": {
+  "files": [
+   "narrador\\18n9.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18NA": {
+  "files": [
+   "narrador\\18na.ogi"
+  ],
+  "alias": "Mensaje 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18NB": {
+  "files": [
+   "narrador\\18nb.ogi"
+  ],
+  "alias": "Mensaje 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18NC": {
+  "files": [
+   "narrador\\18nc.ogi"
+  ],
+  "alias": "Mensaje 7",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18I0": {
+  "files": [
+   "characters\\18i0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18I1": {
+  "files": [
+   "characters\\18i1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18I2": {
+  "files": [
+   "characters\\18i2.ogi"
+  ],
+  "alias": "Evento 1-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18J0": {
+  "files": [
+   "characters\\18j0.ogi"
+  ],
+  "alias": "Evento 2-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18J1": {
+  "files": [
+   "characters\\18j1.ogi"
+  ],
+  "alias": "Evento 2-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18K0": {
+  "files": [
+   "characters\\18k0.ogi"
+  ],
+  "alias": "Evento 3-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18K1": {
+  "files": [
+   "characters\\18k1.ogi"
+  ],
+  "alias": "Evento 3-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "18K2": {
+  "files": [
+   "characters\\18k2.ogi"
+  ],
+  "alias": "Evento 3-2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis18.dat"
+ },
+ "19N0": {
+  "files": [
+   "narrador\\19n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N1": {
+  "files": [
+   "narrador\\19n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N2": {
+  "files": [
+   "narrador\\19n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N3": {
+  "files": [
+   "narrador\\19n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N4": {
+  "files": [
+   "narrador\\19n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N5": {
+  "files": [
+   "narrador\\19n5.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N6": {
+  "files": [
+   "narrador\\19n6.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N7": {
+  "files": [
+   "narrador\\19n7.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "19N8": {
+  "files": [
+   "narrador\\19n8.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis19.dat"
+ },
+ "20N0": {
+  "files": [
+   "narrador\\20n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N1": {
+  "files": [
+   "narrador\\20n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N2": {
+  "files": [
+   "narrador\\20n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N3": {
+  "files": [
+   "narrador\\20n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N4": {
+  "files": [
+   "narrador\\20n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N5": {
+  "files": [
+   "narrador\\20n5.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N6": {
+  "files": [
+   "narrador\\20n6.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N7": {
+  "files": [
+   "narrador\\20n7.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20N8": {
+  "files": [
+   "narrador\\20n8.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20B0": {
+  "files": [
+   "characters\\20b0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "20B1": {
+  "files": [
+   "characters\\20b1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis20.dat"
+ },
+ "21N0": {
+  "files": [
+   "narrador\\21n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N1": {
+  "files": [
+   "narrador\\21n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N2": {
+  "files": [
+   "narrador\\21n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N3": {
+  "files": [
+   "narrador\\21n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N4": {
+  "files": [
+   "narrador\\21n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N5": {
+  "files": [
+   "narrador\\21n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N6": {
+  "files": [
+   "narrador\\21n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N7": {
+  "files": [
+   "narrador\\21n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N8": {
+  "files": [
+   "narrador\\21n8.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21N9": {
+  "files": [
+   "narrador\\21n9.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21NA": {
+  "files": [
+   "narrador\\21na.ogi"
+  ],
+  "alias": "Mensaje 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21NB": {
+  "files": [
+   "narrador\\21nb.ogi"
+  ],
+  "alias": "Mensaje 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21NC": {
+  "files": [
+   "narrador\\21nc.ogi"
+  ],
+  "alias": "Mensaje 7",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "21ND": {
+  "files": [
+   "narrador\\21nd.ogi"
+  ],
+  "alias": "Mensaje 8",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis21.dat"
+ },
+ "22N0": {
+  "files": [
+   "narrador\\22n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N1": {
+  "files": [
+   "narrador\\22n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N2": {
+  "files": [
+   "narrador\\22n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N3": {
+  "files": [
+   "narrador\\22n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N4": {
+  "files": [
+   "narrador\\22n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N5": {
+  "files": [
+   "narrador\\22n5.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N6": {
+  "files": [
+   "narrador\\22n6.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22N7": {
+  "files": [
+   "narrador\\22n7.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22L0": {
+  "files": [
+   "characters\\22l0.ogi"
+  ],
+  "alias": "Evento 1-0",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "22L1": {
+  "files": [
+   "characters\\22l1.ogi"
+  ],
+  "alias": "Evento 1-1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis22.dat"
+ },
+ "23N0": {
+  "files": [
+   "narrador\\23n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis23.dat"
+ },
+ "23N1": {
+  "files": [
+   "narrador\\23n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis23.dat"
+ },
+ "23N2": {
+  "files": [
+   "narrador\\23n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis23.dat"
+ },
+ "23N3": {
+  "files": [
+   "narrador\\23n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis23.dat"
+ },
+ "23N4": {
+  "files": [
+   "narrador\\23n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis23.dat"
+ },
+ "24N0": {
+  "files": [
+   "narrador\\24n0.ogi"
+  ],
+  "alias": "Briefing 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N1": {
+  "files": [
+   "narrador\\24n1.ogi"
+  ],
+  "alias": "Briefing 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N2": {
+  "files": [
+   "narrador\\24n2.ogi"
+  ],
+  "alias": "Briefing 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N3": {
+  "files": [
+   "narrador\\24n3.ogi"
+  ],
+  "alias": "Briefing 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N4": {
+  "files": [
+   "narrador\\24n4.ogi"
+  ],
+  "alias": "Briefing 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N5": {
+  "files": [
+   "narrador\\24n5.ogi"
+  ],
+  "alias": "Briefing 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N6": {
+  "files": [
+   "narrador\\24n6.ogi"
+  ],
+  "alias": "Mensaje 1",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N7": {
+  "files": [
+   "narrador\\24n7.ogi"
+  ],
+  "alias": "Mensaje 2",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N8": {
+  "files": [
+   "narrador\\24n8.ogi"
+  ],
+  "alias": "Mensaje 3",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24N9": {
+  "files": [
+   "narrador\\24n9.ogi"
+  ],
+  "alias": "Mensaje 4",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24NA": {
+  "files": [
+   "narrador\\24na.ogi"
+  ],
+  "alias": "Mensaje 5",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24NB": {
+  "files": [
+   "narrador\\24nb.ogi"
+  ],
+  "alias": "Mensaje 6",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24NC": {
+  "files": [
+   "narrador\\24nc.ogi"
+  ],
+  "alias": "Mensaje 7",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "24ND": {
+  "files": [
+   "narrador\\24nd.ogi"
+  ],
+  "alias": "Mensaje 8",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosLocucionesMis24.dat"
+ },
+ "MCAN": {
+  "files": [
+   "mover_maquina_3"
+  ],
+  "alias": "Catapulta andando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MAAN": {
+  "files": [
+   "mover_maquina_1"
+  ],
+  "alias": "Ariete andando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MBAN": {
+  "files": [
+   "mover_maquina_3"
+  ],
+  "alias": "Ballesta movil andando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MEAN": {
+  "files": [
+   "mover_maquina_3"
+  ],
+  "alias": "Escudo movil andando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MTAN": {
+  "files": [
+   "mover_maquina_1"
+  ],
+  "alias": "Torre andando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MBCP": {
+  "files": [
+   "catapulta_cargar_1"
+  ],
+  "alias": "Ballesta cargando",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MCCP": {
+  "files": [
+   "catapulta_cargar_1"
+  ],
+  "alias": "Catapulta cargando",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MBLZ": {
+  "files": [
+   "ballesta_lanzar2"
+  ],
+  "alias": "Ballesta lanzando proyectil",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MCLZ": {
+  "files": [
+   "catapulta_lanzar"
+  ],
+  "alias": "Catapulta lanzando proyectil",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MINC": {
+  "files": [
+   "fuego"
+  ],
+  "alias": "Maquina incendiandose",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MCDT": {
+  "files": [
+   "derrumbamiento_04"
+  ],
+  "alias": "Catapulta destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MADT": {
+  "files": [
+   "derrumbamiento_04"
+  ],
+  "alias": "Ariete destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MBDT": {
+  "files": [
+   "derrumbamiento_04"
+  ],
+  "alias": "Ballesta movil destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MEDT": {
+  "files": [
+   "derrumbamiento_04"
+  ],
+  "alias": "Escudo movil destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MTDT": {
+  "files": [
+   "derrumbamiento_04"
+  ],
+  "alias": "Torre asalto destruyendose",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MCC2": {
+  "files": [
+   "catapulta_cargar_2"
+  ],
+  "alias": "Catapulta cargando municion",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MCFN": {
+  "files": [
+   ""
+  ],
+  "alias": "Catapulta parando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MAFN": {
+  "files": [
+   ""
+  ],
+  "alias": "Ariete parando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MBFN": {
+  "files": [
+   ""
+  ],
+  "alias": "Ballesta movil parando.wav",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MEFN": {
+  "files": [
+   ""
+  ],
+  "alias": "Escudo movil parando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "MTFN": {
+  "files": [
+   ""
+  ],
+  "alias": "Torre parando",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMaquinas.dat"
+ },
+ "W000": {
+  "files": [
+   ""
+  ],
+  "alias": "Ayuda! Ayuda!",
+  "volume": 1,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosMisiones.dat"
+ },
+ "PFGL": {
+  "files": [
+   "flechas_golpe_01",
+   "flechas_golpe_02",
+   "flechas_golpe_03",
+   "flechas_golpe_04",
+   "flechas_golpe_05",
+   "flechas_golpe_06",
+   "flechas_golpe_07"
+  ],
+  "alias": "Flecha golpeando",
+  "volume": 0.1,
+  "polyphony": 3,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PFBG": {
+  "files": [
+   "ballesta_golpear2"
+  ],
+  "alias": "Flecha ballesta golpeando",
+  "volume": 0.3,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PFFG": {
+  "files": [
+   "flechas_golpe_01",
+   "flechas_golpe_02",
+   "flechas_golpe_03",
+   "flechas_golpe_04",
+   "flechas_golpe_05",
+   "flechas_golpe_06",
+   "flechas_golpe_07"
+  ],
+  "alias": "Flecha fuego golpeando",
+  "volume": 0.1,
+  "polyphony": 3,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PFRG": {
+  "files": [
+   "flechas_golpe_01",
+   "flechas_golpe_02",
+   "flechas_golpe_03",
+   "flechas_golpe_04",
+   "flechas_golpe_05",
+   "flechas_golpe_06",
+   "flechas_golpe_07"
+  ],
+  "alias": "Francisca golpeando",
+  "volume": 0.1,
+  "polyphony": 3,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PPCG": {
+  "files": [
+   "golpe_proyectil_01",
+   "golpe_proyectil_02"
+  ],
+  "alias": "Piedra catapulta golpeando",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PPHG": {
+  "files": [
+   ""
+  ],
+  "alias": "Piedra hondero golpeando",
+  "volume": 0.3,
+  "polyphony": 3,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PPLG": {
+  "files": [
+   "flechas_golpe_01",
+   "flechas_golpe_02",
+   "flechas_golpe_03",
+   "flechas_golpe_04",
+   "flechas_golpe_05",
+   "flechas_golpe_06",
+   "flechas_golpe_07"
+  ],
+  "alias": "Pilum golpeando",
+  "volume": 0.1,
+  "polyphony": 3,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "PRDG": {
+  "files": [
+   ""
+  ],
+  "alias": "Red golpeando",
+  "volume": 0.3,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosProyectiles.dat"
+ },
+ "TPA1": {
+  "files": [
+   "tropa_pesada_1_nuevo3"
+  ],
+  "alias": "Tropa Pesada andando 1 unidad",
+  "volume": 0.7,
+  "polyphony": 3,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPA2": {
+  "files": [
+   "tropa_pesada_2-5_nuevo5"
+  ],
+  "alias": "Tropa Pesada andando de 2 a 5 unidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPA3": {
+  "files": [
+   "tropa_pesada_6-15"
+  ],
+  "alias": "Tropa Pesada andando de 6 a 15 undidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPA4": {
+  "files": [
+   "tropa_pesada_16"
+  ],
+  "alias": "Tropa Pesada andando mas de 15 unidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLA1": {
+  "files": [
+   "tropa_ligera_1"
+  ],
+  "alias": "Tropa Ligera andando 1 unidad",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLA2": {
+  "files": [
+   "tropa_ligera_2-5"
+  ],
+  "alias": "Tropa Ligera andando de 2 a 5 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLA3": {
+  "files": [
+   "tropa_ligera_6-15"
+  ],
+  "alias": "Tropa Ligera andando de 6 a 15 undidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLA4": {
+  "files": [
+   "tropa_ligera_16"
+  ],
+  "alias": "Tropa Ligera andando mas de 15 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCA1": {
+  "files": [
+   "caballo_andar_1"
+  ],
+  "alias": "Tropa Caballeria andando 1 unidad",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCA2": {
+  "files": [
+   "caballo_andar_2-3"
+  ],
+  "alias": "Tropa Caballeria andando de 2 y 3 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCA3": {
+  "files": [
+   "caballo_andar_4-5_nuevo"
+  ],
+  "alias": "Tropa Caballeria andando de 4 y 5 undidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCA4": {
+  "files": [
+   "caballo_andar_6-9_sin ruido"
+  ],
+  "alias": "Tropa Caballeria andando de 6 a 9 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCA5": {
+  "files": [
+   "caballo_andar_10_sin ruido"
+  ],
+  "alias": "Tropa Caballeria andando mas de 9 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPC1": {
+  "files": [
+   "tropa_pesada_correr_1"
+  ],
+  "alias": "Tropa Pesada corriendo 1 unidad",
+  "volume": 0.7,
+  "polyphony": 3,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPC2": {
+  "files": [
+   "tropa_pesada_correr_2-5"
+  ],
+  "alias": "Tropa Pesada corriendo de 2 a 5 unidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPC3": {
+  "files": [
+   "tropa_pesada_correr_6-15"
+  ],
+  "alias": "Tropa Pesada corriendo de 6 a 15 undidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TPC4": {
+  "files": [
+   "tropa_pesada_correr_16"
+  ],
+  "alias": "Tropa Pesada corriendo mas de 15 unidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLC1": {
+  "files": [
+   "tropa_ligera_correr_1"
+  ],
+  "alias": "Tropa Ligera corriendo 1 unidad",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLC2": {
+  "files": [
+   "tropa_ligera_correr_2-5"
+  ],
+  "alias": "Tropa Ligera corriendo de 2 a 5 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLC3": {
+  "files": [
+   "tropa_ligera_correr_6-15"
+  ],
+  "alias": "Tropa Ligera corriendo de 6 a 15 undidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLC4": {
+  "files": [
+   "tropa_ligera_correr_16"
+  ],
+  "alias": "Tropa Ligera corriendo mas de 15 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCC1": {
+  "files": [
+   "caballo_galope_1"
+  ],
+  "alias": "Tropa Caballeria corriendo 1 unidad",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCC2": {
+  "files": [
+   "caballo_galope_2-3"
+  ],
+  "alias": "Tropa Caballeria corriendo de 2 y 3 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCC3": {
+  "files": [
+   "caballo_galope_4-5"
+  ],
+  "alias": "Tropa Caballeria corriendo de 4 y 5 undidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCC4": {
+  "files": [
+   "caballo_galope_6-9"
+  ],
+  "alias": "Tropa Caballeria corriendo de 6 a 9 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCC5": {
+  "files": [
+   "caballo_galope_10"
+  ],
+  "alias": "Tropa Caballeria corriendo mas de 9 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCBT": {
+  "files": [
+   "batalla_1"
+  ],
+  "alias": "Tropa combatiendo",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCTR": {
+  "files": [
+   "construir_1",
+   "construir_2",
+   "construir_3",
+   "construir_4",
+   "construir_5"
+  ],
+  "alias": "Tropa construyendo",
+  "volume": 0.2,
+  "polyphony": 1,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TRPR": {
+  "files": [
+   "construir_1",
+   "construir_2",
+   "construir_3",
+   "construir_4",
+   "construir_5"
+  ],
+  "alias": "Tropa reparando",
+  "volume": 0.2,
+  "polyphony": 1,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TRZR": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa rezando",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TLRD": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa lanzando red",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TGLP": {
+  "files": [
+   "golpe_proyectil_01",
+   "golpe_proyectil_02"
+  ],
+  "alias": "Piedra catapulta golpeando",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TABP": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa abriendo puerta",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TGCB": {
+  "files": [
+   "batalla_gritoataque"
+  ],
+  "alias": "Tropa grito inicio combate",
+  "volume": 0.2,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TPF1": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Pesada parando 1 unidad",
+  "volume": 0.7,
+  "polyphony": 3,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TPF2": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Pesada panrando de 2 a 5 unidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TPF3": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Pesada panrando de 6 a 15 undidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TPF4": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Pesada parando mas de 15 unidades",
+  "volume": 0.7,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TLF1": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Ligera parando 1 unidad",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TLF2": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Ligera parando de 2 a 5 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TLF3": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Ligera parando de 6 a 15 undidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TLF4": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Ligera parando mas de 15 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCP1": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Caballeria parando 1 unidad",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCP2": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Caballeria parando de 2 y 3 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCP3": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Caballeria parando de 4 y 5 undidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCP4": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Caballeria parando de 6 a 9 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCP5": {
+  "files": [
+   ""
+  ],
+  "alias": "Tropa Caballeria parando mas de 9 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCF1": {
+  "files": [
+   "caballo_galope_frenar_1"
+  ],
+  "alias": "Tropa Caballeria frenando 1 unidad",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCF2": {
+  "files": [
+   "caballo_galope_frenar_2-3"
+  ],
+  "alias": "Tropa Caballeria frenando de 2 y 3 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCF3": {
+  "files": [
+   "caballo_galope_frenar_4-5"
+  ],
+  "alias": "Tropa Caballeria frenando de 4 y 5 undidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCF4": {
+  "files": [
+   "caballo_galope_frenar_6-9"
+  ],
+  "alias": "Tropa Caballeria frenando de 6 a 9 unidades",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCF5": {
+  "files": [
+   "caballo_galope_frenar_10"
+  ],
+  "alias": "Tropa Caballeria frenando mas de 9 unidades",
+  "volume": 0.7,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosTropas.dat"
+ },
+ "TCCA": {
+  "files": [
+   "carro_andar"
+  ],
+  "alias": "Tropa Carro andando",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "TCCC": {
+  "files": [
+   "carro_correr"
+  ],
+  "alias": "Tropa Carro Corriendo",
+  "volume": 0.8,
+  "polyphony": 4,
+  "loop": true,
+  "source": "SonidosTropas.dat"
+ },
+ "UMOR": {
+  "files": [
+   "muerto_4",
+   "muerto_5",
+   "muerto_6",
+   "muerto_7"
+  ],
+  "alias": "Unidad muriendo",
+  "volume": 0.7,
+  "polyphony": 1,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "UATC": {
+  "files": [
+   "espadazo_1",
+   "espadazo_2",
+   "espadazo_3",
+   "espadazo_4",
+   "espadazo_5",
+   "espadazo_6",
+   "espadazo_7",
+   "espadazo_8",
+   "espadazo_9",
+   "espadazo_10",
+   "espadazo_11",
+   "espadazo_12",
+   "espadazo_13",
+   "espadazo_14"
+  ],
+  "alias": "Unidad atacando",
+  "volume": 0.25,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "UHGT": {
+  "files": [
+   "halcon"
+  ],
+  "alias": "Halcon gritando",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULGT": {
+  "files": [
+   "lobo5"
+  ],
+  "alias": "Lobo gritando",
+  "volume": 0.5,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULFL": {
+  "files": [
+   "proyectil_1",
+   "proyectil_2",
+   "proyectil_3",
+   "proyectil_4",
+   "proyectil_5",
+   "proyectil_6",
+   "proyectil_7",
+   "proyectil_8",
+   "proyectil_9",
+   "proyectil_10",
+   "proyectil_11",
+   "proyectil_12"
+  ],
+  "alias": "Unidad lanzando flecha",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULFB": {
+  "files": [
+   "proyectil_1",
+   "proyectil_2",
+   "proyectil_3",
+   "proyectil_4",
+   "proyectil_5",
+   "proyectil_6",
+   "proyectil_7",
+   "proyectil_8",
+   "proyectil_9",
+   "proyectil_10",
+   "proyectil_11",
+   "proyectil_12"
+  ],
+  "alias": "Unidad lanzando flecha ballesta",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULFF": {
+  "files": [
+   "proyectil_1",
+   "proyectil_2",
+   "proyectil_3",
+   "proyectil_4",
+   "proyectil_5",
+   "proyectil_6",
+   "proyectil_7",
+   "proyectil_8",
+   "proyectil_9",
+   "proyectil_10",
+   "proyectil_11",
+   "proyectil_12"
+  ],
+  "alias": "Unidad lanzando flecha fuego",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULPC": {
+  "files": [
+   ""
+  ],
+  "alias": "Unidad lanzando piedra catapulta",
+  "volume": 0.4,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULFR": {
+  "files": [
+   "proyectil_1",
+   "proyectil_2",
+   "proyectil_3",
+   "proyectil_4",
+   "proyectil_5",
+   "proyectil_6",
+   "proyectil_7",
+   "proyectil_8",
+   "proyectil_9",
+   "proyectil_10",
+   "proyectil_11",
+   "proyectil_12"
+  ],
+  "alias": "Unidad lanzando francisca",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULBL": {
+  "files": [
+   ""
+  ],
+  "alias": "Unidad lanzando boleadoras",
+  "volume": 0.4,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULPH": {
+  "files": [
+   "proyectil_1",
+   "proyectil_2",
+   "proyectil_3",
+   "proyectil_4",
+   "proyectil_5",
+   "proyectil_6",
+   "proyectil_7",
+   "proyectil_8",
+   "proyectil_9",
+   "proyectil_10",
+   "proyectil_11",
+   "proyectil_12"
+  ],
+  "alias": "Unidad lanzando piedra honderos",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "ULPI": {
+  "files": [
+   "proyectil_1",
+   "proyectil_2",
+   "proyectil_3",
+   "proyectil_4",
+   "proyectil_5",
+   "proyectil_6",
+   "proyectil_7",
+   "proyectil_8",
+   "proyectil_9",
+   "proyectil_10",
+   "proyectil_11",
+   "proyectil_12"
+  ],
+  "alias": "Unidad lanzando pilum",
+  "volume": 0.4,
+  "polyphony": 4,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ },
+ "UCRG": {
+  "files": [
+   "flechas_cargar_01",
+   "flechas_cargar_02",
+   "flechas_cargar_03",
+   "flechas_cargar_04",
+   "flechas_cargar_05"
+  ],
+  "alias": "Unidad cargando (arqueros)",
+  "volume": 0.4,
+  "polyphony": 2,
+  "loop": false,
+  "source": "SonidosUnidades.dat"
+ }
+}

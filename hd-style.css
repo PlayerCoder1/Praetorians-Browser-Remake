@@ -1,0 +1,83 @@
+/* The HD Remaster's cooked TorusUI textures, exported from local Content/Paks. */
+@font-face{font-family:PraetoriansTimes;src:url('assets/hd/interface/times.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:PraetoriansTimes;src:url('assets/hd/interface/timesbd.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:PraetoriansUI;src:url('assets/hd/interface/TitilliumWeb-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+:root{--hd-px:clamp(.5px,.0520833333vw,1.3px);--hud-height:calc(190 * var(--hd-px));--gold:#edd494}
+body{font-family:PraetoriansTimes,'Times New Roman',serif}
+/* The HD hand everywhere in the game (CursoresJuego.dat NORMAL, hotspot 0 0);
+   over the battlefield main.js picks the cursor for what lies under it. */
+#game,#game button,#game select,#game input,#game label{cursor:url('assets/hd/interface/Cursor.png') 0 0,default}
+#renderCanvas{cursor:url('assets/hd/interface/Cursor.png') 0 0,default}
+
+.groups{left:1.05%;top:4.2%;width:calc(397 * var(--hd-px));height:calc(64 * var(--hd-px));padding:calc(12 * var(--hd-px)) calc(18 * var(--hd-px));gap:calc(3 * var(--hd-px));background:url('assets/hd/interface/GroupSelectPanelBack_02.png') center/calc(100% - 18 * var(--hd-px)) calc(52 * var(--hd-px)) no-repeat;border:0;isolation:isolate}
+.groups:before,.groups:after{content:'';position:absolute;top:0;bottom:0;width:calc(18 * var(--hd-px));background:url('assets/hd/interface/GroupSelectPanelBack_01.png') center/100% 100% no-repeat;pointer-events:none}
+.groups:before{left:0}.groups:after{right:0;transform:scaleX(-1)}
+.groups button{flex:1;min-width:0;height:calc(38 * var(--hd-px));padding:calc(22 * var(--hd-px)) calc(2 * var(--hd-px)) 0;border:calc(1 * var(--hd-px)) solid #6a5736;border-radius:0;background:#c9aa73 url('assets/hd/interface/GroupSelectBase_01.png') center/100% 100% no-repeat;box-shadow:inset 0 0 0 calc(2 * var(--hd-px)) #e7cc98,inset 0 0 0 calc(3 * var(--hd-px)) #9a7c4e;color:#40351f;font-family:PraetoriansTimes,'Times New Roman',serif;font-size:calc(9 * var(--hd-px));font-weight:400;line-height:1;text-align:right}
+.groups button{background-blend-mode:soft-light}
+.groups button.selected{background-color:#ab915b;background-image:url('assets/hd/interface/GroupSelectBase_01.png');box-shadow:inset 0 0 0 calc(2 * var(--hd-px)) #fff0bc,inset 0 0 0 calc(3 * var(--hd-px)) #9a7c4e}
+
+.objective{right:1.8%;top:3.7%;width:32.8%;height:calc(65 * var(--hd-px));min-height:0;padding:0 calc(2 * var(--hd-px));gap:calc(12 * var(--hd-px));border:calc(18 * var(--hd-px)) solid transparent;border-image:url('assets/hd/interface/UITutorialPanelBack_01.png') 20 fill stretch;background:none;box-shadow:none;color:#f1d68e;font-family:PraetoriansTimes,'Times New Roman',serif;font-size:calc(22 * var(--hd-px));font-weight:700;line-height:1.1}
+.objective span{white-space:nowrap}
+.objective button{width:calc(24 * var(--hd-px));height:calc(24 * var(--hd-px));line-height:calc(15 * var(--hd-px));padding:0;border:calc(2 * var(--hd-px)) solid #929389;border-radius:calc(4 * var(--hd-px));font:calc(20 * var(--hd-px)) Arial,sans-serif;background:#222725;color:#b8b9ac}
+.objective.collapsed{width:calc(48 * var(--hd-px));height:calc(48 * var(--hd-px));min-height:0;padding:0;border-width:calc(10 * var(--hd-px))}
+
+.hud{height:var(--hud-height)}
+/* Big maps get a bigger minimap (main.js sets --minimap-scale). */
+.minimap-wrap{left:calc(-6 * var(--hd-px));bottom:calc(-7 * var(--hd-px));width:calc(336 * var(--hd-px) * var(--minimap-scale,1));height:calc(272 * var(--hd-px) * var(--minimap-scale,1));z-index:2}
+.minimap-paper{inset:0;width:100%;height:100%;object-fit:fill;filter:none}
+#minimap{left:5%;top:22%;width:83%;height:70%;clip-path:polygon(.7% 36%,36.7% 0,100% 66.2%,63.3% 100%)}
+.map-tools{top:22.5%;left:52%;gap:calc(2 * var(--hd-px));transform:rotate(23deg);transform-origin:left center}
+.map-tools button{width:calc(29 * var(--hd-px));height:calc(23 * var(--hd-px));padding:0;border:0;border-radius:0;line-height:1;font-size:0;color:transparent;background:transparent center/100% 100% no-repeat;box-shadow:none;filter:none}
+.map-tools button:hover{filter:brightness(1.15)}
+.map-tools #homeView{background-image:url('assets/hd/interface/BotonesMinimapa_Signal_01.png')}
+.map-tools #riverView{background-image:url('assets/hd/interface/BotonesMinimapa_Scouts_01.png')}
+.map-tools #mapView{background-image:url('assets/hd/interface/BotonesMinimapa_SpecialUnit_01.png')}
+.map-tools #settingsButton{background-image:url('assets/hd/interface/BotonesMinimapa_Village_01.png')}
+
+.parchment{left:15.9%;right:15.9%;bottom:calc(-36 * var(--hd-px));height:auto;aspect-ratio:1345/272;border:0;background:url('assets/hd/interface/ScrollLarge_06.png') center/100% 100% no-repeat;z-index:1}
+.parchment:before,.parchment:after,.scroll-cap,.scroll-cap:before{display:none;content:none}
+.resources{right:6.3%;top:35%;width:calc(263 * var(--hd-px));color:#514731;font-family:PraetoriansTimes,'Times New Roman',serif;font-size:calc(15 * var(--hd-px));font-weight:700}
+.resources>div{grid-template-columns:calc(30 * var(--hd-px)) 1fr calc(30 * var(--hd-px)) 1fr;gap:calc(5 * var(--hd-px));margin:calc(4 * var(--hd-px)) 0}
+.resources>div>span:not(.resource-icon){height:calc(25 * var(--hd-px));border:calc(1 * var(--hd-px)) solid #f0d8ad;border-radius:calc(2 * var(--hd-px));box-shadow:0 0 0 calc(1 * var(--hd-px)) #8a775b;background:#bca386 url('assets/hd/interface/PlyrStatPanel_01.png') center/100% 100% no-repeat;background-blend-mode:multiply}
+.resource-icon{height:calc(28 * var(--hd-px));background-position:center;background-size:contain;background-repeat:no-repeat}
+.resource-icon.population{background-image:url('assets/hd/interface/UnitControlIcon.png')}
+.resource-icon.squads{background-image:url('assets/hd/interface/TroopControlIcon.png')}
+.resource-icon.combat{background-image:url('assets/hd/interface/UnitKillsIcon.png')}
+.resource-icon.losses{background-image:url('assets/hd/interface/UnitLossesIcon.png')}
+.resources .honour{grid-template-columns:calc(30 * var(--hd-px)) 1fr}
+.honour .resource-icon{background-image:url('assets/hd/interface/HonorPointsIcon.png')}
+.honour>span:last-child{padding:calc(2 * var(--hd-px)) calc(6 * var(--hd-px));gap:calc(8 * var(--hd-px))}
+.honour i{height:calc(13 * var(--hd-px));background:#0a0a06}
+
+
+.loading-title{display:block;width:min(620px,72vw);height:170px;padding:0;border:0;background:url('assets/hd/interface/PretoreansHD_final.png') center/contain no-repeat;color:transparent;font-size:0}
+#loadingText,#toast{font-family:PraetoriansUI,Arial,sans-serif}
+
+@media(max-width:1000px){
+ .groups{left:1.1%;width:32%;top:3%;height:43px;padding:8px 11px;gap:2px}
+ .groups:before,.groups:after{width:12px}
+ .groups button{height:27px;padding:16px 2px 0;font-size:7px}
+ .objective{width:49%;top:3%;height:43px;border-width:12px;font-size:12px;gap:6px}
+ .objective button{width:18px;height:18px;font-size:15px;line-height:12px}
+ .parchment{left:17%;right:9%;bottom:calc(-36 * var(--hd-px))}
+ .resources{right:6%;width:calc(263 * var(--hd-px))}
+}
+@media(max-width:700px){
+ .groups{width:43%;height:36px;padding:6px 9px;gap:2px}
+ .groups:before,.groups:after{width:10px}
+ .groups button{height:23px;padding-top:13px;font-size:6px}
+ .objective{width:48%;height:36px;border-width:10px;font-size:9px;gap:3px;padding:0}
+ .objective span{white-space:normal}
+ .objective button{width:15px;height:15px;font-size:13px;line-height:10px}
+ .parchment{left:18%;right:5%;min-height:132px;background-size:100% 100%;bottom:-20px;aspect-ratio:auto}
+ .resources{top:32%;right:7%;width:150px;font-size:10px}
+ .resources>div{grid-template-columns:19px 1fr 19px 1fr;gap:3px;margin:3px 0}
+ .resources>div>span:not(.resource-icon){height:17px}
+ .resources .honour{grid-template-columns:19px 1fr}
+ .resource-icon{height:19px}
+}
+
+/* F2 test battle: camp and soldiers side by side, the troop list (every race) below. */
+.spawn-grid{grid-template-columns:1fr 70px}
+.spawn-grid .spawn-unit{grid-column:1/-1}
+.spawn-grid input:disabled{opacity:.5}
